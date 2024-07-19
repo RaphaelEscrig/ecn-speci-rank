@@ -1,0 +1,79 @@
+@import "../../app/globals.scss";
+
+.button {
+	display: flex;
+	padding: 10px 16px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+
+	span,
+	p {
+		font-weight: 500;
+		color: inherit;
+		font-size: 1rem;
+	}
+
+	&.primary {
+		background-color: $primary-500;
+		border: none;
+		box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+		color: white;
+
+		&:hover {
+			background-color: $primary-600;
+		}
+
+		&:focus {
+			box-shadow: 0px 0px 0px 4px #ffd3eb;
+		}
+
+		&:disabled {
+			background: $primary-50;
+		}
+	}
+
+	&.secondary {
+		border: 1px solid $gray-200;
+		background-color: #fff;
+		box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+		span,
+		p {
+			color: $gray-900;
+		}
+
+		&:hover {
+			background-color: $gray-25;
+		}
+
+		&:focus {
+			box-shadow: 0px 0px 0px 4px #f2f4f7,
+				0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+		}
+
+		&:disabled {
+			border: 1px solid $gray-100, #c6cbdf;
+			opacity: 0.6;
+		}
+	}
+
+	&.destructive {
+		background-color: $error-500;
+		box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+		&:hover {
+			background-color: $error-600;
+		}
+
+		&:focus {
+			background-color: $error-600;
+			box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05),
+				0px 0px 0px 4px #f8cfcf;
+		}
+
+		&:disabled {
+			background: $error-200;
+		}
+	}
+}

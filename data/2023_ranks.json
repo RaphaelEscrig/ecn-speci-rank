@@ -1,0 +1,11090 @@
+[
+	{
+		"bestRank": 648,
+		"worstRank": 910,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HP",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 1860,
+		"worstRank": 2420,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HP",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 428,
+		"worstRank": 2114,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "AP-HP",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 387,
+		"worstRank": 3255,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "AP-HP",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 39,
+		"worstRank": 462,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "AP-HP",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 255,
+		"worstRank": 3523,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HP",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 382,
+		"worstRank": 3809,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HP",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 319,
+		"worstRank": 3692,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "AP-HP",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 173,
+		"worstRank": 3329,
+		"available": 0,
+		"fulfilled": 50,
+		"asked": 50,
+		"city": "AP-HP",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 405,
+		"worstRank": 2720,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HP",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 5,
+		"worstRank": 402,
+		"available": 0,
+		"fulfilled": 29,
+		"asked": 29,
+		"city": "AP-HP",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 84,
+		"worstRank": 1576,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "AP-HP",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 603,
+		"worstRank": 2057,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "AP-HP",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 4096,
+		"worstRank": 5358,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HP",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 634,
+		"worstRank": 4503,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "AP-HP",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 9,
+		"worstRank": 2830,
+		"available": 0,
+		"fulfilled": 92,
+		"asked": 92,
+		"city": "AP-HP",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 62,
+		"worstRank": 909,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "AP-HP",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2471,
+		"worstRank": 4191,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "AP-HP",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 344,
+		"worstRank": 6516,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HP",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 3203,
+		"worstRank": 9617,
+		"available": 0,
+		"fulfilled": 44,
+		"asked": 44,
+		"city": "AP-HP",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 34,
+		"worstRank": 3883,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "AP-HP",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 379,
+		"worstRank": 4879,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "AP-HP",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 36,
+		"worstRank": 2063,
+		"available": 0,
+		"fulfilled": 21,
+		"asked": 21,
+		"city": "AP-HP",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 116,
+		"worstRank": 3694,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "AP-HP",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 7,
+		"worstRank": 1317,
+		"available": 0,
+		"fulfilled": 36,
+		"asked": 36,
+		"city": "AP-HP",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 98,
+		"worstRank": 8707,
+		"available": 0,
+		"fulfilled": 539,
+		"asked": 539,
+		"city": "AP-HP",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 30,
+		"worstRank": 3649,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "AP-HP",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 79,
+		"worstRank": 5681,
+		"available": 0,
+		"fulfilled": 32,
+		"asked": 32,
+		"city": "AP-HP",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 5847,
+		"worstRank": 6845,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HP",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 809,
+		"worstRank": 2502,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HP",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 3672,
+		"worstRank": 6487,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "AP-HP",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 7508,
+		"worstRank": 9555,
+		"available": 0,
+		"fulfilled": 21,
+		"asked": 21,
+		"city": "AP-HP",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 2508,
+		"worstRank": 7599,
+		"available": 0,
+		"fulfilled": 89,
+		"asked": 89,
+		"city": "AP-HP",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3426,
+		"worstRank": 4099,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "AP-HP",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 81,
+		"worstRank": 1327,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "AP-HP",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 115,
+		"worstRank": 3032,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "AP-HP",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 58,
+		"worstRank": 1958,
+		"available": 0,
+		"fulfilled": 22,
+		"asked": 22,
+		"city": "AP-HP",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 280,
+		"worstRank": 5612,
+		"available": 0,
+		"fulfilled": 93,
+		"asked": 93,
+		"city": "AP-HP",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 412,
+		"worstRank": 3611,
+		"available": 0,
+		"fulfilled": 19,
+		"asked": 19,
+		"city": "AP-HP",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 187,
+		"worstRank": 9213,
+		"available": 0,
+		"fulfilled": 111,
+		"asked": 111,
+		"city": "AP-HP",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 104,
+		"worstRank": 2493,
+		"available": 0,
+		"fulfilled": 46,
+		"asked": 46,
+		"city": "AP-HP",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 312,
+		"worstRank": 3232,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "AP-HP",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 675,
+		"worstRank": 8672,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "AP-HP",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 4733,
+		"worstRank": 8515,
+		"available": 0,
+		"fulfilled": 18,
+		"asked": 18,
+		"city": "AP-HP",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1970,
+		"worstRank": 1970,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3582,
+		"worstRank": 3582,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2837,
+		"worstRank": 3402,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4276,
+		"worstRank": 4276,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 628,
+		"worstRank": 628,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4307,
+		"worstRank": 4307,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4124,
+		"worstRank": 4124,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 806,
+		"worstRank": 4370,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2016,
+		"worstRank": 3110,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "STRASBOURG",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4189,
+		"worstRank": 4189,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 780,
+		"worstRank": 987,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 483,
+		"worstRank": 941,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2688,
+		"worstRank": 2839,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "STRASBOURG",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 7011,
+		"worstRank": 7011,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 229,
+		"worstRank": 229,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 522,
+		"worstRank": 2485,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "STRASBOURG",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 250,
+		"worstRank": 869,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 1243,
+		"worstRank": 4184,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "STRASBOURG",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 3604,
+		"worstRank": 8214,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3807,
+		"worstRank": 3880,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "STRASBOURG",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 3130,
+		"worstRank": 3130,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2769,
+		"worstRank": 3553,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 826,
+		"worstRank": 826,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 415,
+		"worstRank": 2000,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1373,
+		"worstRank": 7981,
+		"available": 0,
+		"fulfilled": 119,
+		"asked": 119,
+		"city": "STRASBOURG",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 2245,
+		"worstRank": 4319,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 725,
+		"worstRank": 4878,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 3104,
+		"worstRank": 3104,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 2329,
+		"worstRank": 2329,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "STRASBOURG",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4713,
+		"worstRank": 5100,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 5235,
+		"worstRank": 8030,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 1164,
+		"worstRank": 6319,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "STRASBOURG",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4405,
+		"worstRank": 4493,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "STRASBOURG",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 862,
+		"worstRank": 2145,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2287,
+		"worstRank": 2723,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1220,
+		"worstRank": 3073,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 1932,
+		"worstRank": 5197,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "STRASBOURG",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1304,
+		"worstRank": 3944,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "STRASBOURG",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 3870,
+		"worstRank": 8345,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "STRASBOURG",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 475,
+		"worstRank": 2249,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "STRASBOURG",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 598,
+		"worstRank": 2733,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "STRASBOURG",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 8284,
+		"worstRank": 9066,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "STRASBOURG",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3605,
+		"worstRank": 8841,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "STRASBOURG",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 2206,
+		"worstRank": 2206,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3772,
+		"worstRank": 3772,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 973,
+		"worstRank": 2944,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3941,
+		"worstRank": 3941,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 1098,
+		"worstRank": 1098,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4568,
+		"worstRank": 4568,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3644,
+		"worstRank": 3644,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 2099,
+		"worstRank": 4909,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANCY",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2540,
+		"worstRank": 4438,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NANCY",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 3002,
+		"worstRank": 3002,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 612,
+		"worstRank": 1663,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1809,
+		"worstRank": 2914,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3261,
+		"worstRank": 3737,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANCY",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6493,
+		"worstRank": 6493,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3972,
+		"worstRank": 5058,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANCY",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 500,
+		"worstRank": 3349,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "NANCY",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 942,
+		"worstRank": 1589,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4608,
+		"worstRank": 5872,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 7285,
+		"worstRank": 7285,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 7226,
+		"worstRank": 9496,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "NANCY",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3339,
+		"worstRank": 4581,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 339,
+		"worstRank": 5155,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANCY",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 3529,
+		"worstRank": 4217,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 2153,
+		"worstRank": 4742,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANCY",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 516,
+		"worstRank": 2092,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NANCY",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 88,
+		"worstRank": 9405,
+		"available": 0,
+		"fulfilled": 135,
+		"asked": 135,
+		"city": "NANCY",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4016,
+		"worstRank": 4680,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 5099,
+		"worstRank": 6507,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "NANCY",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 3693,
+		"worstRank": 3693,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANCY",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3413,
+		"worstRank": 3418,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANCY",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4485,
+		"worstRank": 6273,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "NANCY",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9224,
+		"worstRank": 9615,
+		"available": 3,
+		"fulfilled": 3,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3753,
+		"worstRank": 7709,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "NANCY",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 2971,
+		"worstRank": 3366,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANCY",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 12,
+		"worstRank": 3306,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 284,
+		"worstRank": 2784,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANCY",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1844,
+		"worstRank": 4092,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "NANCY",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 3969,
+		"worstRank": 5968,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "NANCY",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1784,
+		"worstRank": 4641,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NANCY",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 2660,
+		"worstRank": 9720,
+		"available": 2,
+		"fulfilled": 18,
+		"asked": 20,
+		"city": "NANCY",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1415,
+		"worstRank": 3345,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "NANCY",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2932,
+		"worstRank": 3669,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANCY",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9399,
+		"worstRank": 9399,
+		"available": 3,
+		"fulfilled": 1,
+		"asked": 4,
+		"city": "NANCY",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3857,
+		"worstRank": 6922,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANCY",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 772,
+		"worstRank": 772,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3597,
+		"worstRank": 3597,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2620,
+		"worstRank": 3373,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BESANCON",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3835,
+		"worstRank": 3835,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 1172,
+		"worstRank": 1172,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BESANCON",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4149,
+		"worstRank": 4149,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 3043,
+		"worstRank": 4817,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 1564,
+		"worstRank": 4434,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BESANCON",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4170,
+		"worstRank": 4170,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 1794,
+		"worstRank": 1861,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BESANCON",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2959,
+		"worstRank": 3087,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2654,
+		"worstRank": 3780,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 7196,
+		"worstRank": 7196,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3654,
+		"worstRank": 4927,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1141,
+		"worstRank": 3514,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "BESANCON",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 453,
+		"worstRank": 763,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 5860,
+		"worstRank": 5940,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BESANCON",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 6231,
+		"worstRank": 8231,
+		"available": 1,
+		"fulfilled": 4,
+		"asked": 5,
+		"city": "BESANCON",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 2032,
+		"worstRank": 2032,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5507,
+		"worstRank": 5808,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 3799,
+		"worstRank": 4116,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BESANCON",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 3241,
+		"worstRank": 3241,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1945,
+		"worstRank": 2895,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BESANCON",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1636,
+		"worstRank": 8842,
+		"available": 0,
+		"fulfilled": 82,
+		"asked": 82,
+		"city": "BESANCON",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4221,
+		"worstRank": 4511,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BESANCON",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 6720,
+		"worstRank": 6870,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BESANCON",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BESANCON",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1694,
+		"worstRank": 1694,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5904,
+		"worstRank": 7463,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 8607,
+		"worstRank": 9035,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 4942,
+		"worstRank": 8007,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "BESANCON",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4500,
+		"worstRank": 4500,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BESANCON",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 106,
+		"worstRank": 4153,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3755,
+		"worstRank": 4585,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BESANCON",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3621,
+		"worstRank": 4072,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BESANCON",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 2760,
+		"worstRank": 6271,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "BESANCON",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 4356,
+		"worstRank": 4557,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BESANCON",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 4409,
+		"worstRank": 9542,
+		"available": 6,
+		"fulfilled": 9,
+		"asked": 15,
+		"city": "BESANCON",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 2610,
+		"worstRank": 3407,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BESANCON",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2368,
+		"worstRank": 2543,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "BESANCON",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 8452,
+		"worstRank": 8452,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "BESANCON",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1586,
+		"worstRank": 1586,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3163,
+		"worstRank": 3163,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2474,
+		"worstRank": 2960,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "DIJON",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 456,
+		"worstRank": 456,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 1511,
+		"worstRank": 1511,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4190,
+		"worstRank": 4190,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4045,
+		"worstRank": 4649,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3041,
+		"worstRank": 3862,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "DIJON",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 3588,
+		"worstRank": 3588,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 42,
+		"worstRank": 1501,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1988,
+		"worstRank": 2933,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2590,
+		"worstRank": 3641,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5726,
+		"worstRank": 5726,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3458,
+		"worstRank": 4656,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1350,
+		"worstRank": 2689,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "DIJON",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 473,
+		"worstRank": 1565,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4768,
+		"worstRank": 5619,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 1472,
+		"worstRank": 5802,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 4441,
+		"worstRank": 9626,
+		"available": 2,
+		"fulfilled": 5,
+		"asked": 7,
+		"city": "DIJON",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1883,
+		"worstRank": 1883,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5440,
+		"worstRank": 5540,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 390,
+		"worstRank": 3267,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "DIJON",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 2385,
+		"worstRank": 3254,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 683,
+		"worstRank": 2407,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "DIJON",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 264,
+		"worstRank": 9486,
+		"available": 0,
+		"fulfilled": 93,
+		"asked": 93,
+		"city": "DIJON",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3444,
+		"worstRank": 4872,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 3280,
+		"worstRank": 6210,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 4377,
+		"worstRank": 4377,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1288,
+		"worstRank": 2772,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5632,
+		"worstRank": 6192,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 1,
+		"fulfilled": 0,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 6469,
+		"worstRank": 8004,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "DIJON",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4419,
+		"worstRank": 4419,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "DIJON",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 3580,
+		"worstRank": 3767,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "DIJON",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 607,
+		"worstRank": 3300,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "DIJON",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 746,
+		"worstRank": 2876,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 4195,
+		"worstRank": 5914,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "DIJON",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 3595,
+		"worstRank": 4083,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 5675,
+		"worstRank": 9561,
+		"available": 9,
+		"fulfilled": 8,
+		"asked": 17,
+		"city": "DIJON",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 2238,
+		"worstRank": 2648,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "DIJON",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2205,
+		"worstRank": 4623,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9548,
+		"worstRank": 9598,
+		"available": 1,
+		"fulfilled": 2,
+		"asked": 3,
+		"city": "DIJON",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 5476,
+		"worstRank": 9322,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "DIJON",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 3295,
+		"worstRank": 3446,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4110,
+		"worstRank": 4110,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 1524,
+		"worstRank": 1524,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3950,
+		"worstRank": 3950,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4038,
+		"worstRank": 4865,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3750,
+		"worstRank": 4268,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "REIMS",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4280,
+		"worstRank": 4280,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 590,
+		"worstRank": 1346,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2789,
+		"worstRank": 3090,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1393,
+		"worstRank": 3526,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5103,
+		"worstRank": 5103,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 2059,
+		"worstRank": 4971,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1110,
+		"worstRank": 3290,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "REIMS",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4919,
+		"worstRank": 5389,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 7230,
+		"worstRank": 8654,
+		"available": 2,
+		"fulfilled": 3,
+		"asked": 5,
+		"city": "REIMS",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 2317,
+		"worstRank": 3468,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5446,
+		"worstRank": 5813,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 305,
+		"worstRank": 2276,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 59,
+		"worstRank": 1331,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1147,
+		"worstRank": 2519,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "REIMS",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1675,
+		"worstRank": 9373,
+		"available": 0,
+		"fulfilled": 76,
+		"asked": 76,
+		"city": "REIMS",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3914,
+		"worstRank": 4782,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 6281,
+		"worstRank": 6649,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6092,
+		"worstRank": 6092,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3336,
+		"worstRank": 3336,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "REIMS",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5973,
+		"worstRank": 7009,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9062,
+		"worstRank": 9409,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 5772,
+		"worstRank": 7998,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "REIMS",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "REIMS",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 2843,
+		"worstRank": 3961,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3421,
+		"worstRank": 4162,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "REIMS",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 434,
+		"worstRank": 3480,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "REIMS",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 5287,
+		"worstRank": 6233,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "REIMS",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 4192,
+		"worstRank": 4596,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "REIMS",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 8542,
+		"worstRank": 9662,
+		"available": 2,
+		"fulfilled": 9,
+		"asked": 11,
+		"city": "REIMS",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 2078,
+		"worstRank": 3003,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "REIMS",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2066,
+		"worstRank": 4259,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "REIMS",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 5161,
+		"worstRank": 8656,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "REIMS",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1707,
+		"worstRank": 1707,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3106,
+		"worstRank": 3106,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1267,
+		"worstRank": 3475,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CAEN",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3485,
+		"worstRank": 3485,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "CAEN",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "CAEN",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3384,
+		"worstRank": 3384,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4719,
+		"worstRank": 4880,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2690,
+		"worstRank": 3952,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "CAEN",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "CAEN",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 299,
+		"worstRank": 673,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1652,
+		"worstRank": 2327,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1725,
+		"worstRank": 3803,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6072,
+		"worstRank": 6072,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3808,
+		"worstRank": 4351,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1213,
+		"worstRank": 3231,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "CAEN",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 1284,
+		"worstRank": 1609,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2598,
+		"worstRank": 5810,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 6274,
+		"worstRank": 6274,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 8917,
+		"worstRank": 9492,
+		"available": 3,
+		"fulfilled": 2,
+		"asked": 5,
+		"city": "CAEN",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3271,
+		"worstRank": 3834,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 2965,
+		"worstRank": 2965,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2515,
+		"worstRank": 4028,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CAEN",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 4019,
+		"worstRank": 4019,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 317,
+		"worstRank": 2212,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "CAEN",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 770,
+		"worstRank": 9326,
+		"available": 0,
+		"fulfilled": 101,
+		"asked": 101,
+		"city": "CAEN",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4651,
+		"worstRank": 4716,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4746,
+		"worstRank": 6062,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CAEN",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6871,
+		"worstRank": 6871,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3313,
+		"worstRank": 3313,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 6402,
+		"worstRank": 7439,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CAEN",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 3,
+		"fulfilled": 0,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 2921,
+		"worstRank": 6330,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "CAEN",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 894,
+		"worstRank": 894,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CAEN",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 982,
+		"worstRank": 4115,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3974,
+		"worstRank": 4165,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CAEN",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 991,
+		"worstRank": 3656,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CAEN",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 952,
+		"worstRank": 5756,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "CAEN",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 2987,
+		"worstRank": 4325,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CAEN",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 3815,
+		"worstRank": 9588,
+		"available": 5,
+		"fulfilled": 10,
+		"asked": 15,
+		"city": "CAEN",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1578,
+		"worstRank": 2808,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "CAEN",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 3332,
+		"worstRank": 4542,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CAEN",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 6858,
+		"worstRank": 9654,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CAEN",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 2091,
+		"worstRank": 2091,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "ROUEN",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2411,
+		"worstRank": 2823,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "ROUEN",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3066,
+		"worstRank": 3066,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 686,
+		"worstRank": 686,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 3460,
+		"worstRank": 3460,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4274,
+		"worstRank": 4274,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 3454,
+		"worstRank": 4017,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2336,
+		"worstRank": 3938,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "ROUEN",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4284,
+		"worstRank": 4284,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 843,
+		"worstRank": 1462,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 932,
+		"worstRank": 2225,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ROUEN",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2243,
+		"worstRank": 3057,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 4292,
+		"worstRank": 4292,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 1573,
+		"worstRank": 4664,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 144,
+		"worstRank": 2982,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "ROUEN",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 426,
+		"worstRank": 1421,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 1280,
+		"worstRank": 5641,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 8103,
+		"worstRank": 8103,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 2671,
+		"worstRank": 9143,
+		"available": 4,
+		"fulfilled": 2,
+		"asked": 6,
+		"city": "ROUEN",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 2359,
+		"worstRank": 3982,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ROUEN",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 3184,
+		"worstRank": 4845,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2794,
+		"worstRank": 3673,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "ROUEN",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 3160,
+		"worstRank": 4570,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1431,
+		"worstRank": 2855,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "ROUEN",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1015,
+		"worstRank": 9315,
+		"available": 0,
+		"fulfilled": 119,
+		"asked": 119,
+		"city": "ROUEN",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3903,
+		"worstRank": 4237,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ROUEN",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 3541,
+		"worstRank": 5943,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "ROUEN",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1751,
+		"worstRank": 1751,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ROUEN",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5832,
+		"worstRank": 6640,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "ROUEN",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 6338,
+		"worstRank": 9301,
+		"available": 2,
+		"fulfilled": 3,
+		"asked": 5,
+		"city": "ROUEN",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3518,
+		"worstRank": 6974,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "ROUEN",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4446,
+		"worstRank": 4460,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ROUEN",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 1300,
+		"worstRank": 2708,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ROUEN",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3197,
+		"worstRank": 3736,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "ROUEN",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 403,
+		"worstRank": 3081,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 3281,
+		"worstRank": 5816,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "ROUEN",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 2847,
+		"worstRank": 4257,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "ROUEN",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 5614,
+		"worstRank": 9649,
+		"available": 9,
+		"fulfilled": 8,
+		"asked": 17,
+		"city": "ROUEN",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 855,
+		"worstRank": 3049,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "ROUEN",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2378,
+		"worstRank": 3860,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ROUEN",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 8912,
+		"worstRank": 8912,
+		"available": 3,
+		"fulfilled": 1,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 5301,
+		"worstRank": 8320,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ROUEN",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 478,
+		"worstRank": 759,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 2524,
+		"worstRank": 2524,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LILLE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 560,
+		"worstRank": 2105,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "LILLE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 2465,
+		"worstRank": 4025,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 133,
+		"worstRank": 338,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 3050,
+		"worstRank": 3898,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 1887,
+		"worstRank": 3817,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 1529,
+		"worstRank": 3912,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 253,
+		"worstRank": 2947,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "LILLE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4012,
+		"worstRank": 4012,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LILLE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 22,
+		"worstRank": 1310,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "LILLE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 290,
+		"worstRank": 1453,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LILLE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 182,
+		"worstRank": 1878,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LILLE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5951,
+		"worstRank": 5951,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LILLE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 1717,
+		"worstRank": 2920,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LILLE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 123,
+		"worstRank": 1957,
+		"available": 0,
+		"fulfilled": 31,
+		"asked": 31,
+		"city": "LILLE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 142,
+		"worstRank": 1190,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 3063,
+		"worstRank": 5007,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 5737,
+		"worstRank": 5737,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LILLE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 6288,
+		"worstRank": 10500,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "LILLE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1149,
+		"worstRank": 3190,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4129,
+		"worstRank": 4922,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LILLE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 57,
+		"worstRank": 2010,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "LILLE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1548,
+		"worstRank": 2018,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LILLE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 207,
+		"worstRank": 1858,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "LILLE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 381,
+		"worstRank": 8122,
+		"available": 0,
+		"fulfilled": 213,
+		"asked": 213,
+		"city": "LILLE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 1178,
+		"worstRank": 4002,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 901,
+		"worstRank": 5855,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LILLE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 4709,
+		"worstRank": 4709,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LILLE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 576,
+		"worstRank": 857,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 3702,
+		"worstRank": 5600,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "LILLE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 7472,
+		"worstRank": 9575,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3875,
+		"worstRank": 6745,
+		"available": 0,
+		"fulfilled": 24,
+		"asked": 24,
+		"city": "LILLE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3448,
+		"worstRank": 4098,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LILLE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 197,
+		"worstRank": 2879,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LILLE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 318,
+		"worstRank": 2128,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 105,
+		"worstRank": 3042,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "LILLE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 1692,
+		"worstRank": 5658,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "LILLE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 195,
+		"worstRank": 3717,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "LILLE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 2280,
+		"worstRank": 9323,
+		"available": 0,
+		"fulfilled": 40,
+		"asked": 40,
+		"city": "LILLE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 102,
+		"worstRank": 2523,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "LILLE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 296,
+		"worstRank": 2424,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "LILLE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 6090,
+		"worstRank": 9705,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "LILLE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3724,
+		"worstRank": 9722,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LILLE",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1686,
+		"worstRank": 1686,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "AMIENS",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2916,
+		"worstRank": 3400,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "AMIENS",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 762,
+		"worstRank": 762,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "AMIENS",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3876,
+		"worstRank": 3876,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4143,
+		"worstRank": 4484,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3739,
+		"worstRank": 4565,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "AMIENS",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "AMIENS",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 1055,
+		"worstRank": 1495,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2300,
+		"worstRank": 2739,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3525,
+		"worstRank": 3821,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6577,
+		"worstRank": 6577,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3207,
+		"worstRank": 4966,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1478,
+		"worstRank": 3478,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "AMIENS",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 1316,
+		"worstRank": 1559,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 1683,
+		"worstRank": 5935,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 9515,
+		"worstRank": 9515,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 9077,
+		"worstRank": 9726,
+		"available": 2,
+		"fulfilled": 3,
+		"asked": 5,
+		"city": "AMIENS",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3017,
+		"worstRank": 4085,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4811,
+		"worstRank": 5138,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 3035,
+		"worstRank": 4043,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "AMIENS",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 3536,
+		"worstRank": 4834,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1255,
+		"worstRank": 3107,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "AMIENS",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1154,
+		"worstRank": 9290,
+		"available": 0,
+		"fulfilled": 98,
+		"asked": 98,
+		"city": "AMIENS",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3752,
+		"worstRank": 4797,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AMIENS",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 6200,
+		"worstRank": 6470,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6972,
+		"worstRank": 6972,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 460,
+		"worstRank": 460,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AMIENS",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4657,
+		"worstRank": 7227,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9500,
+		"worstRank": 9500,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3539,
+		"worstRank": 8005,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "AMIENS",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4196,
+		"worstRank": 4306,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 1927,
+		"worstRank": 3505,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2386,
+		"worstRank": 4236,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AMIENS",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3144,
+		"worstRank": 3866,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AMIENS",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 212,
+		"worstRank": 5985,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "AMIENS",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 3390,
+		"worstRank": 3943,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AMIENS",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 5291,
+		"worstRank": 9701,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "AMIENS",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1889,
+		"worstRank": 3342,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "AMIENS",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 4312,
+		"worstRank": 4483,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AMIENS",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3375,
+		"worstRank": 10500,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AMIENS",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1248,
+		"worstRank": 1248,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 2342,
+		"worstRank": 2342,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2675,
+		"worstRank": 3415,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4056,
+		"worstRank": 4056,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4918,
+		"worstRank": 4918,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3159,
+		"worstRank": 3159,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4690,
+		"worstRank": 4794,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 285,
+		"worstRank": 4156,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4760,
+		"worstRank": 4760,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 722,
+		"worstRank": 1519,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1276,
+		"worstRank": 1863,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2097,
+		"worstRank": 2135,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 7147,
+		"worstRank": 7147,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 4497,
+		"worstRank": 4604,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 817,
+		"worstRank": 2520,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 25,
+		"worstRank": 1072,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 5453,
+		"worstRank": 6006,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 7201,
+		"worstRank": 7201,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 8248,
+		"worstRank": 8710,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3889,
+		"worstRank": 4469,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4039,
+		"worstRank": 4530,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2346,
+		"worstRank": 3957,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1401,
+		"worstRank": 1401,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 223,
+		"worstRank": 2240,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 836,
+		"worstRank": 9471,
+		"available": 0,
+		"fulfilled": 85,
+		"asked": 85,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4414,
+		"worstRank": 4905,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 2634,
+		"worstRank": 6639,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3350,
+		"worstRank": 3350,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4556,
+		"worstRank": 5534,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9435,
+		"worstRank": 9587,
+		"available": 2,
+		"fulfilled": 2,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 4978,
+		"worstRank": 7045,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3365,
+		"worstRank": 3365,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 3556,
+		"worstRank": 3776,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2053,
+		"worstRank": 3731,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1655,
+		"worstRank": 3038,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 2315,
+		"worstRank": 5180,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 944,
+		"worstRank": 4282,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 6029,
+		"worstRank": 9725,
+		"available": 4,
+		"fulfilled": 11,
+		"asked": 15,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 316,
+		"worstRank": 3068,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2484,
+		"worstRank": 4648,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 5164,
+		"worstRank": 5164,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 8442,
+		"worstRank": 8442,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "CLERMONT-FERRAND",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 210,
+		"worstRank": 210,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GRENOBLE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 303,
+		"worstRank": 2394,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "GRENOBLE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 2908,
+		"worstRank": 2908,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 468,
+		"worstRank": 468,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 3555,
+		"worstRank": 3555,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3981,
+		"worstRank": 3981,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4027,
+		"worstRank": 4410,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2991,
+		"worstRank": 4022,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "GRENOBLE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 3782,
+		"worstRank": 3782,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 378,
+		"worstRank": 719,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "GRENOBLE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1567,
+		"worstRank": 2107,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1165,
+		"worstRank": 1849,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6112,
+		"worstRank": 6112,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 2383,
+		"worstRank": 4288,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 134,
+		"worstRank": 1066,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "GRENOBLE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 506,
+		"worstRank": 1446,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4962,
+		"worstRank": 5819,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GRENOBLE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 5313,
+		"worstRank": 8405,
+		"available": 3,
+		"fulfilled": 3,
+		"asked": 6,
+		"city": "GRENOBLE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1017,
+		"worstRank": 1122,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 1341,
+		"worstRank": 1341,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 1342,
+		"worstRank": 2915,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "GRENOBLE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 2073,
+		"worstRank": 2073,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 331,
+		"worstRank": 1257,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "GRENOBLE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 304,
+		"worstRank": 7991,
+		"available": 0,
+		"fulfilled": 108,
+		"asked": 108,
+		"city": "GRENOBLE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 2408,
+		"worstRank": 4139,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4490,
+		"worstRank": 5660,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6503,
+		"worstRank": 6503,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3272,
+		"worstRank": 3272,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GRENOBLE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 3220,
+		"worstRank": 4958,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9455,
+		"worstRank": 9663,
+		"available": 1,
+		"fulfilled": 3,
+		"asked": 4,
+		"city": "GRENOBLE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 485,
+		"worstRank": 3249,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "GRENOBLE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3865,
+		"worstRank": 4360,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 8,
+		"worstRank": 1806,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 388,
+		"worstRank": 1955,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1891,
+		"worstRank": 2901,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 196,
+		"worstRank": 4958,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "GRENOBLE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1434,
+		"worstRank": 3482,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "GRENOBLE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 1146,
+		"worstRank": 10400,
+		"available": 1,
+		"fulfilled": 13,
+		"asked": 14,
+		"city": "GRENOBLE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 232,
+		"worstRank": 1490,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "GRENOBLE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1892,
+		"worstRank": 2172,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9454,
+		"worstRank": 9454,
+		"available": 1,
+		"fulfilled": 1,
+		"asked": 2,
+		"city": "GRENOBLE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 3,
+		"fulfilled": 0,
+		"asked": 3,
+		"city": "GRENOBLE",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 73,
+		"worstRank": 73,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 1918,
+		"worstRank": 1918,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 371,
+		"worstRank": 1361,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "HCL",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 1591,
+		"worstRank": 1591,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 110,
+		"worstRank": 111,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "HCL",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4046,
+		"worstRank": 4130,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "HCL",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 1753,
+		"worstRank": 2622,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "HCL",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 599,
+		"worstRank": 2909,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 129,
+		"worstRank": 2461,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "HCL",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 1584,
+		"worstRank": 1584,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 17,
+		"worstRank": 660,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "HCL",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 130,
+		"worstRank": 416,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1050,
+		"worstRank": 1728,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 2406,
+		"worstRank": 5695,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 663,
+		"worstRank": 1241,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 4,
+		"worstRank": 1303,
+		"available": 0,
+		"fulfilled": 23,
+		"asked": 23,
+		"city": "HCL",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 23,
+		"worstRank": 411,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "HCL",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2104,
+		"worstRank": 4251,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 1398,
+		"worstRank": 1398,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 2900,
+		"worstRank": 9622,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "HCL",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 203,
+		"worstRank": 2875,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 440,
+		"worstRank": 548,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "HCL",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 458,
+		"worstRank": 1802,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "HCL",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 63,
+		"worstRank": 175,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 18,
+		"worstRank": 311,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "HCL",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 593,
+		"worstRank": 8909,
+		"available": 0,
+		"fulfilled": 158,
+		"asked": 158,
+		"city": "HCL",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 24,
+		"worstRank": 2122,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "HCL",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 561,
+		"worstRank": 713,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "HCL",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 1983,
+		"worstRank": 1983,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1761,
+		"worstRank": 1761,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "HCL",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4132,
+		"worstRank": 5098,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 4852,
+		"worstRank": 9099,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "HCL",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 694,
+		"worstRank": 5450,
+		"available": 0,
+		"fulfilled": 23,
+		"asked": 23,
+		"city": "HCL",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3686,
+		"worstRank": 3778,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "HCL",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 542,
+		"worstRank": 1696,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 114,
+		"worstRank": 1214,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "HCL",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 29,
+		"worstRank": 996,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "HCL",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 64,
+		"worstRank": 4706,
+		"available": 0,
+		"fulfilled": 19,
+		"asked": 19,
+		"city": "HCL",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1173,
+		"worstRank": 2544,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "HCL",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 574,
+		"worstRank": 8050,
+		"available": 0,
+		"fulfilled": 27,
+		"asked": 27,
+		"city": "HCL",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 172,
+		"worstRank": 1828,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "HCL",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 688,
+		"worstRank": 4014,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "HCL",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 3206,
+		"worstRank": 9042,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "HCL",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 38,
+		"worstRank": 8735,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "HCL",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1634,
+		"worstRank": 1634,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "SAINT ETIENNE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1799,
+		"worstRank": 2399,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3689,
+		"worstRank": 3689,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "SAINT ETIENNE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4605,
+		"worstRank": 4605,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4201,
+		"worstRank": 4201,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4923,
+		"worstRank": 4923,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3549,
+		"worstRank": 4158,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "SAINT ETIENNE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4261,
+		"worstRank": 4261,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 1370,
+		"worstRank": 2169,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "SAINT ETIENNE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2373,
+		"worstRank": 2949,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2045,
+		"worstRank": 2045,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 7268,
+		"worstRank": 7268,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 4935,
+		"worstRank": 4935,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1031,
+		"worstRank": 3138,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "SAINT ETIENNE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 798,
+		"worstRank": 1653,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 5946,
+		"worstRank": 6034,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "SAINT ETIENNE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 7731,
+		"worstRank": 9721,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "SAINT ETIENNE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 2668,
+		"worstRank": 2668,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 3598,
+		"worstRank": 3998,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 2302,
+		"worstRank": 4801,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 727,
+		"worstRank": 1646,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1422,
+		"worstRank": 8898,
+		"available": 0,
+		"fulfilled": 87,
+		"asked": 87,
+		"city": "SAINT ETIENNE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 2736,
+		"worstRank": 4553,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 5262,
+		"worstRank": 6842,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "SAINT ETIENNE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 446,
+		"worstRank": 446,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5004,
+		"worstRank": 6097,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 6480,
+		"worstRank": 9497,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 2897,
+		"worstRank": 7505,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "SAINT ETIENNE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3936,
+		"worstRank": 3936,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 4142,
+		"worstRank": 4142,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3247,
+		"worstRank": 3327,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3428,
+		"worstRank": 3931,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 986,
+		"worstRank": 5469,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "SAINT ETIENNE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 3740,
+		"worstRank": 4590,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 7946,
+		"worstRank": 8780,
+		"available": 7,
+		"fulfilled": 3,
+		"asked": 10,
+		"city": "SAINT ETIENNE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1082,
+		"worstRank": 2322,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "SAINT ETIENNE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 4692,
+		"worstRank": 4698,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "SAINT ETIENNE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 6397,
+		"worstRank": 6397,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "SAINT ETIENNE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 9461,
+		"worstRank": 9584,
+		"available": 1,
+		"fulfilled": 2,
+		"asked": 3,
+		"city": "SAINT ETIENNE",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BREST",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BREST",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1491,
+		"worstRank": 2531,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3077,
+		"worstRank": 3077,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 625,
+		"worstRank": 625,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BREST",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4089,
+		"worstRank": 4089,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4784,
+		"worstRank": 4784,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 1032,
+		"worstRank": 3764,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4627,
+		"worstRank": 4627,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 517,
+		"worstRank": 1384,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2215,
+		"worstRank": 2430,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2838,
+		"worstRank": 2838,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 7330,
+		"worstRank": 7330,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 491,
+		"worstRank": 5082,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 359,
+		"worstRank": 2822,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "BREST",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 690,
+		"worstRank": 1518,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 3143,
+		"worstRank": 4910,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BREST",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 7363,
+		"worstRank": 7363,
+		"available": 1,
+		"fulfilled": 1,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3884,
+		"worstRank": 4271,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4975,
+		"worstRank": 4975,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2795,
+		"worstRank": 3774,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 4127,
+		"worstRank": 4127,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1879,
+		"worstRank": 2552,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 233,
+		"worstRank": 9646,
+		"available": 0,
+		"fulfilled": 103,
+		"asked": 103,
+		"city": "BREST",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 251,
+		"worstRank": 4662,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 2541,
+		"worstRank": 6669,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 7480,
+		"worstRank": 7480,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3291,
+		"worstRank": 3291,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 6345,
+		"worstRank": 6843,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BREST",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9346,
+		"worstRank": 9346,
+		"available": 3,
+		"fulfilled": 1,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3476,
+		"worstRank": 5753,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "BREST",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3777,
+		"worstRank": 4507,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 4160,
+		"worstRank": 4225,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 4263,
+		"worstRank": 4559,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1823,
+		"worstRank": 3386,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 1877,
+		"worstRank": 5396,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BREST",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 3115,
+		"worstRank": 3853,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BREST",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 7624,
+		"worstRank": 9436,
+		"available": 10,
+		"fulfilled": 2,
+		"asked": 12,
+		"city": "BREST",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 875,
+		"worstRank": 3304,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "BREST",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 444,
+		"worstRank": 537,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 1,
+		"fulfilled": 0,
+		"asked": 1,
+		"city": "BREST",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 5129,
+		"worstRank": 5327,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BREST",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "RENNES",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "RENNES",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 707,
+		"worstRank": 1917,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "RENNES",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "RENNES",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "RENNES",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 884,
+		"worstRank": 884,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3439,
+		"worstRank": 3439,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 3994,
+		"worstRank": 4443,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 524,
+		"worstRank": 2395,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "RENNES",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4744,
+		"worstRank": 4744,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 685,
+		"worstRank": 748,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "RENNES",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 309,
+		"worstRank": 765,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 706,
+		"worstRank": 2198,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "RENNES",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6802,
+		"worstRank": 6802,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 4856,
+		"worstRank": 4856,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 137,
+		"worstRank": 2301,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "RENNES",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 33,
+		"worstRank": 368,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "RENNES",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2798,
+		"worstRank": 4420,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 3196,
+		"worstRank": 3196,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 611,
+		"worstRank": 8197,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "RENNES",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 334,
+		"worstRank": 2472,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 1562,
+		"worstRank": 1562,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 83,
+		"worstRank": 1645,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 228,
+		"worstRank": 228,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 143,
+		"worstRank": 2721,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "RENNES",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 761,
+		"worstRank": 8779,
+		"available": 0,
+		"fulfilled": 115,
+		"asked": 115,
+		"city": "RENNES",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 885,
+		"worstRank": 3436,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 27,
+		"worstRank": 1109,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "RENNES",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "RENNES",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1411,
+		"worstRank": 1411,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "RENNES",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 3909,
+		"worstRank": 4703,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 7485,
+		"worstRank": 9559,
+		"available": 2,
+		"fulfilled": 3,
+		"asked": 5,
+		"city": "RENNES",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 2762,
+		"worstRank": 6263,
+		"available": 0,
+		"fulfilled": 14,
+		"asked": 14,
+		"city": "RENNES",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3253,
+		"worstRank": 4333,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "RENNES",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 1212,
+		"worstRank": 2657,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 313,
+		"worstRank": 3305,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "RENNES",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 189,
+		"worstRank": 853,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 640,
+		"worstRank": 3704,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "RENNES",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1588,
+		"worstRank": 3616,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "RENNES",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 4031,
+		"worstRank": 9218,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "RENNES",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 533,
+		"worstRank": 1895,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "RENNES",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1803,
+		"worstRank": 2938,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "RENNES",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 6520,
+		"worstRank": 6520,
+		"available": 1,
+		"fulfilled": 1,
+		"asked": 2,
+		"city": "RENNES",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 8141,
+		"worstRank": 9592,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "RENNES",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1323,
+		"worstRank": 1323,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "ANGERS",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1595,
+		"worstRank": 2778,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3706,
+		"worstRank": 3706,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 521,
+		"worstRank": 521,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4029,
+		"worstRank": 4029,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 4241,
+		"worstRank": 4241,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 2734,
+		"worstRank": 3836,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2702,
+		"worstRank": 3662,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "ANGERS",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "ANGERS",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 601,
+		"worstRank": 1227,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1113,
+		"worstRank": 1113,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2611,
+		"worstRank": 2913,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5627,
+		"worstRank": 5627,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 4495,
+		"worstRank": 4842,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 495,
+		"worstRank": 2740,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "ANGERS",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 41,
+		"worstRank": 1111,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 3479,
+		"worstRank": 5628,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 5367,
+		"worstRank": 5367,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 4949,
+		"worstRank": 7940,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ANGERS",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3489,
+		"worstRank": 3489,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 1880,
+		"worstRank": 4841,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 596,
+		"worstRank": 3259,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ANGERS",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1542,
+		"worstRank": 1542,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1463,
+		"worstRank": 2578,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "ANGERS",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 78,
+		"worstRank": 9016,
+		"available": 0,
+		"fulfilled": 116,
+		"asked": 116,
+		"city": "ANGERS",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 257,
+		"worstRank": 3633,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 1662,
+		"worstRank": 5643,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 2976,
+		"worstRank": 2976,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 2613,
+		"worstRank": 2613,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "ANGERS",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5415,
+		"worstRank": 6247,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 6874,
+		"worstRank": 8988,
+		"available": 2,
+		"fulfilled": 2,
+		"asked": 4,
+		"city": "ANGERS",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3813,
+		"worstRank": 6896,
+		"available": 0,
+		"fulfilled": 15,
+		"asked": 15,
+		"city": "ANGERS",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3949,
+		"worstRank": 4208,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 1635,
+		"worstRank": 3691,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2189,
+		"worstRank": 3572,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "ANGERS",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1405,
+		"worstRank": 2391,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 695,
+		"worstRank": 2608,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "ANGERS",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1804,
+		"worstRank": 3794,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 4945,
+		"worstRank": 9634,
+		"available": 1,
+		"fulfilled": 13,
+		"asked": 14,
+		"city": "ANGERS",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1836,
+		"worstRank": 2581,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "ANGERS",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 2356,
+		"worstRank": 4335,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "ANGERS",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 6779,
+		"worstRank": 9619,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "ANGERS",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 218,
+		"worstRank": 218,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3472,
+		"worstRank": 3472,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2173,
+		"worstRank": 2604,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3896,
+		"worstRank": 3896,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 417,
+		"worstRank": 417,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4066,
+		"worstRank": 4066,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3874,
+		"worstRank": 3874,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 3189,
+		"worstRank": 3734,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 1664,
+		"worstRank": 3132,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "NANTES",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 3926,
+		"worstRank": 3926,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 527,
+		"worstRank": 969,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 100,
+		"worstRank": 820,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1765,
+		"worstRank": 2433,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5977,
+		"worstRank": 5977,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3355,
+		"worstRank": 3355,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 72,
+		"worstRank": 2457,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "NANTES",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 448,
+		"worstRank": 1135,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4848,
+		"worstRank": 5636,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 7051,
+		"worstRank": 7051,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 6224,
+		"worstRank": 9566,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NANTES",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3311,
+		"worstRank": 3567,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 271,
+		"worstRank": 5040,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 300,
+		"worstRank": 3103,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 54,
+		"worstRank": 1216,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 125,
+		"worstRank": 1269,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NANTES",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1475,
+		"worstRank": 9190,
+		"available": 0,
+		"fulfilled": 117,
+		"asked": 117,
+		"city": "NANTES",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 1193,
+		"worstRank": 2963,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 1177,
+		"worstRank": 4643,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 5824,
+		"worstRank": 5824,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 322,
+		"worstRank": 322,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2573,
+		"worstRank": 6385,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9427,
+		"worstRank": 9631,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 1142,
+		"worstRank": 6422,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "NANTES",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 2248,
+		"worstRank": 2248,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NANTES",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 494,
+		"worstRank": 3135,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 1975,
+		"worstRank": 3256,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 549,
+		"worstRank": 954,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NANTES",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 40,
+		"worstRank": 2538,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "NANTES",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 96,
+		"worstRank": 3181,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NANTES",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 1184,
+		"worstRank": 9421,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "NANTES",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1666,
+		"worstRank": 2529,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "NANTES",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1437,
+		"worstRank": 2174,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 1550,
+		"worstRank": 3226,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3978,
+		"worstRank": 8891,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NANTES",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1218,
+		"worstRank": 1824,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOURS",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 3462,
+		"worstRank": 3462,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1881,
+		"worstRank": 3117,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "TOURS",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4240,
+		"worstRank": 4240,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "TOURS",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4300,
+		"worstRank": 4300,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "TOURS",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 1254,
+		"worstRank": 4792,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOURS",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2222,
+		"worstRank": 3714,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "TOURS",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 3286,
+		"worstRank": 3286,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 658,
+		"worstRank": 1615,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOURS",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2252,
+		"worstRank": 2732,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOURS",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3224,
+		"worstRank": 3722,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 4569,
+		"worstRank": 5390,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOURS",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3757,
+		"worstRank": 5014,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 775,
+		"worstRank": 3404,
+		"available": 0,
+		"fulfilled": 19,
+		"asked": 19,
+		"city": "TOURS",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 355,
+		"worstRank": 1493,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOURS",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2068,
+		"worstRank": 4424,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOURS",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 7465,
+		"worstRank": 7465,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 4747,
+		"worstRank": 8704,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOURS",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3921,
+		"worstRank": 4060,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOURS",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 2993,
+		"worstRank": 5292,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2090,
+		"worstRank": 3911,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "TOURS",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1566,
+		"worstRank": 4427,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 895,
+		"worstRank": 2829,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "TOURS",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 650,
+		"worstRank": 9661,
+		"available": 0,
+		"fulfilled": 134,
+		"asked": 134,
+		"city": "TOURS",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3497,
+		"worstRank": 4708,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "TOURS",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4739,
+		"worstRank": 6266,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOURS",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 4684,
+		"worstRank": 6440,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOURS",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 1821,
+		"worstRank": 1821,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOURS",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4941,
+		"worstRank": 6730,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "TOURS",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 6088,
+		"worstRank": 7919,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "TOURS",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "TOURS",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 263,
+		"worstRank": 2674,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOURS",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 3465,
+		"worstRank": 4303,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOURS",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 740,
+		"worstRank": 3245,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOURS",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 672,
+		"worstRank": 5743,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "TOURS",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 346,
+		"worstRank": 4177,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOURS",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 5555,
+		"worstRank": 9602,
+		"available": 3,
+		"fulfilled": 10,
+		"asked": 13,
+		"city": "TOURS",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 277,
+		"worstRank": 3018,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "TOURS",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 3547,
+		"worstRank": 4298,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOURS",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9170,
+		"worstRank": 9170,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 7419,
+		"worstRank": 8800,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOURS",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "POITIERS",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "POITIERS",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2352,
+		"worstRank": 3165,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "POITIERS",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 3927,
+		"worstRank": 3927,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "POITIERS",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "POITIERS",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3534,
+		"worstRank": 3534,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4152,
+		"worstRank": 4875,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3918,
+		"worstRank": 4496,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "POITIERS",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4682,
+		"worstRank": 4682,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 700,
+		"worstRank": 1650,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2849,
+		"worstRank": 2928,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3059,
+		"worstRank": 3062,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 5840,
+		"worstRank": 5840,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 5043,
+		"worstRank": 5043,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 2449,
+		"worstRank": 3409,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "POITIERS",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 352,
+		"worstRank": 1557,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 5256,
+		"worstRank": 5624,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "POITIERS",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 9270,
+		"worstRank": 9270,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 9438,
+		"worstRank": 9600,
+		"available": 2,
+		"fulfilled": 2,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 3301,
+		"worstRank": 4187,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5144,
+		"worstRank": 5765,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2684,
+		"worstRank": 3832,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 3721,
+		"worstRank": 4724,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 1481,
+		"worstRank": 2568,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "POITIERS",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 505,
+		"worstRank": 9676,
+		"available": 0,
+		"fulfilled": 115,
+		"asked": 115,
+		"city": "POITIERS",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3574,
+		"worstRank": 4428,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "POITIERS",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4067,
+		"worstRank": 6579,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 1429,
+		"worstRank": 1429,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 2729,
+		"worstRank": 2729,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5451,
+		"worstRank": 7395,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 4278,
+		"worstRank": 4278,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 4105,
+		"worstRank": 7375,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "POITIERS",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3760,
+		"worstRank": 3760,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "POITIERS",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 1510,
+		"worstRank": 4134,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2683,
+		"worstRank": 4033,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "POITIERS",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 2669,
+		"worstRank": 4068,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 3319,
+		"worstRank": 5699,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "POITIERS",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 4350,
+		"worstRank": 4541,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "POITIERS",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 4432,
+		"worstRank": 9417,
+		"available": 6,
+		"fulfilled": 12,
+		"asked": 18,
+		"city": "POITIERS",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1600,
+		"worstRank": 2894,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "POITIERS",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 3612,
+		"worstRank": 4321,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "POITIERS",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 3410,
+		"worstRank": 4740,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "POITIERS",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 124,
+		"worstRank": 124,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 2625,
+		"worstRank": 2625,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1416,
+		"worstRank": 1856,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 523,
+		"worstRank": 523,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 204,
+		"worstRank": 204,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 3787,
+		"worstRank": 3787,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3607,
+		"worstRank": 3607,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 2403,
+		"worstRank": 3171,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 588,
+		"worstRank": 1237,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "MONTPELLIER",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 1986,
+		"worstRank": 1986,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 10,
+		"worstRank": 194,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "MONTPELLIER",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 825,
+		"worstRank": 1187,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1278,
+		"worstRank": 2289,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "MONTPELLIER",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 1952,
+		"worstRank": 5219,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "MONTPELLIER",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 2421,
+		"worstRank": 3234,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 56,
+		"worstRank": 1414,
+		"available": 0,
+		"fulfilled": 21,
+		"asked": 21,
+		"city": "MONTPELLIER",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 16,
+		"worstRank": 741,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "MONTPELLIER",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2650,
+		"worstRank": 4881,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 960,
+		"worstRank": 960,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 3584,
+		"worstRank": 9091,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "MONTPELLIER",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1572,
+		"worstRank": 2868,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 778,
+		"worstRank": 1322,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "MONTPELLIER",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 220,
+		"worstRank": 1363,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1,
+		"worstRank": 567,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 68,
+		"worstRank": 1179,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "MONTPELLIER",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 269,
+		"worstRank": 8406,
+		"available": 0,
+		"fulfilled": 143,
+		"asked": 143,
+		"city": "MONTPELLIER",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 179,
+		"worstRank": 241,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 2,
+		"worstRank": 1720,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "MONTPELLIER",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 4364,
+		"worstRank": 4364,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 534,
+		"worstRank": 534,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "MONTPELLIER",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2186,
+		"worstRank": 4748,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "MONTPELLIER",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 5596,
+		"worstRank": 8106,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 185,
+		"worstRank": 5346,
+		"available": 0,
+		"fulfilled": 24,
+		"asked": 24,
+		"city": "MONTPELLIER",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4061,
+		"worstRank": 4376,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 922,
+		"worstRank": 2636,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 583,
+		"worstRank": 1406,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "MONTPELLIER",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 93,
+		"worstRank": 1359,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 972,
+		"worstRank": 3243,
+		"available": 0,
+		"fulfilled": 13,
+		"asked": 13,
+		"city": "MONTPELLIER",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 481,
+		"worstRank": 2994,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 1771,
+		"worstRank": 8313,
+		"available": 0,
+		"fulfilled": 16,
+		"asked": 16,
+		"city": "MONTPELLIER",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 165,
+		"worstRank": 1733,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "MONTPELLIER",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1791,
+		"worstRank": 3639,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "MONTPELLIER",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 6621,
+		"worstRank": 9658,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 4587,
+		"worstRank": 6435,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "MONTPELLIER",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 376,
+		"worstRank": 376,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 1968,
+		"worstRank": 1968,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 946,
+		"worstRank": 1362,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HM",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 2878,
+		"worstRank": 2878,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 46,
+		"worstRank": 46,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 1693,
+		"worstRank": 1693,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 1240,
+		"worstRank": 1240,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 1852,
+		"worstRank": 2956,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 945,
+		"worstRank": 2155,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "AP-HM",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4426,
+		"worstRank": 4426,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 13,
+		"worstRank": 540,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "AP-HM",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 482,
+		"worstRank": 639,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HM",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1027,
+		"worstRank": 1335,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6217,
+		"worstRank": 6252,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 3218,
+		"worstRank": 3289,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 53,
+		"worstRank": 1115,
+		"available": 0,
+		"fulfilled": 22,
+		"asked": 22,
+		"city": "AP-HM",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 120,
+		"worstRank": 278,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "AP-HM",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 964,
+		"worstRank": 3801,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HM",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 6344,
+		"worstRank": 6344,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "AP-HM",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 2337,
+		"worstRank": 6018,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "AP-HM",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 624,
+		"worstRank": 2236,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 1629,
+		"worstRank": 3162,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 793,
+		"worstRank": 2178,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HM",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 656,
+		"worstRank": 1896,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 260,
+		"worstRank": 1091,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "AP-HM",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 155,
+		"worstRank": 8146,
+		"available": 0,
+		"fulfilled": 195,
+		"asked": 195,
+		"city": "AP-HM",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 1336,
+		"worstRank": 2151,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 288,
+		"worstRank": 5002,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HM",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 5717,
+		"worstRank": 6085,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 2283,
+		"worstRank": 2396,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2703,
+		"worstRank": 5181,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HM",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 6783,
+		"worstRank": 8549,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "AP-HM",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 785,
+		"worstRank": 5781,
+		"available": 0,
+		"fulfilled": 24,
+		"asked": 24,
+		"city": "AP-HM",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3156,
+		"worstRank": 3670,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "AP-HM",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 35,
+		"worstRank": 1706,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "AP-HM",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 31,
+		"worstRank": 1551,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "AP-HM",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 708,
+		"worstRank": 1597,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 425,
+		"worstRank": 4429,
+		"available": 0,
+		"fulfilled": 17,
+		"asked": 17,
+		"city": "AP-HM",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 2294,
+		"worstRank": 3389,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "AP-HM",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 1963,
+		"worstRank": 9305,
+		"available": 0,
+		"fulfilled": 26,
+		"asked": 26,
+		"city": "AP-HM",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 6,
+		"worstRank": 2127,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "AP-HM",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1018,
+		"worstRank": 3900,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 7858,
+		"worstRank": 9594,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "AP-HM",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 6416,
+		"worstRank": 9580,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "AP-HM",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1943,
+		"worstRank": 1943,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "NICE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1369,
+		"worstRank": 2571,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "NICE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 336,
+		"worstRank": 336,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4136,
+		"worstRank": 4136,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 1349,
+		"worstRank": 1349,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 1094,
+		"worstRank": 3303,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 1192,
+		"worstRank": 2996,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "NICE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "NICE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 573,
+		"worstRank": 831,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 786,
+		"worstRank": 786,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 2224,
+		"worstRank": 2224,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6369,
+		"worstRank": 6369,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 2034,
+		"worstRank": 2034,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 622,
+		"worstRank": 1837,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "NICE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 248,
+		"worstRank": 370,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 747,
+		"worstRank": 5223,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 4686,
+		"worstRank": 4686,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 4870,
+		"worstRank": 9429,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "NICE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1409,
+		"worstRank": 1409,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 3250,
+		"worstRank": 3250,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2527,
+		"worstRank": 3217,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 2272,
+		"worstRank": 2272,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 872,
+		"worstRank": 1427,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 152,
+		"worstRank": 7740,
+		"available": 0,
+		"fulfilled": 72,
+		"asked": 72,
+		"city": "NICE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 3414,
+		"worstRank": 4137,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4892,
+		"worstRank": 4912,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6358,
+		"worstRank": 6358,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 578,
+		"worstRank": 578,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 4936,
+		"worstRank": 5006,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 5492,
+		"worstRank": 7215,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 3548,
+		"worstRank": 6059,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "NICE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3596,
+		"worstRank": 3596,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 37,
+		"worstRank": 37,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 1987,
+		"worstRank": 2751,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1734,
+		"worstRank": 2890,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 726,
+		"worstRank": 4943,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "NICE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 2626,
+		"worstRank": 3768,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 5241,
+		"worstRank": 9367,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "NICE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 97,
+		"worstRank": 1744,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "NICE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 3372,
+		"worstRank": 3414,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 8137,
+		"worstRank": 8137,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "NICE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 4461,
+		"worstRank": 5356,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "NICE",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 131,
+		"worstRank": 131,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "BORDEAUX",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1378,
+		"worstRank": 2259,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BORDEAUX",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 2605,
+		"worstRank": 3457,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BORDEAUX",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 211,
+		"worstRank": 211,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 3744,
+		"worstRank": 3744,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 1502,
+		"worstRank": 1502,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 3323,
+		"worstRank": 3697,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BORDEAUX",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 315,
+		"worstRank": 2722,
+		"available": 0,
+		"fulfilled": 11,
+		"asked": 11,
+		"city": "BORDEAUX",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 2773,
+		"worstRank": 3618,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BORDEAUX",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 159,
+		"worstRank": 877,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "BORDEAUX",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 870,
+		"worstRank": 1186,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BORDEAUX",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 883,
+		"worstRank": 1638,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BORDEAUX",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6336,
+		"worstRank": 6336,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 399,
+		"worstRank": 2075,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BORDEAUX",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 11,
+		"worstRank": 616,
+		"available": 0,
+		"fulfilled": 20,
+		"asked": 20,
+		"city": "BORDEAUX",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 89,
+		"worstRank": 863,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BORDEAUX",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 2388,
+		"worstRank": 4146,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BORDEAUX",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 5801,
+		"worstRank": 5801,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 1308,
+		"worstRank": 5763,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BORDEAUX",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1592,
+		"worstRank": 3840,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BORDEAUX",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4995,
+		"worstRank": 5123,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BORDEAUX",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 262,
+		"worstRank": 1967,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "BORDEAUX",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 226,
+		"worstRank": 1338,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BORDEAUX",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 3,
+		"worstRank": 383,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "BORDEAUX",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 389,
+		"worstRank": 9008,
+		"available": 0,
+		"fulfilled": 158,
+		"asked": 158,
+		"city": "BORDEAUX",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 2912,
+		"worstRank": 3796,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "BORDEAUX",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 1274,
+		"worstRank": 5299,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BORDEAUX",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 3729,
+		"worstRank": 3729,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 55,
+		"worstRank": 55,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "BORDEAUX",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2670,
+		"worstRank": 4835,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BORDEAUX",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 4729,
+		"worstRank": 9232,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BORDEAUX",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 442,
+		"worstRank": 6087,
+		"available": 0,
+		"fulfilled": 22,
+		"asked": 22,
+		"city": "BORDEAUX",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 3498,
+		"worstRank": 3759,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "BORDEAUX",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 274,
+		"worstRank": 1151,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "BORDEAUX",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 461,
+		"worstRank": 1656,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "BORDEAUX",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 477,
+		"worstRank": 1100,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "BORDEAUX",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 297,
+		"worstRank": 4131,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "BORDEAUX",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 335,
+		"worstRank": 937,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BORDEAUX",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 1314,
+		"worstRank": 8270,
+		"available": 0,
+		"fulfilled": 22,
+		"asked": 22,
+		"city": "BORDEAUX",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 86,
+		"worstRank": 1051,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "BORDEAUX",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 604,
+		"worstRank": 1888,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "BORDEAUX",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 4992,
+		"worstRank": 9700,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "BORDEAUX",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 5825,
+		"worstRank": 7719,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "BORDEAUX",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1497,
+		"worstRank": 2572,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4952,
+		"worstRank": 4952,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4013,
+		"worstRank": 4385,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 3167,
+		"worstRank": 3629,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LAREUNION",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 1496,
+		"worstRank": 1496,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 158,
+		"worstRank": 1560,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LAREUNION",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 401,
+		"worstRank": 653,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4302,
+		"worstRank": 5259,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 1,
+		"fulfilled": 0,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 4101,
+		"worstRank": 4231,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5712,
+		"worstRank": 5712,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 631,
+		"worstRank": 3210,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1976,
+		"worstRank": 1976,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 215,
+		"worstRank": 2179,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LAREUNION",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 958,
+		"worstRank": 8440,
+		"available": 0,
+		"fulfilled": 75,
+		"asked": 75,
+		"city": "LAREUNION",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 1112,
+		"worstRank": 1112,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 4462,
+		"worstRank": 6292,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2601,
+		"worstRank": 2601,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 1436,
+		"worstRank": 5368,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "LAREUNION",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LAREUNION",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 3473,
+		"worstRank": 3712,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2511,
+		"worstRank": 2735,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3901,
+		"worstRank": 3947,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 829,
+		"worstRank": 3442,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LAREUNION",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 3786,
+		"worstRank": 4104,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 3036,
+		"worstRank": 6022,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "LAREUNION",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 1439,
+		"worstRank": 2596,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LAREUNION",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 3353,
+		"worstRank": 3353,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LAREUNION",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 9723,
+		"worstRank": 9723,
+		"available": 1,
+		"fulfilled": 1,
+		"asked": 2,
+		"city": "LAREUNION",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 69,
+		"worstRank": 69,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": 2737,
+		"worstRank": 2737,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 1059,
+		"worstRank": 1554,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 1206,
+		"worstRank": 1206,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 276,
+		"worstRank": 276,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4390,
+		"worstRank": 4390,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": 3849,
+		"worstRank": 3849,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 657,
+		"worstRank": 1632,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOULOUSE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 1291,
+		"worstRank": 1832,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "TOULOUSE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 1459,
+		"worstRank": 2267,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOULOUSE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 28,
+		"worstRank": 472,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOULOUSE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 348,
+		"worstRank": 558,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOULOUSE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 1623,
+		"worstRank": 2110,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOULOUSE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6373,
+		"worstRank": 6373,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 314,
+		"worstRank": 1467,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOULOUSE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 32,
+		"worstRank": 1829,
+		"available": 0,
+		"fulfilled": 23,
+		"asked": 23,
+		"city": "TOULOUSE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 65,
+		"worstRank": 632,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 1847,
+		"worstRank": 5063,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 5308,
+		"worstRank": 5308,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 3058,
+		"worstRank": 8870,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "TOULOUSE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 419,
+		"worstRank": 2973,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOULOUSE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 4986,
+		"worstRank": 4986,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 665,
+		"worstRank": 2142,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "TOULOUSE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 267,
+		"worstRank": 876,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "TOULOUSE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 326,
+		"worstRank": 1530,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "TOULOUSE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 341,
+		"worstRank": 9296,
+		"available": 0,
+		"fulfilled": 153,
+		"asked": 153,
+		"city": "TOULOUSE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 377,
+		"worstRank": 3847,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 1766,
+		"worstRank": 5374,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 1372,
+		"worstRank": 1372,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 948,
+		"worstRank": 948,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "TOULOUSE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 2320,
+		"worstRank": 4052,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 9293,
+		"worstRank": 10500,
+		"available": 1,
+		"fulfilled": 5,
+		"asked": 6,
+		"city": "TOULOUSE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 799,
+		"worstRank": 5504,
+		"available": 0,
+		"fulfilled": 25,
+		"asked": 25,
+		"city": "TOULOUSE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 2234,
+		"worstRank": 3416,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "TOULOUSE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 457,
+		"worstRank": 3095,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 950,
+		"worstRank": 2168,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "TOULOUSE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 1152,
+		"worstRank": 2859,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 2265,
+		"worstRank": 4762,
+		"available": 0,
+		"fulfilled": 12,
+		"asked": 12,
+		"city": "TOULOUSE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 1162,
+		"worstRank": 3153,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 581,
+		"worstRank": 9539,
+		"available": 0,
+		"fulfilled": 24,
+		"asked": 24,
+		"city": "TOULOUSE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 216,
+		"worstRank": 1900,
+		"available": 0,
+		"fulfilled": 10,
+		"asked": 10,
+		"city": "TOULOUSE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 818,
+		"worstRank": 2624,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9031,
+		"worstRank": 9494,
+		"available": 1,
+		"fulfilled": 2,
+		"asked": 3,
+		"city": "TOULOUSE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 6098,
+		"worstRank": 8572,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "TOULOUSE",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": 1985,
+		"worstRank": 1985,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LIMOGES",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 2659,
+		"worstRank": 3425,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4775,
+		"worstRank": 4775,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": 1125,
+		"worstRank": 1125,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": 4926,
+		"worstRank": 4926,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LIMOGES",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4802,
+		"worstRank": 4915,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 4176,
+		"worstRank": 4489,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LIMOGES",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4725,
+		"worstRank": 4725,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 1004,
+		"worstRank": 1719,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 2791,
+		"worstRank": 3358,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3770,
+		"worstRank": 3770,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": 6608,
+		"worstRank": 6608,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 718,
+		"worstRank": 4164,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 1129,
+		"worstRank": 3648,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "LIMOGES",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 1326,
+		"worstRank": 1732,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 4316,
+		"worstRank": 4779,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "LIMOGES",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 8113,
+		"worstRank": 8113,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 1003,
+		"worstRank": 4188,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5520,
+		"worstRank": 5520,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 2309,
+		"worstRank": 4219,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LIMOGES",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 4431,
+		"worstRank": 4431,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": 2884,
+		"worstRank": 3142,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LIMOGES",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 2518,
+		"worstRank": 9711,
+		"available": 0,
+		"fulfilled": 66,
+		"asked": 66,
+		"city": "LIMOGES",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4696,
+		"worstRank": 4970,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 5016,
+		"worstRank": 6772,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 6803,
+		"worstRank": 6803,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 2040,
+		"worstRank": 2040,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5289,
+		"worstRank": 5653,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 2748,
+		"worstRank": 7704,
+		"available": 0,
+		"fulfilled": 7,
+		"asked": 7,
+		"city": "LIMOGES",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4283,
+		"worstRank": 4514,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 4256,
+		"worstRank": 4572,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 2392,
+		"worstRank": 4626,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3585,
+		"worstRank": 4359,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LIMOGES",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 5009,
+		"worstRank": 6246,
+		"available": 0,
+		"fulfilled": 5,
+		"asked": 5,
+		"city": "LIMOGES",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 4660,
+		"worstRank": 4752,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "LIMOGES",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 2506,
+		"worstRank": 8039,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "LIMOGES",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 2647,
+		"worstRank": 3137,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "LIMOGES",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 1685,
+		"worstRank": 4676,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 1,
+		"fulfilled": 0,
+		"asked": 1,
+		"city": "LIMOGES",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "LIMOGES",
+		"specialty": "BM"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "CMF"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "COR"
+	},
+	{
+		"bestRank": 3467,
+		"worstRank": 3573,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "COT"
+	},
+	{
+		"bestRank": 4244,
+		"worstRank": 4244,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "CPD"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "CPR"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "CTC"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "CVA"
+	},
+	{
+		"bestRank": 4960,
+		"worstRank": 5078,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "CVD"
+	},
+	{
+		"bestRank": 2427,
+		"worstRank": 4408,
+		"available": 0,
+		"fulfilled": 4,
+		"asked": 4,
+		"city": "GUADELOUPE",
+		"specialty": "GYO"
+	},
+	{
+		"bestRank": 4011,
+		"worstRank": 4011,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "NCU"
+	},
+	{
+		"bestRank": 1412,
+		"worstRank": 1712,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "OPH"
+	},
+	{
+		"bestRank": 3119,
+		"worstRank": 3119,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "ORL"
+	},
+	{
+		"bestRank": 3784,
+		"worstRank": 3810,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "URO"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "ALL"
+	},
+	{
+		"bestRank": 4345,
+		"worstRank": 4771,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "ACP"
+	},
+	{
+		"bestRank": 920,
+		"worstRank": 2771,
+		"available": 0,
+		"fulfilled": 9,
+		"asked": 9,
+		"city": "GUADELOUPE",
+		"specialty": "ARE"
+	},
+	{
+		"bestRank": 1920,
+		"worstRank": 1920,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "DVE"
+	},
+	{
+		"bestRank": 5491,
+		"worstRank": 5491,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "EDN"
+	},
+	{
+		"bestRank": 8801,
+		"worstRank": 8801,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "GEN"
+	},
+	{
+		"bestRank": 8873,
+		"worstRank": 8873,
+		"available": 3,
+		"fulfilled": 1,
+		"asked": 4,
+		"city": "GUADELOUPE",
+		"specialty": "GER"
+	},
+	{
+		"bestRank": 2100,
+		"worstRank": 2147,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "GYM"
+	},
+	{
+		"bestRank": 5585,
+		"worstRank": 5585,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "HEM"
+	},
+	{
+		"bestRank": 3406,
+		"worstRank": 4234,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "HGE"
+	},
+	{
+		"bestRank": 1108,
+		"worstRank": 5064,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "MIT"
+	},
+	{
+		"bestRank": null,
+		"worstRank": null,
+		"available": null,
+		"fulfilled": null,
+		"asked": null,
+		"city": "GUADELOUPE",
+		"specialty": "MCA"
+	},
+	{
+		"bestRank": 1916,
+		"worstRank": 9716,
+		"available": 0,
+		"fulfilled": 70,
+		"asked": 70,
+		"city": "GUADELOUPE",
+		"specialty": "MGE"
+	},
+	{
+		"bestRank": 4267,
+		"worstRank": 4972,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "MIR"
+	},
+	{
+		"bestRank": 6407,
+		"worstRank": 6497,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "MII"
+	},
+	{
+		"bestRank": 7854,
+		"worstRank": 7854,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "MLE"
+	},
+	{
+		"bestRank": 3154,
+		"worstRank": 3154,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "NUC"
+	},
+	{
+		"bestRank": 5211,
+		"worstRank": 6155,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "MPR"
+	},
+	{
+		"bestRank": 8693,
+		"worstRank": 9684,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "MTR"
+	},
+	{
+		"bestRank": 5216,
+		"worstRank": 6251,
+		"available": 0,
+		"fulfilled": 6,
+		"asked": 6,
+		"city": "GUADELOUPE",
+		"specialty": "MUR"
+	},
+	{
+		"bestRank": 4555,
+		"worstRank": 4555,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "MVA"
+	},
+	{
+		"bestRank": 3964,
+		"worstRank": 4629,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "NEP"
+	},
+	{
+		"bestRank": 4715,
+		"worstRank": 4715,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "NEU"
+	},
+	{
+		"bestRank": 3659,
+		"worstRank": 3659,
+		"available": 0,
+		"fulfilled": 1,
+		"asked": 1,
+		"city": "GUADELOUPE",
+		"specialty": "ONC"
+	},
+	{
+		"bestRank": 3222,
+		"worstRank": 6094,
+		"available": 0,
+		"fulfilled": 8,
+		"asked": 8,
+		"city": "GUADELOUPE",
+		"specialty": "PED"
+	},
+	{
+		"bestRank": 4743,
+		"worstRank": 4877,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "PNE"
+	},
+	{
+		"bestRank": 7296,
+		"worstRank": 10500,
+		"available": 2,
+		"fulfilled": 5,
+		"asked": 7,
+		"city": "GUADELOUPE",
+		"specialty": "PSY"
+	},
+	{
+		"bestRank": 3014,
+		"worstRank": 3076,
+		"available": 0,
+		"fulfilled": 2,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "RAI"
+	},
+	{
+		"bestRank": 4947,
+		"worstRank": 5268,
+		"available": 0,
+		"fulfilled": 3,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "RHU"
+	},
+	{
+		"bestRank": 9549,
+		"worstRank": 9549,
+		"available": 2,
+		"fulfilled": 1,
+		"asked": 3,
+		"city": "GUADELOUPE",
+		"specialty": "SPU"
+	},
+	{
+		"bestRank": 0,
+		"worstRank": 0,
+		"available": 2,
+		"fulfilled": 0,
+		"asked": 2,
+		"city": "GUADELOUPE",
+		"specialty": "BM"
+	}
+]
