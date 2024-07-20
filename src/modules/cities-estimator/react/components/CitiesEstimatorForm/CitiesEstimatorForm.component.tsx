@@ -7,12 +7,14 @@ import { SPECIALTIES } from "@/modules/shared/domain/constants";
 import { Input } from "@/ui/Input/index.component";
 import { numberWithSpaces } from "@/modules/shared/utils/numbers.util";
 import { Button } from "@/ui/Button/index.component";
+import { useTranslations } from "next-intl";
 
 export const CitiesEstimatorForm = ({
 	onSubmit,
 }: {
 	onSubmit: (form: { rank: string; specialty: string; year: string }) => void;
 }) => {
+	const t = useTranslations("CitiesEstimator");
 	const [form, setForm] = useState({
 		rank: "",
 		specialty: "",
@@ -57,7 +59,7 @@ export const CitiesEstimatorForm = ({
 	return (
 		<form action="submit" className={styles.form} onSubmit={handleSubmit}>
 			<Input
-				label={"Votre rang"}
+				label={t("rank-label")}
 				name="rank"
 				placeholder="Entrez votre rang"
 				required
