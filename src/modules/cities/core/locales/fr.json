@@ -8,6 +8,7 @@
 		"specialty-placeholder": "Sélectionnez votre spécialité"
 	},
 	"CitiesRankListing": {
+		"go-to-specialties-listing": "Retour aux spécialités",
 		"listing-loading": "Récupération des données en cours…",
 		"listing-head-city": "Ville",
 		"listing-head-result": "Résultat",

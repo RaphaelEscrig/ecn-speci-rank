@@ -9,6 +9,8 @@ import { EstimateCitiesIWouldHaveUseCase } from "../../core/use-cases/estimate-c
 import app from "@/modules/app/main";
 /** NEXT-INTL */
 import { getTranslations } from "next-intl/server";
+import { ArrowLeft } from "react-feather";
+import { useTranslations } from "next-intl";
 
 type Props = {
 	readonly year?: number;
@@ -84,8 +86,15 @@ const Listing = async ({
 };
 
 const CitiesPage = ({ year, rank, specialty }: Props) => {
+	const t = useTranslations();
+
 	return (
 		<main id={styles.page}>
+			<a className={styles.goBack} href={`/specialties?year=${year}`}>
+				<ArrowLeft />
+				<span>{t("CitiesRankListing.go-to-specialties-listing")}</span>
+			</a>
+
 			<CitiesRankForm
 				rank={rank?.toString()}
 				specialty={specialty}

@@ -1,14 +1,33 @@
 #page {
-	padding: 20px;
-	max-width: 1100px;
+	padding: 1.25rem;
+	max-width: 68.75rem;
 	width: 100%;
 	margin: auto;
 	width: fit-content;
 }
 
+.goBack {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 30px;
+	font-size: 14px;
+
+	&:hover {
+		font-weight: 500;
+	}
+
+	svg {
+		position: relative;
+		top: 1px;
+		width: 18px;
+		height: 18px;
+	}
+}
+
 .listingContainer {
-	margin: 25px auto 0;
-	border: 1px solid #eaecf0;
+	margin: 1.5625rem auto 0;
+	border: 0.0625rem solid #eaecf0;
 	border-radius: 15px;
 }
 
@@ -16,8 +35,8 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 100px 60px 40px 80px;
-	gap: 10px;
+	grid-template-columns: 6.25rem 3.75rem 2.5rem 5rem;
+	gap: 0.625rem;
 
 	span {
 		color: #1b2559;
@@ -31,7 +50,7 @@
 
 .listingHead {
 	span {
-		font-size: 12px;
+		font-size: 0.75rem;
 		font-weight: 500;
 	}
 }
@@ -39,10 +58,10 @@
 .listingContentRow {
 	transition: all 0.2s ease-in-out;
 	align-items: center;
-	border-top: 0.0625rem solid #eaecf0;
+	border-top: 1px solid #eaecf0;
 
 	&:last-child {
-		border-radius: 0 0 15px 15px;
+		border-radius: 0 0 0.9375rem 0.9375rem;
 	}
 
 	&[data-would-have-it="true"] {
@@ -61,11 +80,11 @@
 	.listingContentRowFirstRank,
 	.listingContentMyRank,
 	.listingContentRowLastRank {
-		padding-left: 10px;
+		padding-left: 0.625rem;
 	}
 
 	a {
-		font-size: 12px;
+		font-size: 0.75rem;
 		text-align: center;
 
 		&:hover {
@@ -74,17 +93,17 @@
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
 	.listingHead,
 	.listingContentRow {
-		padding: 0.625rem 1.25rem;
-		gap: 20px;
-		grid-template-columns: 250px 150px 100px 100px 100px 100px;
+		padding: 10px 20px;
+		gap: 1.25rem;
+		grid-template-columns: 15.625rem 9.375rem 6.25rem 6.25rem 6.25rem 6.25rem;
 	}
 
 	.listingHead {
 		span {
-			font-size: 0.875rem;
+			font-size: 14px;
 			font-weight: 500;
 		}
 	}
@@ -95,12 +114,12 @@
 	}
 
 	.listingContentRow {
-		padding-top: 14px;
-		padding-bottom: 14px;
+		padding-top: 0.875rem;
+		padding-bottom: 0.875rem;
 		transition: all 0.2s ease-in-out;
-		height: 70px;
+		height: 4.375rem;
 		align-items: center;
-		border-top: 0.0625rem solid #eaecf0;
+		border-top: 1px solid #eaecf0;
 
 		&:hover {
 			transform: scale(1.01);
@@ -108,7 +127,7 @@
 		}
 
 		a {
-			font-size: 14px;
+			font-size: 0.875rem;
 		}
 	}
 }
