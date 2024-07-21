@@ -1,8 +1,10 @@
 /** PORTS */
 import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
+import type { ICitiesGateway } from "@/modules/cities/core/domain/ports/cities.port";
 
 export type Dependencies = {
 	specialtiesGateway: ISpecialtiesGateway;
+	citiesGateway: ICitiesGateway;
 };
 
 export type SpecialtyCode =

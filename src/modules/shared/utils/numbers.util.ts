@@ -15,9 +15,13 @@ export const numberWithSpaces = (number: number | string): string => {
 };
 
 export const numberWithoutSpaces = (numberToCast: string | number): number => {
+	return castStringNumberToNumber(numberToCast.toString());
+};
+
+export const castStringNumberToNumber = (numberToCast: string): number => {
 	let numberToReturn = 0;
 
-	numberToCast = numberToCast.toString().replace(/\s/g, "");
+	numberToCast = numberToCast.replace(/\s/g, "");
 
 	if (numberToCast.indexOf(".") !== -1) {
 		numberToReturn = parseFloat(numberToCast);

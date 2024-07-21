@@ -11,6 +11,9 @@ dependencies:
   '@radix-ui/react-select':
     specifier: ^2.1.1
     version: 2.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+  immer:
+    specifier: ^10.1.1
+    version: 10.1.1
   next:
     specifier: 14.2.5
     version: 14.2.5(@babel/core@7.24.9)(react-dom@18.3.1)(react@18.3.1)(sass@1.77.8)
@@ -26,6 +29,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.3.1(react@18.3.1)
+  react-feather:
+    specifier: ^2.0.10
+    version: 2.0.10(react@18.3.1)
   react-select:
     specifier: ^5.8.0
     version: 5.8.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
@@ -35,6 +41,9 @@ dependencies:
   sass:
     specifier: ^1.77.8
     version: 1.77.8
+  zod:
+    specifier: ^3.23.8
+    version: 3.23.8
 
 devDependencies:
   '@types/jest':
@@ -3344,6 +3353,10 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immer@10.1.1:
+    resolution: {integrity: sha512-s2MPrmjovJcoMaHtx6K11Ra7oD05NT97w1IC5zpMkT6Atjr7H8LjaDd81iIxUYpMKSRRNMJE703M1Fhr/TctHw==}
+    dev: false
+
   /immutable@4.3.6:
     resolution: {integrity: sha512-Ju0+lEMyzMVZarkTn/gqRpdqd5dOPaz1mCZ0SH3JV6iFw81PldE/PEB1hWVEA288HPt4WXW8O7AWxB10M+03QQ==}
     dev: false
@@ -4681,6 +4694,15 @@ packages:
       scheduler: 0.23.2
     dev: false
 
+  /react-feather@2.0.10(react@18.3.1):
+    resolution: {integrity: sha512-BLhukwJ+Z92Nmdcs+EMw6dy1Z/VLiJTzEQACDUEnWMClhYnFykJCGWQx+NmwP/qQHGX/5CzQ+TGi8ofg2+HzVQ==}
+    peerDependencies:
+      react: '>=16.8.6'
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.3.1
+    dev: false
+
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -5639,3 +5661,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+    dev: false

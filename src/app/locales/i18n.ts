@@ -6,7 +6,7 @@ export default getRequestConfig(async () => {
 	// read from `cookies()`, `headers()`, etc.
 	const locale = "fr";
 
-	const modules = ["specialties", "shared"];
+	const modules = ["cities", "specialties", "shared"];
 
 	const modulesMessages = await Promise.all(
 		modules.map(
