@@ -1,29 +1,62 @@
 "use client";
 
-import { ChangeEvent, type FormEvent, useId } from "react";
+import { type FormEvent, useEffect, useId, useState } from "react";
 import styles from "./cities-rank-form.module.scss";
+import { usePathname, useRouter } from "next/navigation";
 /** COMPONENTS */
 import { Button } from "@/ui/Button/index.component";
 import { Input } from "@/ui/Input/index.component";
 /** FORMS */
 import { useCitiesRankForm } from "@/modules/cities/react/hooks/use-cities-rank-form.hook";
+/** MODELS */
+import type { CityRank } from "@/modules/cities/core/domain/models";
+import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** NEXT-INTL */
 import { useTranslations } from "next-intl";
 /** REACT SELECT */
 import Select from "react-select";
 /** UTILS */
-import { numberWithSpaces } from "@/modules/shared/utils/numbers.util";
+import {
+	castStringNumberToNumber,
+	numberWithSpaces,
+} from "@/modules/shared/utils/numbers.util";
 
-const CitiesRankForm = () => {
-	const { isValid, years, specialties, form, update, validate } =
+const CitiesRankForm = ({
+	rank,
+	year,
+	specialty,
+}: {
+	rank?: string;
+	year?: string;
+	specialty?: SpecialtyCode;
+}) => {
+	const pathname = usePathname();
+	const { replace } = useRouter();
+	const { isValid, years, specialties, form, update, reset } =
 		useCitiesRankForm();
 	const id = useId();
 	const t = useTranslations();
 
+	useEffect(() => {
+		reset({
+			rank: rank ?? "",
+			year: year ?? "",
+			specialty: specialty ?? "",
+		});
+	}, [rank, year, specialty, reset]);
+
 	const handleSubmit = (event: FormEvent): void => {
 		event.preventDefault();
 
-		console.log(isValid);
+		if (isValid) {
+			const params = new URLSearchParams();
+
+			params.set("rank", castStringNumberToNumber(form.rank).toString()); // Because form.rank can be "1 289"
+			params.set("year", form.year);
+			params.set("specialty", form.specialty);
+
+			replace(`${pathname}?${params.toString()}`);
+		}
 	};
 
 	return (

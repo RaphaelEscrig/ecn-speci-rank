@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 /** CONSTANTS */
 import { SPECIALTIES_YEARS } from "@/modules/specialties/core/domain/constants";
 import { SPECIALTIES } from "@/modules/shared/domain/constants";
@@ -53,12 +53,17 @@ export const useCitiesRankForm = () => {
 		return isValid;
 	};
 
+	const reset = useCallback((data: Partial<CityRank.Form>): void => {
+		setForm((current) => ({ ...current, ...data }));
+	}, []);
+
 	return {
 		years,
 		specialties,
 		errors,
 		form,
 		isValid: isValid(),
+		reset,
 		validate,
 		update,
 	};
