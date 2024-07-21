@@ -96,7 +96,7 @@ const CitiesEstimator = () => {
 
 					<div className={styles.cities}>
 						{cities.map((city, index) => (
-							<CityCard city={city} key={index} />
+							<CityCard key={index} city={city} />
 						))}
 					</div>
 				</>

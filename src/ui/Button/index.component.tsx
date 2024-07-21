@@ -50,11 +50,11 @@ export function Button({
 }: ButtonProps): JSX.Element {
 	return (
 		<button
-			type={type}
 			className={`button ${variant}
-${className ?? ""}`.trim()}
-			style={style}
+				type={type}
+				${className ?? ""}`.trim()}
 			disabled={disabled}
+			style={style}
 			onClick={onClick}
 		>
 			{children}

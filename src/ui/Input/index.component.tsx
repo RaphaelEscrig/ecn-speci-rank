@@ -59,15 +59,15 @@ export function Input({
 				<div>
 					{icon && <div className="input-icon">{icon}</div>}
 					<input
-						required={required}
+						disabled={disabled}
 						name={name}
+						placeholder={placeholder}
+						required={required}
+						style={{ paddingLeft: icon ? "35px" : "12px" }}
 						type={type}
 						value={value ?? ""}
-						placeholder={placeholder}
-						onChange={handleChange}
 						onBlur={handleBlur}
-						style={{ paddingLeft: icon ? "35px" : "12px" }}
-						disabled={disabled}
+						onChange={handleChange}
 					/>
 				</div>
 			</label>
