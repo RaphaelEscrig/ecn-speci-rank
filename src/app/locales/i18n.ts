@@ -1,3 +1,4 @@
+/** NEXT-INTL */
 import { getRequestConfig } from "next-intl/server";
 
 export default getRequestConfig(async () => {
@@ -5,8 +6,21 @@ export default getRequestConfig(async () => {
 	// read from `cookies()`, `headers()`, etc.
 	const locale = "fr";
 
+	const modules = ["specialties", "shared"];
+
+	const modulesMessages = await Promise.all(
+		modules.map(
+			async (module) =>
+				(
+					await import(`../../modules/${module}/core/locales/${locale}.json`)
+				).default
+		)
+	);
+
 	return {
 		locale,
-		messages: (await import(`./messages/${locale}.json`)).default,
+		messages: modulesMessages.reduce((accumulator, currentObject) => {
+			return { ...accumulator, ...currentObject };
+		}, {}),
 	};
 });

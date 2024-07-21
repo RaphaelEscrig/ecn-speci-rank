@@ -1,0 +1,10 @@
+{
+	"cSpell.words": [
+		"linebreak"
+	],
+	"i18n-ally.localesPaths": [
+		"src/app/locales",
+		"src/modules/shared/core/locales",
+		"src/modules/specialties/core/locales"
+	]
+}

@@ -1,4 +1,7 @@
-export const SPECIALTIES = new Map([
+/** MODELS */
+import type { SpecialtyCode } from "../models";
+
+export const SPECIALTIES = new Map<string, SpecialtyCode>([
 	["En attente de publication", "ATT"],
 	["Chirurgie maxillo-faciale", "CMF"],
 	["Chirurgie orale", "COR"],
