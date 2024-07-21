@@ -23,12 +23,10 @@ export const useCitiesRankForm = () => {
 		SPECIALTIES_YEARS.map((year) => ({ label: year, value: year.toString() }))
 	);
 	const [specialties] = useState(
-		Array.from(
-			SPECIALTIES.values().map((specialty) => ({
-				label: specialty,
-				value: specialty,
-			}))
-		)
+		Array.from(SPECIALTIES.values()).map((specialty) => ({
+			label: specialty,
+			value: specialty,
+		}))
 	);
 
 	const update = <T extends keyof CityRank.Form>(

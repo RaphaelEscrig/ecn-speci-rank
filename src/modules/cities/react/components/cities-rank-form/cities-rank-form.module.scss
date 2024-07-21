@@ -83,5 +83,20 @@
 }
 
 .button {
+	cursor: pointer;
 	margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.form {
+		display: grid;
+		flex-direction: row;
+		max-width: 100%;
+		grid-template-columns: repeat(3, 1fr) 200px;
+	}
+
+	.button {
+		margin: auto 0 0;
+		height: 44px;
+	}
 }

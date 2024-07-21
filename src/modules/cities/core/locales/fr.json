@@ -6,5 +6,15 @@
 		"year-placeholder": "Sélectionnez une année",
 		"specialty-label": "Spécialité",
 		"specialty-placeholder": "Sélectionnez votre spécialité"
+	},
+	"CitiesRankListing": {
+		"listing-head-city": "Ville",
+		"listing-head-result": "Résultat",
+		"listing-head-places": "Places",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-my-rank": "Mon rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-result-success": "Obtenu",
+		"listing-result-failed": "Refusé"
 	}
 }

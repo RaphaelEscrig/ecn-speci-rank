@@ -1,0 +1,114 @@
+#page {
+	padding: 20px;
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+	width: fit-content;
+}
+
+.listingContainer {
+	margin: 25px auto 0;
+	border: 1px solid #eaecf0;
+	border-radius: 15px;
+}
+
+.listingHead,
+.listingContentRow {
+	padding: 0.625rem;
+	display: grid;
+	grid-template-columns: 100px 60px 40px 80px;
+	gap: 10px;
+
+	span {
+		color: #1b2559;
+	}
+}
+
+.listingContentFirstRank,
+.listingContentMyRank {
+	display: none;
+}
+
+.listingHead {
+	span {
+		font-size: 12px;
+		font-weight: 500;
+	}
+}
+
+.listingContentRow {
+	transition: all 0.2s ease-in-out;
+	align-items: center;
+	border-top: 0.0625rem solid #eaecf0;
+
+	&:last-child {
+		border-radius: 0 0 15px 15px;
+	}
+
+	&[data-would-have-it="true"] {
+		background-color: #e6faf5;
+	}
+	&[data-would-have-it="false"] {
+		background-color: #fffae9;
+	}
+
+	.listingContentRowCity {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.listingContentRowPlaces,
+	.listingContentRowFirstRank,
+	.listingContentMyRank,
+	.listingContentRowLastRank {
+		padding-left: 10px;
+	}
+
+	a {
+		font-size: 12px;
+		text-align: center;
+
+		&:hover {
+			font-weight: 500;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.listingHead,
+	.listingContentRow {
+		padding: 0.625rem 1.25rem;
+		gap: 20px;
+		grid-template-columns: 250px 150px 100px 100px 100px 100px;
+	}
+
+	.listingHead {
+		span {
+			font-size: 0.875rem;
+			font-weight: 500;
+		}
+	}
+
+	.listingContentFirstRank,
+	.listingContentMyRank {
+		display: block;
+	}
+
+	.listingContentRow {
+		padding-top: 14px;
+		padding-bottom: 14px;
+		transition: all 0.2s ease-in-out;
+		height: 70px;
+		align-items: center;
+		border-top: 0.0625rem solid #eaecf0;
+
+		&:hover {
+			transform: scale(1.01);
+			z-index: 2;
+		}
+
+		a {
+			font-size: 14px;
+		}
+	}
+}
