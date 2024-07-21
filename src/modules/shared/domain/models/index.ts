@@ -1,3 +1,10 @@
+/** PORTS */
+import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
+
+export type Dependencies = {
+	specialtiesGateway: ISpecialtiesGateway;
+};
+
 export type SpecialtyCode =
 	| "ATT"
 	| "CMF"

@@ -1,32 +1,19 @@
 import Link from "next/link";
 import styles from "./specialties-listing.module.scss";
+/** ADAPTERS */
+import app from "@/modules/app/main";
 /** MODELS */
 import type { Specialty } from "@/modules/specialties/core/domain/models";
 /** NEXT-INTL */
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+/** USE CASES */
+import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
-const SpecialtiesListingPage = () => {
-	const t = useTranslations();
-	const data: Specialty.PerYear[] = [
-		{
-			code: "CMF",
-			places: 21,
-			bestRank: 89,
-			worstRank: 1800,
-		},
-		{
-			code: "CMF",
-			places: 21,
-			bestRank: 89,
-			worstRank: 1800,
-		},
-		{
-			code: "CMF",
-			places: 21,
-			bestRank: 89,
-			worstRank: 1800,
-		},
-	];
+const SpecialtiesListingPage = async () => {
+	const { specialties } = await new FindSpecialtiesPerYearUseCase(
+		app.dependencies.specialtiesGateway
+	).execute({ year: 2023 });
+	const t = await getTranslations();
 
 	return (
 		<main id={styles.page}>
@@ -42,23 +29,23 @@ const SpecialtiesListingPage = () => {
 				</div>
 
 				<div className={styles.listingContent}>
-					{data.map((data, index) => (
+					{specialties.map((specialty, index) => (
 						<div key={index} className={styles.listingContentRow}>
 							<div className={styles.listingContentSpecialty}>
-								<span>{data.code}</span>
+								<span>{specialty.code}</span>
 								<span className={styles.listingContentSpecialtyFullName}>
 									{" "}
-									- {t(`shared.specialties.${data.code}`)}
+									- {t(`shared.specialties.${specialty.code}`)}
 								</span>
 							</div>
 							<span className={styles.listingContentRowPlaces}>
-								{data.places}
+								{specialty.places}
 							</span>
 							<span className={styles.listingContentFirstRank}>
-								{data.bestRank}
+								{specialty.bestRank}
 							</span>
 							<span className={styles.listingContentRowLastRank}>
-								{data.worstRank}
+								{specialty.worstRank}
 							</span>
 							<Link href={"/cities"}>
 								{t("SpecialtiesListingPage.listing-see-cities")}
