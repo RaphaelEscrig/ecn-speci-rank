@@ -1,0 +1,10 @@
+{
+	"CitiesRankForm": {
+		"rank-label": "Classement",
+		"rank-placeholder": "Entrez votre classement",
+		"year-label": "Année des résultats",
+		"year-placeholder": "Sélectionnez une année",
+		"specialty-label": "Spécialité",
+		"specialty-placeholder": "Sélectionnez votre spécialité"
+	}
+}
