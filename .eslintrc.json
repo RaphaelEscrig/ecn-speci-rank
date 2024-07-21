@@ -1,3 +1,43 @@
 {
-	"extends": "next/core-web-vitals"
+	"extends": "next/core-web-vitals",
+	"parser": "@typescript-eslint/parser",
+	"globals": {
+		"React": true,
+		"JSX": true
+	},
+	"plugins": ["react", "@typescript-eslint"],
+	"ignorePatterns": ["node_modules/", "dist/"],
+	"rules": {
+		"@next/next/no-html-link-for-pages": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/no-unknown-property": "warn",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"ignoredNodes": ["ClassDeclaration"],
+				"SwitchCase": 1,
+				"offsetTernaryExpressions": true,
+				"flatTernaryExpressions": true,
+				"CallExpression": { "arguments": "off" },
+				"FunctionDeclaration": { "body": 1, "parameters": "first" },
+				"FunctionExpression": { "body": 1, "parameters": "first" }
+			}
+		],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "double"],
+		"semi": ["error", "always"],
+		"@typescript-eslint/consistent-type-imports": "error",
+		"react/jsx-sort-props": [
+			"error",
+			{
+				"callbacksLast": true,
+				"shorthandFirst": false,
+				"shorthandLast": false,
+				"ignoreCase": true,
+				"noSortAlphabetically": false,
+				"reservedFirst": ["key"]
+			}
+		]
+	}
 }

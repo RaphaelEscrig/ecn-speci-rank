@@ -1,0 +1,12 @@
+{
+	"SpecialtiesListingPage": {
+		"listing-loading": "Récupération des données en cours…",
+		"listing-select-year-label": "Année",
+		"listing-select-year-placeholder": "Sélectionnez l'année",
+		"listing-head-specialty": "Spécialité",
+		"listing-head-places": "Places",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-see-cities": "Voir les villes"
+	}
+}

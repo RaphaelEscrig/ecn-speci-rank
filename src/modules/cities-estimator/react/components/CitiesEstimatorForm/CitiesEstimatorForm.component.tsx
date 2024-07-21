@@ -1,5 +1,5 @@
 "use client";
-import { FormEvent, useId, useState } from "react";
+import { type FormEvent, useId, useState } from "react";
 import styles from "./CitiesEstimatorForm.module.scss";
 /** REACT SELECT */
 import Select from "react-select";
