@@ -1,12 +1,18 @@
 #page {
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-content: center;
+	// gap: 20px;
 	padding: 20px;
+	max-width: 1100px;
+	margin: auto;
 }
 
-.container {
-	margin: auto;
+.listingContainer {
+	margin: 25px auto 0;
 	border: 1px solid #eaecf0;
 	border-radius: 15px;
-	max-width: 1100px;
 }
 
 .listingHead,
