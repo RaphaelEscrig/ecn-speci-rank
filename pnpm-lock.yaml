@@ -17,6 +17,9 @@ dependencies:
   next-intl:
     specifier: ^3.17.2
     version: 3.17.2(next@14.2.5)(react@18.3.1)
+  postgres:
+    specifier: ^3.4.4
+    version: 3.4.4
   react:
     specifier: ^18
     version: 18.3.1
@@ -4619,6 +4622,11 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.1
       source-map-js: 1.2.0
+    dev: false
+
+  /postgres@3.4.4:
+    resolution: {integrity: sha512-IbyN+9KslkqcXa8AO9fxpk97PA4pzewvpi2B3Dwy9u4zpV32QicaEdgmF3eSQUzdRk7ttDHQejNgAEr4XoeH4A==}
+    engines: {node: '>=12'}
     dev: false
 
   /prelude-ls@1.2.1:

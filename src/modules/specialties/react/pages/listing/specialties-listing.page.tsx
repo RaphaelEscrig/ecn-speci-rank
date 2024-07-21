@@ -1,5 +1,5 @@
 import styles from "./specialties-listing.module.scss";
-import { Suspense } from "react";
+import { cache, Suspense } from "react";
 import Link from "next/link";
 /** ADAPTERS */
 import app from "@/modules/app/main";
@@ -11,10 +11,15 @@ import { getTranslations } from "next-intl/server";
 /** USE CASES */
 import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
-const Listing = async () => {
-	const { specialties } = await new FindSpecialtiesPerYearUseCase(
-		app.dependencies.specialtiesGateway
-	).execute({ year: 2023 });
+const getCachedListing = cache(
+	async (year: number) =>
+		await new FindSpecialtiesPerYearUseCase(
+			app.dependencies.specialtiesGateway
+		).execute({ year })
+);
+
+const Listing = async ({ year }: { year: number }) => {
+	const { specialties } = await getCachedListing(year);
 	const t = await getTranslations();
 
 	return (
@@ -33,10 +38,10 @@ const Listing = async () => {
 				{specialties.map((specialty, index) => (
 					<div key={index} className={styles.listingContentRow}>
 						<div className={styles.listingContentSpecialty}>
-							<span>{specialty.code}</span>
+							<span>{specialty.specialty}</span>
 							<span className={styles.listingContentSpecialtyFullName}>
 								{" "}
-								- {t(`shared.specialties.${specialty.code}`)}
+								- {t(`shared.specialties.${specialty.specialty}`)}
 							</span>
 						</div>
 						<span className={styles.listingContentRowPlaces}>
@@ -63,7 +68,7 @@ const SpecialtiesListingPage = ({ year }: { year: number }) => {
 		<main id={styles.page}>
 			<SpecialtiesListingFilters year={year} />
 			<Suspense fallback={<SpecialtiesListingLoader />}>
-				<Listing />
+				<Listing year={year} />
 			</Suspense>
 		</main>
 	);
