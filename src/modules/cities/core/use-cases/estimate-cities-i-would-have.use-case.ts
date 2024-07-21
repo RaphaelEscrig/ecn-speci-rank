@@ -22,8 +22,6 @@ export class EstimateCitiesIWouldHaveUseCase {
 			.find(rank, specialty, year)
 			.then((res) => res.sort((a, b) => a.bestRank - b.bestRank));
 
-		console.log(cities);
-
 		const citiesWithRankResult: CityRank.CityWithRankResult[] = cities.map(
 			(city) => {
 				let wouldHaveIt = false;

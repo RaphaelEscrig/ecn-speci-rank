@@ -1,6 +1,7 @@
 import styles from "./cities.module.scss";
 /** COMPONENTS */
 import CitiesRankForm from "@/modules/cities/react/components/cities-rank-form/cities-rank-form.component";
+import CitiesListingLoader from "../components/cities-listing-loader/cities-listing-loader.component";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import { Suspense } from "react";
@@ -92,7 +93,7 @@ const CitiesPage = ({ year, rank, specialty }: Props) => {
 			/>
 
 			{year && rank && specialty && (
-				<Suspense fallback={<p>Loading</p>}>
+				<Suspense fallback={<CitiesListingLoader />}>
 					<Listing rank={rank} specialty={specialty} year={year} />
 				</Suspense>
 			)}
