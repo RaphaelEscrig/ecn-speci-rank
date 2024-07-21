@@ -1,4 +1,5 @@
 import styles from "./cities.module.scss";
+import Link from "next/link";
 /** COMPONENTS */
 import CitiesRankForm from "@/modules/cities/react/components/cities-rank-form/cities-rank-form.component";
 import CitiesListingLoader from "../components/cities-listing-loader/cities-listing-loader.component";
@@ -9,8 +10,9 @@ import { EstimateCitiesIWouldHaveUseCase } from "../../core/use-cases/estimate-c
 import app from "@/modules/app/main";
 /** NEXT-INTL */
 import { getTranslations } from "next-intl/server";
-import { ArrowLeft } from "react-feather";
 import { useTranslations } from "next-intl";
+/** REACT FEATHER */
+import { ArrowLeft } from "react-feather";
 
 type Props = {
 	readonly year?: number;
@@ -90,10 +92,10 @@ const CitiesPage = ({ year, rank, specialty }: Props) => {
 
 	return (
 		<main id={styles.page}>
-			<a className={styles.goBack} href={`/specialties?year=${year}`}>
+			<Link className={styles.goBack} href={`/specialties?year=${year}`}>
 				<ArrowLeft />
 				<span>{t("CitiesRankListing.go-to-specialties-listing")}</span>
-			</a>
+			</Link>
 
 			<CitiesRankForm
 				rank={rank?.toString()}

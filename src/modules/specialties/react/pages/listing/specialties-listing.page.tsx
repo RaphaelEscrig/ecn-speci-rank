@@ -53,7 +53,9 @@ const Listing = async ({ year }: { year: number }) => {
 						<span className={styles.listingContentRowLastRank}>
 							{specialty.worstRank}
 						</span>
-						<Link href={"/cities"}>
+						<Link
+							href={`/cities?year=${year}&specialty=${specialty.specialty}`}
+						>
 							{t("SpecialtiesListingPage.listing-see-cities")}
 						</Link>
 					</div>
