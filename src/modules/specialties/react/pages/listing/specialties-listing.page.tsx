@@ -18,7 +18,7 @@ const getCachedListing = cache(
 		).execute({ year })
 );
 
-const Listing = async ({ year }: { year: number }) => {
+const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 	const { specialties } = await getCachedListing(year);
 	const t = await getTranslations();
 
@@ -54,7 +54,11 @@ const Listing = async ({ year }: { year: number }) => {
 							{specialty.worstRank}
 						</span>
 						<Link
-							href={`/cities?year=${year}&specialty=${specialty.specialty}`}
+							href={
+								rank
+									? `/cities?year=${year}&specialty=${specialty.specialty}&rank=${rank}`
+									: `/cities?year=${year}&specialty=${specialty.specialty}`
+							}
 						>
 							{t("SpecialtiesListingPage.listing-see-cities")}
 						</Link>
@@ -65,12 +69,18 @@ const Listing = async ({ year }: { year: number }) => {
 	);
 };
 
-const SpecialtiesListingPage = ({ year }: { year: number }) => {
+const SpecialtiesListingPage = ({
+	year,
+	rank,
+}: {
+	year: number;
+	rank?: number;
+}) => {
 	return (
 		<main id={styles.page}>
-			<SpecialtiesListingFilters year={year} />
+			<SpecialtiesListingFilters rank={rank} year={year} />
 			<Suspense fallback={<SpecialtiesListingLoader />}>
-				<Listing year={year} />
+				<Listing rank={rank} year={year} />
 			</Suspense>
 		</main>
 	);

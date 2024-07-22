@@ -92,7 +92,14 @@ const CitiesPage = ({ year, rank, specialty }: Props) => {
 
 	return (
 		<main id={styles.page}>
-			<Link className={styles.goBack} href={`/specialties?year=${year}`}>
+			<Link
+				className={styles.goBack}
+				href={
+					rank
+						? `/specialties?year=${year}&rank=${rank}`
+						: `/specialties?year=${year}`
+				}
+			>
 				<ArrowLeft />
 				<span>{t("CitiesRankListing.go-to-specialties-listing")}</span>
 			</Link>
