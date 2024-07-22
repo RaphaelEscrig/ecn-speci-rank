@@ -17,3 +17,7 @@ export type PerYear = {
 	readonly bestRank: number;
 	readonly worstRank: number;
 };
+
+export type PerYearWithRankResult = PerYear & {
+	readonly wouldHaveIt: boolean;
+};
