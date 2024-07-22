@@ -1,5 +1,5 @@
 import styles from "./specialties-listing.module.scss";
-import { cache, Suspense } from "react";
+import { Suspense } from "react";
 import Link from "next/link";
 /** ADAPTERS */
 import app from "@/modules/app/main";
@@ -11,15 +11,17 @@ import { getTranslations } from "next-intl/server";
 /** USE CASES */
 import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
-const getCachedListing = cache(
-	async (year: number) =>
-		await new FindSpecialtiesPerYearUseCase(
-			app.dependencies.specialtiesGateway
-		).execute({ year })
-);
+// const getCachedListing = cache(
+// 	async (year: number) =>
+// 		await new FindSpecialtiesPerYearUseCase(
+// 			app.dependencies.specialtiesGateway
+// 		).execute({ year })
+// );
 
 const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
-	const { specialties } = await getCachedListing(year);
+	const { specialties } = await new FindSpecialtiesPerYearUseCase(
+		app.dependencies.specialtiesGateway
+	).execute({ year, rank });
 	const t = await getTranslations();
 
 	return (
@@ -36,7 +38,12 @@ const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 
 			<div className={styles.listingContent}>
 				{specialties.map((specialty, index) => (
-					<div key={index} className={styles.listingContentRow}>
+					<div
+						key={index}
+						className={styles.listingContentRow}
+						data-has-rank={rank !== undefined}
+						data-would-have-it={specialty.wouldHaveIt}
+					>
 						<div className={styles.listingContentSpecialty}>
 							<span>{specialty.specialty}</span>
 							<span className={styles.listingContentSpecialtyFullName}>
