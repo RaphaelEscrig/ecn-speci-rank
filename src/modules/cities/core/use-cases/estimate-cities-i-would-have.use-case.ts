@@ -17,6 +17,35 @@ type Response = {
 export class EstimateCitiesIWouldHaveUseCase {
 	constructor(private readonly gateway: ICitiesGateway) {}
 
+	private _determinePossibility(
+		city: CityRank.City,
+		rank: number
+	): CityRank.CityWithRankResult {
+		if (!city.bestRank || !city.worstRank) {
+			return {
+				...city,
+				wouldHaveIt: false,
+			};
+		}
+		if (city.places === 1 && city.bestRank < rank) {
+			return {
+				...city,
+				wouldHaveIt: false,
+			};
+		}
+		if (city.places > 1 && city.worstRank < rank) {
+			return {
+				...city,
+				wouldHaveIt: false,
+			};
+		}
+
+		return {
+			...city,
+			wouldHaveIt: true,
+		};
+	}
+
 	public async execute({ year, rank, specialty }: Request): Promise<Response> {
 		const cities = await this.gateway
 			.find(rank, specialty, year)
@@ -24,23 +53,7 @@ export class EstimateCitiesIWouldHaveUseCase {
 
 		const citiesWithRankResult: CityRank.CityWithRankResult[] = cities.map(
 			(city) => {
-				let wouldHaveIt = false;
-
-				if (
-					city.bestRank !== null &&
-					city.worstRank !== null &&
-					(city.bestRank > rank || city.worstRank > rank)
-				) {
-					wouldHaveIt = true;
-				}
-
-				return {
-					name: city.name,
-					wouldHaveIt,
-					bestRank: city.bestRank,
-					worstRank: city.worstRank,
-					places: city.places,
-				};
+				return this._determinePossibility(city, rank);
 			}
 		);
 

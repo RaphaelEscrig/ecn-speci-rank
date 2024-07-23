@@ -12,20 +12,20 @@ export class CityFactory {
 			},
 			{
 				name: "Reims",
-				bestRank: 451,
+				bestRank: 452,
 				worstRank: 8974,
 				places: 7,
 			},
 			{
 				name: "Toulouse",
 				bestRank: 182,
-				worstRank: 2833,
+				worstRank: 182,
 				places: 1,
 			},
 			{
 				name: "Montpellier",
 				bestRank: 387,
-				worstRank: 1672,
+				worstRank: 523,
 				places: 3,
 			},
 			{

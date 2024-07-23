@@ -43,6 +43,15 @@
 	align-items: center;
 	border-top: 0.0625rem solid #eaecf0;
 
+	&[data-has-rank="true"] {
+		&[data-would-have-it="true"] {
+			background-color: #e6faf5;
+		}
+		&[data-would-have-it="false"] {
+			background-color: #fffae9;
+		}
+	}
+
 	.listingContentSpecialty {
 		display: flex;
 		gap: 4px;

@@ -1,5 +1,5 @@
 import styles from "./specialties-listing.module.scss";
-import { cache, Suspense } from "react";
+import { Suspense } from "react";
 import Link from "next/link";
 /** ADAPTERS */
 import app from "@/modules/app/main";
@@ -11,15 +11,17 @@ import { getTranslations } from "next-intl/server";
 /** USE CASES */
 import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
-const getCachedListing = cache(
-	async (year: number) =>
-		await new FindSpecialtiesPerYearUseCase(
-			app.dependencies.specialtiesGateway
-		).execute({ year })
-);
+// const getCachedListing = cache(
+// 	async (year: number) =>
+// 		await new FindSpecialtiesPerYearUseCase(
+// 			app.dependencies.specialtiesGateway
+// 		).execute({ year })
+// );
 
-const Listing = async ({ year }: { year: number }) => {
-	const { specialties } = await getCachedListing(year);
+const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
+	const { specialties } = await new FindSpecialtiesPerYearUseCase(
+		app.dependencies.specialtiesGateway
+	).execute({ year, rank });
 	const t = await getTranslations();
 
 	return (
@@ -36,7 +38,12 @@ const Listing = async ({ year }: { year: number }) => {
 
 			<div className={styles.listingContent}>
 				{specialties.map((specialty, index) => (
-					<div key={index} className={styles.listingContentRow}>
+					<div
+						key={index}
+						className={styles.listingContentRow}
+						data-has-rank={rank !== undefined}
+						data-would-have-it={specialty.wouldHaveIt}
+					>
 						<div className={styles.listingContentSpecialty}>
 							<span>{specialty.specialty}</span>
 							<span className={styles.listingContentSpecialtyFullName}>
@@ -54,7 +61,11 @@ const Listing = async ({ year }: { year: number }) => {
 							{specialty.worstRank}
 						</span>
 						<Link
-							href={`/cities?year=${year}&specialty=${specialty.specialty}`}
+							href={
+								rank
+									? `/cities?year=${year}&specialty=${specialty.specialty}&rank=${rank}`
+									: `/cities?year=${year}&specialty=${specialty.specialty}`
+							}
 						>
 							{t("SpecialtiesListingPage.listing-see-cities")}
 						</Link>
@@ -65,12 +76,18 @@ const Listing = async ({ year }: { year: number }) => {
 	);
 };
 
-const SpecialtiesListingPage = ({ year }: { year: number }) => {
+const SpecialtiesListingPage = ({
+	year,
+	rank,
+}: {
+	year: number;
+	rank?: number;
+}) => {
 	return (
 		<main id={styles.page}>
-			<SpecialtiesListingFilters year={year} />
+			<SpecialtiesListingFilters rank={rank} year={year} />
 			<Suspense fallback={<SpecialtiesListingLoader />}>
-				<Listing year={year} />
+				<Listing rank={rank} year={year} />
 			</Suspense>
 		</main>
 	);
