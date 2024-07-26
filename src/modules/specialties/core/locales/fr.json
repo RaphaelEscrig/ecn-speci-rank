@@ -13,5 +13,12 @@
 		"rank-label": "Classement (optionnel)",
 		"rank-placeholder": "Entrez votre classement",
 		"submit": "Valider"
+	},
+	"SpecialtiesRankingFilters": {
+		"year-label": "Année",
+		"year-placeholder": "Sélectionnez l'année",
+		"specialty-label": "Spécialité",
+		"specialty-placeholder": "Sélectionnez une spécialité",
+		"submit": "Valider"
 	}
 }
