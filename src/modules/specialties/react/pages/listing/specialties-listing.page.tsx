@@ -28,7 +28,9 @@ const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 		<div className={styles.listingContainer}>
 			<div className={styles.listingHead}>
 				<span>{t("SpecialtiesListingPage.listing-head-specialty")}</span>
-				<span>{t("SpecialtiesListingPage.listing-head-places")}</span>
+				<span className={styles.places}>
+					{t("SpecialtiesListingPage.listing-head-places")}
+				</span>
 				<span className={styles.listingContentFirstRank}>
 					{t("SpecialtiesListingPage.listing-head-best-rank")}
 				</span>
