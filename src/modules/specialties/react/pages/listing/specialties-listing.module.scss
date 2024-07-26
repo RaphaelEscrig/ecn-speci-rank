@@ -14,7 +14,7 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 70px 50px 80px 100px;
+	grid-template-columns: 60px 75px 1fr 1fr;
 	gap: 5px;
 
 	span {
@@ -23,7 +23,8 @@
 }
 
 .listingContentFirstRank,
-.seeRanking {
+.places,
+.listingContentRowPlaces {
 	display: none;
 }
 
@@ -84,10 +85,11 @@
 @media screen and (min-width: 576px) {
 	.listingHead,
 	.listingContentRow {
-		grid-template-columns: 70px 80px 100px 100px 150px;
+		grid-template-columns: 70px 80px 100px 1fr 1fr;
 	}
 
-	.seeRanking {
+	.places,
+	.listingContentRowPlaces {
 		display: block;
 	}
 }
