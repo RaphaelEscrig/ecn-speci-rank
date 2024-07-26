@@ -5,70 +5,75 @@ import Link from "next/link";
 import app from "@/modules/app/main";
 /** COMPONENTS */
 import SpecialtiesListingLoader from "../../components/specialties-listing-loader/specialties-listing-loader.component";
+import SpecialtiesRankingFilters from "../../components/specialties-ranking-filters/specialties-ranking-filters.component";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** NEXT-INTL */
 import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
+/** REACT FEATHER */
+import { ArrowLeft } from "react-feather";
 /** USE CASES */
-import SpecialtiesRankingFilters from "../../components/specialties-ranking-filters/specialties-ranking-filters.component";
+import { FindSpecialtiesRankingPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-ranking-per-year.use-case";
 
-// const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
-// 	const { specialties } = await new FindSpecialtiesPerYearUseCase(
-// 		app.dependencies.specialtiesGateway
-// 	).execute({ year, rank });
-// 	const t = await getTranslations();
+const Listing = async ({
+	specialty,
+	year,
+}: {
+	specialty: SpecialtyCode;
+	year: number;
+}) => {
+	const { ranking } = await new FindSpecialtiesRankingPerYearUseCase(
+		app.dependencies.specialtiesGateway
+	).execute({ specialty, year });
+	const t = await getTranslations();
 
-// 	return (
-// 		<div className={styles.listingContainer}>
-// 			<div className={styles.listingHead}>
-// 				<span>{t("SpecialtiesRankingPage.listing-head-specialty")}</span>
-// 				<span>{t("SpecialtiesRankingPage.listing-head-places")}</span>
-// 				<span className={styles.listingContentFirstRank}>
-// 					{t("SpecialtiesRankingPage.listing-head-best-rank")}
-// 				</span>
-// 				<span>{t("SpecialtiesRankingPage.listing-head-worst-rank")}</span>
-// 				<div />
-// 			</div>
+	return (
+		<div className={styles.listingContainer}>
+			<div className={styles.listingHead}>
+				<span>{t("SpecialtiesRankingPage.listing-head-rank")}</span>
+				<span>{t("SpecialtiesRankingPage.listing-head-intern")}</span>
+				<span>{t("SpecialtiesRankingPage.listing-head-city")}</span>
+			</div>
 
-// 			<div className={styles.listingContent}>
-// 				{specialties.map((specialty, index) => (
-// 					<div
-// 						key={index}
-// 						className={styles.listingContentRow}
-// 						data-has-rank={rank !== undefined}
-// 						data-would-have-it={specialty.wouldHaveIt}
-// 					>
-// 						<div className={styles.listingContentSpecialty}>
-// 							<span>{specialty.specialty}</span>
-// 							<span className={styles.listingContentSpecialtyFullName}>
-// 								{" "}
-// 								- {t(`shared.specialties.${specialty.specialty}`)}
-// 							</span>
-// 						</div>
-// 						<span className={styles.listingContentRowPlaces}>
-// 							{specialty.places}
-// 						</span>
-// 						<span className={styles.listingContentFirstRank}>
-// 							{specialty.bestRank}
-// 						</span>
-// 						<span className={styles.listingContentRowLastRank}>
-// 							{specialty.worstRank}
-// 						</span>
-// 						<Link
-// 							href={
-// 								rank
-// 									? `/cities?year=${year}&specialty=${specialty.specialty}&rank=${rank}`
-// 									: `/cities?year=${year}&specialty=${specialty.specialty}`
-// 							}
-// 						>
-// 							{t("SpecialtiesRankingPage.listing-see-cities")}
-// 						</Link>
-// 					</div>
-// 				))}
-// 			</div>
-// 		</div>
-// 	);
-// };
+			<div className={styles.listingContent}>
+				{ranking.map((item, index) => (
+					<div key={index} className={styles.listingContentRow}>
+						<span>{item.rank}</span>
+						<span>{item.intern}</span>
+						<span>{item.city}</span>
+					</div>
+				))}
+			</div>
+		</div>
+	);
+};
+
+const GoToSpecialties = ({
+	year,
+}: {
+	year: number;
+	specialty?: SpecialtyCode;
+}) => {
+	const t = useTranslations();
+
+	const getLink = (): string => {
+		if (year) {
+			return `/specialties?year=${year}`;
+		}
+
+		return "/specialties";
+	};
+
+	const link = getLink();
+
+	return (
+		<Link className={styles.goToSpecialties} href={link}>
+			<ArrowLeft />
+			<span>{t("SpecialtiesRankingPage.go-to-specialties-listing")}</span>
+		</Link>
+	);
+};
 
 const SpecialtiesRankingPage = ({
 	year,
@@ -79,10 +84,13 @@ const SpecialtiesRankingPage = ({
 }) => {
 	return (
 		<main id={styles.page}>
+			<GoToSpecialties year={year} />
 			<SpecialtiesRankingFilters specialty={specialty} year={year} />
-			{/* <Suspense fallback={<SpecialtiesListingLoader />}>
-				<Listing rank={rank} year={year} />
-			</Suspense> */}
+			{specialty && year && (
+				<Suspense fallback={<SpecialtiesListingLoader />}>
+					<Listing specialty={specialty} year={year} />
+				</Suspense>
+			)}
 		</main>
 	);
 };

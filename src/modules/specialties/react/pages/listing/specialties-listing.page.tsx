@@ -34,6 +34,7 @@ const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 				</span>
 				<span>{t("SpecialtiesListingPage.listing-head-worst-rank")}</span>
 				<div />
+				<div className={styles.seeRanking} />
 			</div>
 
 			<div className={styles.listingContent}>
@@ -68,6 +69,12 @@ const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 							}
 						>
 							{t("SpecialtiesListingPage.listing-see-cities")}
+						</Link>
+						<Link
+							className={styles.seeRanking}
+							href={`/specialties/ranking?year=${year}&specialty=${specialty.specialty}`}
+						>
+							{t("SpecialtiesListingPage.listing-see-ranking")}
 						</Link>
 					</div>
 				))}

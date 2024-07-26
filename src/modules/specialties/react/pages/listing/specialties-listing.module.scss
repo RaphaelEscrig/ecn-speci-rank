@@ -1,9 +1,4 @@
 #page {
-	// display: flex;
-	// flex-direction: column;
-	// justify-content: center;
-	// align-content: center;
-	// gap: 20px;
 	padding: 20px;
 	max-width: 1100px;
 	margin: auto;
@@ -19,15 +14,16 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 80px 50px 80px 1fr;
-	gap: 10px;
+	grid-template-columns: 70px 50px 80px 100px;
+	gap: 5px;
 
 	span {
 		color: "#1b2559";
 	}
 }
 
-.listingContentFirstRank {
+.listingContentFirstRank,
+.seeRanking {
 	display: none;
 }
 
@@ -85,12 +81,23 @@
 	}
 }
 
+@media screen and (min-width: 576px) {
+	.listingHead,
+	.listingContentRow {
+		grid-template-columns: 70px 80px 100px 100px 150px;
+	}
+
+	.seeRanking {
+		display: block;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.listingHead,
 	.listingContentRow {
 		padding: 0.625rem 1.25rem;
-		gap: 20px;
-		grid-template-columns: 1fr 100px 100px 100px 150px;
+		gap: 15px;
+		grid-template-columns: 1fr 50px 90px 90px 100px 130px;
 	}
 
 	.listingHead {
@@ -124,6 +131,10 @@
 }
 
 @media screen and (min-width: 992px) {
+	.seeRanking {
+		display: block;
+	}
+
 	.listingContentRow {
 		.listingContentSpecialty {
 			.listingContentSpecialtyFullName {

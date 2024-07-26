@@ -1,12 +1,26 @@
 #page {
-	// display: flex;
-	// flex-direction: column;
-	// justify-content: center;
-	// align-content: center;
-	// gap: 20px;
 	padding: 20px;
 	max-width: 1100px;
 	margin: auto;
+}
+
+.goToSpecialties {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 30px;
+	font-size: 14px;
+
+	&:hover {
+		font-weight: 500;
+	}
+
+	svg {
+		position: relative;
+		top: 1px;
+		width: 18px;
+		height: 18px;
+	}
 }
 
 .listingContainer {
@@ -19,16 +33,12 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 80px 50px 80px 1fr;
+	grid-template-columns: 80px 1fr 1fr;
 	gap: 10px;
 
 	span {
 		color: "#1b2559";
 	}
-}
-
-.listingContentFirstRank {
-	display: none;
 }
 
 .listingHead {
@@ -52,30 +62,6 @@
 		}
 	}
 
-	.listingContentSpecialty {
-		display: flex;
-		gap: 4px;
-
-		.listingContentSpecialtyFullName {
-			display: none;
-		}
-	}
-
-	.listingContentRowPlaces,
-	.listingContentRowFirstRank,
-	.listingContentRowLastRank {
-		padding-left: 10px;
-	}
-
-	a {
-		font-size: 12px;
-		text-align: center;
-
-		&:hover {
-			font-weight: 500;
-		}
-	}
-
 	&:nth-child(odd) {
 		background-color: #f9fafb;
 	}
@@ -90,7 +76,7 @@
 	.listingContentRow {
 		padding: 0.625rem 1.25rem;
 		gap: 20px;
-		grid-template-columns: 1fr 100px 100px 100px 150px;
+		grid-template-columns: 100px 1fr 1fr;
 	}
 
 	.listingHead {
@@ -98,10 +84,6 @@
 			font-size: 0.875rem;
 			font-weight: 500;
 		}
-	}
-
-	.listingContentFirstRank {
-		display: block;
 	}
 
 	.listingContentRow {
@@ -119,16 +101,6 @@
 
 		a {
 			font-size: 14px;
-		}
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.listingContentRow {
-		.listingContentSpecialty {
-			.listingContentSpecialtyFullName {
-				display: block;
-			}
 		}
 	}
 }
