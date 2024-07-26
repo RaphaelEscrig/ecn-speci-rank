@@ -1,5 +1,5 @@
 import styles from "./specialties-ranking.module.scss";
-import { Suspense } from "react";
+import { cache, Suspense } from "react";
 import Link from "next/link";
 /** ADAPTERS */
 import app from "@/modules/app/main";
@@ -16,6 +16,13 @@ import { ArrowLeft } from "react-feather";
 /** USE CASES */
 import { FindSpecialtiesRankingPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-ranking-per-year.use-case";
 
+const getCachedListing = cache(
+	async (specialty: SpecialtyCode, year: number) =>
+		await new FindSpecialtiesRankingPerYearUseCase(
+			app.dependencies.specialtiesGateway
+		).execute({ specialty, year })
+);
+
 const Listing = async ({
 	specialty,
 	year,
@@ -23,9 +30,7 @@ const Listing = async ({
 	specialty: SpecialtyCode;
 	year: number;
 }) => {
-	const { ranking } = await new FindSpecialtiesRankingPerYearUseCase(
-		app.dependencies.specialtiesGateway
-	).execute({ specialty, year });
+	const { ranking } = await getCachedListing(specialty, year);
 	const t = await getTranslations();
 
 	return (
@@ -82,6 +87,8 @@ const SpecialtiesRankingPage = ({
 	year: number;
 	specialty?: SpecialtyCode;
 }) => {
+	const t = useTranslations("SpecialtiesRankingPage");
+
 	return (
 		<main id={styles.page}>
 			<GoToSpecialties year={year} />
@@ -90,6 +97,11 @@ const SpecialtiesRankingPage = ({
 				<Suspense fallback={<SpecialtiesListingLoader />}>
 					<Listing specialty={specialty} year={year} />
 				</Suspense>
+			)}
+			{!specialty && (
+				<div className={styles.allFieldsAreNotSelected}>
+					<p>{t("listing-all-fields-are-not-selected")}</p>
+				</div>
 			)}
 		</main>
 	);

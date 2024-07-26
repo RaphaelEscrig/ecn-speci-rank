@@ -20,7 +20,8 @@
 		"listing-head-rank": "Classement",
 		"listing-head-intern": "Interne",
 		"listing-head-city": "Ville",
-		"go-to-specialties-listing": "Retour aux spécialités"
+		"go-to-specialties-listing": "Retour aux spécialités",
+		"listing-all-fields-are-not-selected": "Veuillez sélectionner une spécialité et une année."
 	},
 	"SpecialtiesRankingFilters": {
 		"year-label": "Année",

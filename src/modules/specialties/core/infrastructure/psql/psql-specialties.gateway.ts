@@ -1,5 +1,9 @@
 /** MODELS */
-import type { Specialty } from "@/modules/specialties/core/domain/models";
+import type { SpecialtyCode } from "@/modules/shared/domain/models";
+import type {
+	Specialty,
+	SpecialtyRanking,
+} from "@/modules/specialties/core/domain/models";
 /** PORTS */
 import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
 /** POSTGRES */
@@ -15,6 +19,20 @@ export class PSQLSpecialtiesGateway implements ISpecialtiesGateway {
     		WHERE year = ${year}
     		GROUP BY specialty
 			`;
+
+		return result;
+	}
+
+	public async findRanking(
+		specialty: SpecialtyCode,
+		year: number
+	): Promise<SpecialtyRanking.Rank[]> {
+		const result: SpecialtyRanking.Rank[] = await this.psql`
+		SELECT specialty, city, rank, intern, year
+		FROM ranks
+		WHERE year = ${year} AND specialty = ${specialty}
+		ORDER by rank
+	`;
 
 		return result;
 	}

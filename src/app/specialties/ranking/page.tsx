@@ -1,3 +1,5 @@
+/** CONSTANTS */
+import { SPECIALTIES_LISTING_MAX_YEAR } from "@/modules/specialties/core/domain/constants";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** PAGES */
@@ -15,7 +17,9 @@ type Props = {
 export default async function NextSpecialtiesRankingPage({
 	searchParams,
 }: Props) {
-	const year = searchParams?.year ? parseInt(searchParams.year) : 2023;
+	const year = searchParams?.year
+		? parseInt(searchParams.year)
+		: SPECIALTIES_LISTING_MAX_YEAR;
 	const specialty =
 		searchParams?.specialty && isValidSpecialty(searchParams.specialty)
 			? (searchParams.specialty as SpecialtyCode)
