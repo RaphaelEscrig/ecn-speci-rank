@@ -20,7 +20,7 @@ export class PSQLCitiesGateway implements ICitiesGateway {
 				worstrank: number;
 			}
 		> = await this.psql`
-    SELECT 
+    		SELECT 
           city as name,
           COUNT(*) as places,
           MIN(rank) as bestrank,

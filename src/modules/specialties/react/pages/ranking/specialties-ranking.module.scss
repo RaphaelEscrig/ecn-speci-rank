@@ -1,7 +1,34 @@
 #page {
 	padding: 20px;
 	max-width: 1100px;
+	display: flex;
+	flex-direction: column;
 	margin: auto;
+	height: 100%;
+
+	.allFieldsAreNotSelected {
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.goToSpecialties {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 30px;
+	font-size: 14px;
+
+	&:hover {
+		font-weight: 500;
+	}
+
+	svg {
+		position: relative;
+		top: 1px;
+		width: 18px;
+		height: 18px;
+	}
 }
 
 .listingContainer {
@@ -14,17 +41,12 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 70px 50px 80px 100px;
-	gap: 5px;
+	grid-template-columns: 80px 1fr 1fr;
+	gap: 10px;
 
 	span {
 		color: "#1b2559";
 	}
-}
-
-.listingContentFirstRank,
-.seeRanking {
-	display: none;
 }
 
 .listingHead {
@@ -48,30 +70,6 @@
 		}
 	}
 
-	.listingContentSpecialty {
-		display: flex;
-		gap: 4px;
-
-		.listingContentSpecialtyFullName {
-			display: none;
-		}
-	}
-
-	.listingContentRowPlaces,
-	.listingContentRowFirstRank,
-	.listingContentRowLastRank {
-		padding-left: 10px;
-	}
-
-	a {
-		font-size: 12px;
-		text-align: center;
-
-		&:hover {
-			font-weight: 500;
-		}
-	}
-
 	&:nth-child(odd) {
 		background-color: #f9fafb;
 	}
@@ -81,23 +79,12 @@
 	}
 }
 
-@media screen and (min-width: 576px) {
-	.listingHead,
-	.listingContentRow {
-		grid-template-columns: 70px 80px 100px 100px 150px;
-	}
-
-	.seeRanking {
-		display: block;
-	}
-}
-
 @media screen and (min-width: 768px) {
 	.listingHead,
 	.listingContentRow {
 		padding: 0.625rem 1.25rem;
-		gap: 15px;
-		grid-template-columns: 1fr 50px 90px 90px 100px 130px;
+		gap: 20px;
+		grid-template-columns: 100px 1fr 1fr;
 	}
 
 	.listingHead {
@@ -105,10 +92,6 @@
 			font-size: 0.875rem;
 			font-weight: 500;
 		}
-	}
-
-	.listingContentFirstRank {
-		display: block;
 	}
 
 	.listingContentRow {
@@ -126,20 +109,6 @@
 
 		a {
 			font-size: 14px;
-		}
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.seeRanking {
-		display: block;
-	}
-
-	.listingContentRow {
-		.listingContentSpecialty {
-			.listingContentSpecialtyFullName {
-				display: block;
-			}
 		}
 	}
 }

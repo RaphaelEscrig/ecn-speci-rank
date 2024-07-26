@@ -5,13 +5,29 @@
 		"listing-head-places": "Places",
 		"listing-head-best-rank": "Premier rang",
 		"listing-head-worst-rank": "Dernier rang",
-		"listing-see-cities": "Voir les villes"
+		"listing-see-cities": "Voir les villes",
+		"listing-see-ranking": "Voir le classement"
 	},
 	"SpecialtiesListingFilters": {
 		"year-label": "Année",
 		"year-placeholder": "Sélectionnez l'année",
 		"rank-label": "Classement (optionnel)",
 		"rank-placeholder": "Entrez votre classement",
+		"submit": "Valider"
+	},
+	"SpecialtiesRankingPage": {
+		"listing-loading": "Récupération des données en cours…",
+		"listing-head-rank": "Classement",
+		"listing-head-intern": "Interne",
+		"listing-head-city": "Ville",
+		"go-to-specialties-listing": "Retour aux spécialités",
+		"listing-all-fields-are-not-selected": "Veuillez sélectionner une spécialité et une année."
+	},
+	"SpecialtiesRankingFilters": {
+		"year-label": "Année",
+		"year-placeholder": "Sélectionnez l'année",
+		"specialty-label": "Spécialité",
+		"specialty-placeholder": "Sélectionnez une spécialité",
 		"submit": "Valider"
 	}
 }

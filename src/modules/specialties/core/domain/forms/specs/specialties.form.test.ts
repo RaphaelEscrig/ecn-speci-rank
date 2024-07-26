@@ -12,7 +12,7 @@ const completedState: Specialty.Form = {
 	year: "2023",
 };
 
-describe("Cities rank form", () => {
+describe("Specialties listing form", () => {
 	const form = new SpecialtiesForm();
 
 	it.each([

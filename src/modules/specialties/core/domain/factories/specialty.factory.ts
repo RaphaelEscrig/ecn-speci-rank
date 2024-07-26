@@ -1,5 +1,9 @@
 /** MODELS */
-import type { Specialty } from "@/modules/specialties/core/domain/models";
+import type { SpecialtyCode } from "@/modules/shared/domain/models";
+import type {
+	Specialty,
+	SpecialtyRanking,
+} from "@/modules/specialties/core/domain/models";
 
 export class SpecialtyFactory {
 	public static createSpecialtiesPerYear(): Specialty.PerYear[] {
@@ -75,6 +79,70 @@ export class SpecialtyFactory {
 				places: 33,
 				bestRank: 145,
 				worstRank: 3895,
+			},
+		];
+	}
+
+	public static createSpecialtyRankingPerYear(
+		specialty: SpecialtyCode = "CMF",
+		year = 2023
+	): SpecialtyRanking.Rank[] {
+		return [
+			{
+				specialty,
+				year,
+				rank: 1,
+				intern: "John Doe",
+				city: "Bordeaux",
+			},
+			{
+				specialty,
+				year,
+				rank: 2,
+				intern: "Jhin Dil",
+				city: "Strasbourg",
+			},
+			{
+				specialty,
+				year,
+				rank: 3,
+				intern: "Lula Yuj",
+				city: "Rennes",
+			},
+			{
+				specialty,
+				year,
+				rank: 4,
+				intern: "Mast Bard",
+				city: "Amiens",
+			},
+			{
+				specialty,
+				year,
+				rank: 5,
+				intern: "Roat Bzar",
+				city: "Montpellier",
+			},
+			{
+				specialty,
+				year,
+				rank: 6,
+				intern: "Basil Lud",
+				city: "Rennes",
+			},
+			{
+				specialty,
+				year,
+				rank: 7,
+				intern: "Rita Ota",
+				city: "Grenoble",
+			},
+			{
+				specialty,
+				year,
+				rank: 8,
+				intern: "Yan Jurd",
+				city: "Clermont-Ferrand",
 			},
 		];
 	}
