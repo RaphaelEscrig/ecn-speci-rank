@@ -1,5 +1,12 @@
 {
-	"cSpell.words": ["linebreak", "postgres", "psql", "PSQL"],
+	"cSpell.words": [
+		"linebreak",
+		"postgres",
+		"posthog",
+		"POSTHOG",
+		"psql",
+		"PSQL"
+	],
 	"i18n-ally.localesPaths": [
 		"src/app/locales",
 		"src/modules/shared/core/locales",
