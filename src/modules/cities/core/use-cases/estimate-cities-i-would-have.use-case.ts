@@ -1,8 +1,8 @@
 /** MODELS */
-import type { CityRank } from "../domain/models";
+import type { CityRank } from "@/modules/cities/core/domain/models";
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** PORTS */
-import type { ICitiesGateway } from "../domain/ports/cities.port";
+import type { ICitiesGateway } from "@/modules/cities/core/domain/ports/cities.port";
 
 type Request = {
 	readonly year: number;

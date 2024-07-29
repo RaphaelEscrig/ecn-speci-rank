@@ -11,13 +11,6 @@ import { getTranslations } from "next-intl/server";
 /** USE CASES */
 import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
-// const getCachedListing = cache(
-// 	async (year: number) =>
-// 		await new FindSpecialtiesPerYearUseCase(
-// 			app.dependencies.specialtiesGateway
-// 		).execute({ year })
-// );
-
 const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 	const { specialties } = await new FindSpecialtiesPerYearUseCase(
 		app.dependencies.specialtiesGateway

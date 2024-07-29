@@ -1,5 +1,5 @@
 /** FACTORIES */
-import { CityFactory } from "../../domain/factories/city.factory";
+import { CityFactory } from "@/modules/cities/core/domain/factories/city.factory";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type { CityRank } from "@/modules/cities/core/domain/models";

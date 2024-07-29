@@ -1,7 +1,7 @@
 /** MODELS */
-import type { Specialty } from "../domain/models";
+import type { Specialty } from "@/modules/specialties/core/domain/models";
 /** PORTS */
-import type { ISpecialtiesGateway } from "../domain/ports/specialties.port";
+import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
 
 type Request = {
 	readonly year: number;

@@ -1,5 +1,5 @@
 /** FORMS */
-import { SpecialtiesRankingForm } from "@/modules/specialties/core/domain/forms/specialties-ranking.form";
+import { SpecialtiesRankingForm } from "@/modules/specialties/core/forms/specialties-ranking.form";
 /** MODELS */
 import type { SpecialtyRanking } from "@/modules/specialties/core/domain/models";
 

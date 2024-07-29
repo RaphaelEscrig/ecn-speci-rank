@@ -1,11 +1,11 @@
 /** ADAPTERS */
-import { MockSpecialtiesGateway } from "../../testing/specialties.gateway.mock";
-import { InMemorySpecialtiesGateway } from "../../infrastructure/in-memory/in-memory-specialties.gateway";
-import { MockFailingSpecialtiesGateway } from "../../testing/failing-specialties.gateway.mock";
+import { MockSpecialtiesGateway } from "@/modules/specialties/core/testing/specialties.gateway.mock";
+import { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
+import { MockFailingSpecialtiesGateway } from "@/modules/specialties/core/testing/failing-specialties.gateway.mock";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** USE CASES */
-import { FindSpecialtiesRankingPerYearUseCase } from "../find-specialties-ranking-per-year.use-case";
+import { FindSpecialtiesRankingPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-ranking-per-year.use-case";
 
 describe("Find specialty ranking per year", () => {
 	const specialty: SpecialtyCode = "CMF";
