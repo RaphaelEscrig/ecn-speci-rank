@@ -1,5 +1,5 @@
 /** MODELS */
-import type { SpecialtyCode } from "../models";
+import type { SpecialtyCode } from "@/modules/shared/domain/models";
 
 export const SPECIALTIES = new Map<string, SpecialtyCode>([
 	["En attente de publication", "ATT"],

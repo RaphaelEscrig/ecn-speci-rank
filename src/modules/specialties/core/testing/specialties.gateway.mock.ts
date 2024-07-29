@@ -1,6 +1,6 @@
 /** ADAPTERS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
-import type { InMemorySpecialtiesGateway } from "../infrastructure/in-memory/in-memory-specialties.gateway";
+import type { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
 /** MODELS */
 import type {
 	Specialty,

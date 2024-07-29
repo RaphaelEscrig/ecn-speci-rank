@@ -1,6 +1,6 @@
-// /** FORMS */
-import { SpecialtiesForm } from "../specialties.form";
-// /** MODELS */
+/** FORMS */
+import { SpecialtiesForm } from "@/modules/specialties/core/forms/specialties.form";
+/** MODELS */
 import type { Specialty } from "@/modules/specialties/core/domain/models";
 
 const emptyInitialState: Specialty.Form = {

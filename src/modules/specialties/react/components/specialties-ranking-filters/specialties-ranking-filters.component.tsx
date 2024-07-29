@@ -6,7 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 /** COMPONENTS */
 import { Button } from "@/ui/Button/index.component";
 /** FORMS */
-import { useSpecialtiesRankingForm } from "../../hooks/use-specialties-ranking-form.hook";
+import { useSpecialtiesRankingForm } from "@/modules/specialties/react/hooks/use-specialties-ranking-form.hook";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** REACT SELECT */

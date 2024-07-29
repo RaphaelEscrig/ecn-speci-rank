@@ -1,5 +1,5 @@
 // /** FORMS */
-import { CitiesRankForm } from "../cities-rank.form";
+import { CitiesRankForm } from "@/modules/cities/core/forms/cities-rank.form";
 // /** MODELS */
 import type { CityRank } from "@/modules/cities/core/domain/models";
 

@@ -55,6 +55,7 @@ export function Button({
 				${className ?? ""}`.trim()}
 			disabled={disabled}
 			style={style}
+			type={type}
 			onClick={onClick}
 		>
 			{children}
