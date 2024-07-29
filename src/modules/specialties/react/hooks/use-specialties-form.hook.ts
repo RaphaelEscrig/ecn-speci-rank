@@ -2,7 +2,7 @@ import { useCallback, useRef, useState } from "react";
 /** CONSTANTS */
 import { SPECIALTIES_YEARS } from "@/modules/specialties/core/domain/constants";
 /** FORMS */
-import { SpecialtiesForm } from "@/modules/specialties/core/domain/forms/specialties.form";
+import { SpecialtiesForm } from "@/modules/specialties/core/forms/specialties.form";
 /** MODELS */
 import type { Specialty } from "@/modules/specialties/core/domain/models";
 

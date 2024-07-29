@@ -1,12 +1,12 @@
 /** ADAPTERS */
-import { InMemoryCitiesGateway } from "../../infrastructure/in-memory/in-memory-cities.gateway";
-import { MockFailingSCitiesGateway } from "../../testing/failing-cities.gateway.mock";
+import { InMemoryCitiesGateway } from "@/modules/cities/core/infrastructure/in-memory/in-memory-cities.gateway";
+import { MockFailingSCitiesGateway } from "@/modules/cities/core/testing/failing-cities.gateway.mock";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** PORTS */
-import { MockCitiesGateway } from "../../testing/cities.gateway.mock";
+import { MockCitiesGateway } from "@/modules/cities/core/testing/cities.gateway.mock";
 /** USE CASES */
-import { EstimateCitiesIWouldHaveUseCase } from "../estimate-cities-i-would-have.use-case";
+import { EstimateCitiesIWouldHaveUseCase } from "@/modules/cities/core/use-cases/estimate-cities-i-would-have.use-case";
 
 describe("Estimate cities I would have", () => {
 	const rank = 789;

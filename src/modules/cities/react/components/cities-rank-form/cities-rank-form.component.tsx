@@ -1,6 +1,6 @@
 "use client";
 
-import { type FormEvent, useEffect, useId, useState } from "react";
+import { type FormEvent, useEffect, useId } from "react";
 import styles from "./cities-rank-form.module.scss";
 import { usePathname, useRouter } from "next/navigation";
 /** COMPONENTS */
@@ -9,7 +9,6 @@ import { Input } from "@/ui/Input/index.component";
 /** FORMS */
 import { useCitiesRankForm } from "@/modules/cities/react/hooks/use-cities-rank-form.hook";
 /** MODELS */
-import type { CityRank } from "@/modules/cities/core/domain/models";
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 /** NEXT-INTL */
 import { useTranslations } from "next-intl";

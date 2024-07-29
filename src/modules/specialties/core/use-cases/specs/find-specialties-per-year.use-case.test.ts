@@ -1,11 +1,9 @@
 /** ADAPTERS */
-import { MockSpecialtiesGateway } from "../../testing/specialties.gateway.mock";
-import { InMemorySpecialtiesGateway } from "../../infrastructure/in-memory/in-memory-specialties.gateway";
-import { MockFailingSpecialtiesGateway } from "../../testing/failing-specialties.gateway.mock";
-/** FACTORIES */
-import { SpecialtyFactory } from "../../domain/factories/specialty.factory";
+import { MockSpecialtiesGateway } from "@/modules/specialties/core/testing/specialties.gateway.mock";
+import { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
+import { MockFailingSpecialtiesGateway } from "@/modules/specialties/core/testing/failing-specialties.gateway.mock";
 /** USE CASES */
-import { FindSpecialtiesPerYearUseCase } from "../find-specialties-per-year.use-case";
+import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
 
 describe("Find specialties per year", () => {
 	it("Should find specialties without rank", async () => {

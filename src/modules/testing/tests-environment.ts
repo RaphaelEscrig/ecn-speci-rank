@@ -1,7 +1,7 @@
 /** ADAPTERS */
-import { MockSpecialtiesGateway } from "../specialties/core/testing/specialties.gateway.mock";
-import { InMemorySpecialtiesGateway } from "../specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
-import { InMemoryCitiesGateway } from "../cities/core/infrastructure/in-memory/in-memory-cities.gateway";
+import { MockSpecialtiesGateway } from "@/modules/specialties/core/testing/specialties.gateway.mock";
+import { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
+import { InMemoryCitiesGateway } from "@/modules/cities/core/infrastructure/in-memory/in-memory-cities.gateway";
 /** MODELS */
 import type { Dependencies } from "@/modules/shared/domain/models";
 

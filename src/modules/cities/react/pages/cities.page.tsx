@@ -1,18 +1,20 @@
 import styles from "./cities.module.scss";
+import { Suspense } from "react";
 import Link from "next/link";
+/** APP */
+import app from "@/modules/app/main";
 /** COMPONENTS */
 import CitiesRankForm from "@/modules/cities/react/components/cities-rank-form/cities-rank-form.component";
-import CitiesListingLoader from "../components/cities-listing-loader/cities-listing-loader.component";
+import CitiesListingLoader from "@/modules/cities/react/components/cities-listing-loader/cities-listing-loader.component";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
-import { Suspense } from "react";
-import { EstimateCitiesIWouldHaveUseCase } from "../../core/use-cases/estimate-cities-i-would-have.use-case";
-import app from "@/modules/app/main";
 /** NEXT-INTL */
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 /** REACT FEATHER */
 import { ArrowLeft } from "react-feather";
+/** USE CASES */
+import { EstimateCitiesIWouldHaveUseCase } from "@/modules/cities/core/use-cases/estimate-cities-i-would-have.use-case";
 
 type Props = {
 	readonly year?: number;
