@@ -11,8 +11,8 @@ export type FormErrors = Record<
 
 export type City = {
 	readonly name: string;
-	readonly bestRank: number;
-	readonly worstRank: number;
+	readonly bestRank: number | null;
+	readonly worstRank: number | null;
 	readonly places: number;
 	readonly assignedPlaces: number;
 	readonly remainingPlaces: number;

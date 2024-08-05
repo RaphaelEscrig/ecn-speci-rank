@@ -5,7 +5,7 @@ import { MockFailingSpecialtiesGateway } from "@/modules/specialties/core/testin
 /** USE CASES */
 import { FindSpecialtiesPerSimulationUseCase } from "../find-specialties-per-simulation.use-case";
 
-describe("Find specialties per year", () => {
+describe("Find specialties per simulation", () => {
 	it("Should find specialties without rank", async () => {
 		const gateway = new MockSpecialtiesGateway(
 			new InMemorySpecialtiesGateway()
