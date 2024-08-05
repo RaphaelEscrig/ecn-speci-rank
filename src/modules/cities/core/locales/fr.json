@@ -28,5 +28,18 @@
 		"listing-head-worst-rank": "Dernier rang",
 		"listing-result-success": "Obtenu",
 		"listing-result-failed": "Refusé"
+	},
+	"CitiesSimulationListing": {
+		"go-to-specialties-listing": "Retour aux spécialités",
+		"listing-loading": "Récupération des données en cours…",
+		"listing-head-city": "Ville",
+		"listing-head-result": "Résultat",
+		"listing-head-assigned-places": "Places assignées",
+		"listing-head-remaining-places": "Places restantes",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-my-rank": "Mon rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-result-success": "Obtenu",
+		"listing-result-failed": "Refusé"
 	}
 }

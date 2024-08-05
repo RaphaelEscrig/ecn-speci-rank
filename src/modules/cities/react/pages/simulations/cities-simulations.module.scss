@@ -1,6 +1,6 @@
 #page {
-	padding: 1.25rem;
-	max-width: 68.75rem;
+	padding: 20px;
+	max-width: 1100px;
 	width: 100%;
 	margin: auto;
 }
@@ -8,7 +8,7 @@
 .goBack {
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 8px;
 	margin-bottom: 30px;
 	font-size: 14px;
 
@@ -25,17 +25,17 @@
 }
 
 .listingContainer {
-	margin: 1.5625rem auto 0;
-	border: 0.0625rem solid #eaecf0;
+	margin: 25px auto 0;
+	border: 1px solid #eaecf0;
 	border-radius: 15px;
 }
 
 .listingHead,
 .listingContentRow {
-	padding: 0.625rem;
+	padding: 10px;
 	display: grid;
-	grid-template-columns: 6.25rem 3.75rem 2.5rem 5rem;
-	gap: 0.625rem;
+	grid-template-columns: 1fr 60px 80px;
+	gap: 10px;
 
 	span {
 		color: #1b2559;
@@ -43,13 +43,17 @@
 }
 
 .listingContentFirstRank,
-.listingContentMyRank {
+.listingContentMyRank,
+.assignedPlaces,
+.remainingPlaces,
+.listingContentRowAssignedPlaces,
+.listingContentRowRemainingPlaces {
 	display: none;
 }
 
 .listingHead {
 	span {
-		font-size: 0.75rem;
+		font-size: 12px;
 		font-weight: 500;
 	}
 }
@@ -60,7 +64,7 @@
 	border-top: 1px solid #eaecf0;
 
 	&:last-child {
-		border-radius: 0 0 0.9375rem 0.9375rem;
+		border-radius: 0 0 15px 15px;
 	}
 
 	&[data-would-have-it="true"] {
@@ -79,11 +83,11 @@
 	.listingContentRowFirstRank,
 	.listingContentMyRank,
 	.listingContentRowLastRank {
-		padding-left: 0.625rem;
+		padding-left: 10px;
 	}
 
 	a {
-		font-size: 0.75rem;
+		font-size: 12px;
 		text-align: center;
 
 		&:hover {
@@ -92,12 +96,24 @@
 	}
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 576px) {
+	.remainingPlaces,
+	.listingContentRowRemainingPlaces {
+		display: block;
+	}
+
 	.listingHead,
 	.listingContentRow {
 		padding: 10px 20px;
-		gap: 1.25rem;
-		grid-template-columns: 15.625rem 9.375rem 6.25rem 6.25rem 6.25rem 6.25rem;
+		gap: 20px;
+		grid-template-columns: 1fr 60px 120px 80px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.listingHead,
+	.listingContentRow {
+		grid-template-columns: 1fr 100px 120px 120px 100px 100px;
 	}
 
 	.listingHead {
@@ -113,10 +129,10 @@
 	}
 
 	.listingContentRow {
-		padding-top: 0.875rem;
-		padding-bottom: 0.875rem;
+		padding-top: 14px;
+		padding-bottom: 14px;
 		transition: all 0.2s ease-in-out;
-		height: 4.375rem;
+		height: 70px;
 		align-items: center;
 		border-top: 1px solid #eaecf0;
 
@@ -126,7 +142,27 @@
 		}
 
 		a {
-			font-size: 0.875rem;
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.assignedPlaces,
+	.listingContentRowAssignedPlaces {
+		display: block;
+	}
+
+	.listingHead,
+	.listingContentRow {
+		grid-template-columns: 1fr 100px 120px 120px 120px 100px 100px;
+	}
+
+	.listingContentRow {
+		.listingContentSpecialty {
+			.listingContentSpecialtyFullName {
+				display: block;
+			}
 		}
 	}
 }

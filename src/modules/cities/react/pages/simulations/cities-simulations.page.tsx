@@ -14,7 +14,7 @@ import { useTranslations } from "next-intl";
 /** REACT FEATHER */
 import { ArrowLeft } from "react-feather";
 /** USE CASES */
-import { EstimateCitiesIWouldHaveUseCase } from "@/modules/cities/core/use-cases/estimate-cities-i-would-have.use-case";
+import { EstimateCitiesSimulationsIWouldHaveUseCase } from "@/modules/cities/core/use-cases/estimate-cities-simulations-i-would-have.use-case";
 
 type Props = {
 	readonly stage?: number;
@@ -22,72 +22,84 @@ type Props = {
 	readonly specialty?: SpecialtyCode;
 };
 
-// const Listing = async ({
-// 	stage,
-// 	rank,
-// 	specialty,
-// }: {
-// 	readonly stage: number;
-// 	readonly rank: number;
-// 	readonly specialty: SpecialtyCode;
-// }) => {
-// 	const t = await getTranslations();
-// 	const { cities } = await new EstimateCitiesIWouldHaveUseCase(
-// 		app.dependencies.citiesGateway
-// 	).execute({
-// 		stage,
-// 		rank,
-// 		specialty,
-// 	});
+const Listing = async ({
+	stage,
+	rank,
+	specialty,
+}: {
+	readonly stage: number;
+	readonly rank: number;
+	readonly specialty: SpecialtyCode;
+}) => {
+	const t = await getTranslations();
+	const { cities } = await new EstimateCitiesSimulationsIWouldHaveUseCase(
+		app.dependencies.citiesGateway
+	).execute({
+		stage,
+		rank,
+		specialty,
+	});
 
-// 	return (
-// 		<div className={styles.listingContainer}>
-// 			<div className={styles.listingHead}>
-// 				<span>{t("CitiesRankListing.listing-head-city")}</span>
-// 				<span>{t("CitiesRankListing.listing-head-result")}</span>
-// 				<span>{t("CitiesRankListing.listing-head-places")}</span>
-// 				<span className={styles.listingContentFirstRank}>
-// 					{t("CitiesRankListing.listing-head-best-rank")}
-// 				</span>
-// 				<span className={styles.listingContentMyRank}>
-// 					{t("CitiesRankListing.listing-head-my-rank")}
-// 				</span>
-// 				<span>{t("CitiesRankListing.listing-head-worst-rank")}</span>
-// 			</div>
+	return (
+		<div className={styles.listingContainer}>
+			<div className={styles.listingHead}>
+				<span>{t("CitiesSimulationListing.listing-head-city")}</span>
+				<span>{t("CitiesSimulationListing.listing-head-result")}</span>
+				<span className={styles.assignedPlaces}>
+					{t("CitiesSimulationListing.listing-head-assigned-places")}
+				</span>
+				<span className={styles.remainingPlaces}>
+					{t("CitiesSimulationListing.listing-head-remaining-places")}
+				</span>
+				<span className={styles.listingContentFirstRank}>
+					{t("CitiesSimulationListing.listing-head-best-rank")}
+				</span>
+				<span className={styles.listingContentMyRank}>
+					{t("CitiesSimulationListing.listing-head-my-rank")}
+				</span>
+				<span>{t("CitiesSimulationListing.listing-head-worst-rank")}</span>
+			</div>
 
-// 			<div className={styles.listingContent}>
-// 				{cities.map((city, index) => (
-// 					<div
-// 						key={index}
-// 						className={styles.listingContentRow}
-// 						data-would-have-it={city.wouldHaveIt}
-// 					>
-// 						<div className={styles.listingContentRowCity}>
-// 							<span>{city.name}</span>
-// 						</div>
-// 						<div>
-// 							{city.wouldHaveIt ? (
-// 								<span>{t("CitiesRankListing.listing-result-success")}</span>
-// 							) : (
-// 								<span>{t("CitiesRankListing.listing-result-failed")}</span>
-// 							)}
-// 						</div>
-// 						<span className={styles.listingContentRowPlaces}>
-// 							{city.places}
-// 						</span>
-// 						<span className={styles.listingContentFirstRank}>
-// 							{city.bestRank}
-// 						</span>
-// 						<span className={styles.listingContentMyRank}>{rank}</span>
-// 						<span className={styles.listingContentRowLastRank}>
-// 							{city.worstRank}
-// 						</span>
-// 					</div>
-// 				))}
-// 			</div>
-// 		</div>
-// 	);
-// };
+			<div className={styles.listingContent}>
+				{cities.map((city, index) => (
+					<div
+						key={index}
+						className={styles.listingContentRow}
+						data-would-have-it={city.wouldHaveIt}
+					>
+						<div className={styles.listingContentRowCity}>
+							<span>{city.name}</span>
+						</div>
+						<div>
+							{city.wouldHaveIt ? (
+								<span>
+									{t("CitiesSimulationListing.listing-result-success")}
+								</span>
+							) : (
+								<span>
+									{t("CitiesSimulationListing.listing-result-failed")}
+								</span>
+							)}
+						</div>
+						<span className={styles.listingContentRowAssignedPlaces}>
+							{city.assignedPlaces}
+						</span>
+						<span className={styles.listingContentRowRemainingPlaces}>
+							{city.remainingPlaces}
+						</span>
+						<span className={styles.listingContentFirstRank}>
+							{city.bestRank}
+						</span>
+						<span className={styles.listingContentMyRank}>{rank}</span>
+						<span className={styles.listingContentRowLastRank}>
+							{city.worstRank}
+						</span>
+					</div>
+				))}
+			</div>
+		</div>
+	);
+};
 
 const CitiesSimulationsPage = ({ stage, rank, specialty }: Props) => {
 	const t = useTranslations();
@@ -103,7 +115,7 @@ const CitiesSimulationsPage = ({ stage, rank, specialty }: Props) => {
 				}
 			>
 				<ArrowLeft />
-				<span>{t("CitiesRankListing.go-to-specialties-listing")}</span>
+				<span>{t("CitiesSimulationListing.go-to-specialties-listing")}</span>
 			</Link>
 
 			<CitiesSimulationForm
@@ -114,7 +126,7 @@ const CitiesSimulationsPage = ({ stage, rank, specialty }: Props) => {
 
 			{stage && rank && specialty && (
 				<Suspense fallback={<CitiesListingLoader />}>
-					{/* <Listing rank={rank} specialty={specialty} stage={stage} /> */}
+					<Listing rank={rank} specialty={specialty} stage={stage} />
 				</Suspense>
 			)}
 		</main>
