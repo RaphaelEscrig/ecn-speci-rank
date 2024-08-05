@@ -39,6 +39,7 @@
 		"listing-head-best-rank": "Premier rang",
 		"listing-head-my-rank": "Mon rang",
 		"listing-head-worst-rank": "Dernier rang",
+		"listing-no-rank": "--",
 		"listing-result-success": "Obtenu",
 		"listing-result-failed": "Refusé"
 	}

@@ -88,11 +88,15 @@ const Listing = async ({
 							{city.remainingPlaces}
 						</span>
 						<span className={styles.listingContentFirstRank}>
-							{city.bestRank}
+							{city.bestRank
+								? city.bestRank
+								: t("SpecialtiesSimulationsPage.listing-no-rank")}
 						</span>
 						<span className={styles.listingContentMyRank}>{rank}</span>
 						<span className={styles.listingContentRowLastRank}>
-							{city.worstRank}
+							{city.worstRank
+								? city.worstRank
+								: t("SpecialtiesSimulationsPage.listing-no-rank")}
 						</span>
 					</div>
 				))}
