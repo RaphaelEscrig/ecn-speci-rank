@@ -154,7 +154,7 @@ export class SpecialtyFactory {
 				specialty: "CMF",
 				places: 1,
 				bestRank: 89,
-				worstRank: 1800,
+				worstRank: 89,
 				remainingPlaces: 0,
 				assignedPlaces: 1,
 			},
