@@ -5,6 +5,7 @@ import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
 	SpecialtyRanking,
+	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
 /** PORTS */
 import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
@@ -12,6 +13,12 @@ import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/port
 export class InMemorySpecialtiesGateway implements ISpecialtiesGateway {
 	public async findAllPerYear(_: number): Promise<Specialty.PerYear[]> {
 		return SpecialtyFactory.createSpecialtiesPerYear();
+	}
+
+	public async findAllPerSimulation(
+		_: number
+	): Promise<SpecialtySimulation.PerSpecialty[]> {
+		return SpecialtyFactory.createSpecialtiesPerSimulation();
 	}
 
 	public async findRanking(
