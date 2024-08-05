@@ -1,6 +1,9 @@
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
-import type { CityRank } from "@/modules/cities/core/domain/models";
+import type {
+	CityRank,
+	CitySimulation,
+} from "@/modules/cities/core/domain/models";
 /** PORTS */
 import type { ICitiesGateway } from "@/modules/cities/core/domain/ports/cities.port";
 /** POSTGRES */
@@ -39,5 +42,40 @@ export class PSQLCitiesGateway implements ICitiesGateway {
 				worstRank: city.worstrank,
 			})
 		);
+	}
+
+	public async findPerSimulation(
+		_: number,
+		specialty: SpecialtyCode,
+		stage: number
+	): Promise<CitySimulation.City[]> {
+		const result: Array<
+			Omit<
+				CitySimulation.City,
+				"assignedPlaces" | "remainingPlaces" | "places"
+			> & {
+				readonly places: string;
+				readonly remainingPlaces: string;
+				readonly assignedPlaces: string;
+			}
+		> = await this.psql`
+			SELECT 
+        city AS name,
+        SUM(places) AS places,
+        SUM(assigned_places) AS "assignedPlaces",
+				SUM(remaining_places) AS "remainingPlaces",
+        MIN(best_rank) AS "bestRank",
+        MAX(worst_rank) AS "worstRank"
+      FROM simulations_posts
+      WHERE specialty = ${specialty} AND stage = ${stage}
+      GROUP BY city;
+    `;
+
+		return result.map((item) => ({
+			...item,
+			places: parseInt(item.places),
+			remainingPlaces: parseInt(item.remainingPlaces),
+			assignedPlaces: parseInt(item.assignedPlaces),
+		}));
 	}
 }

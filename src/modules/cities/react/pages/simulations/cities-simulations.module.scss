@@ -1,0 +1,168 @@
+#page {
+	padding: 20px;
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+}
+
+.goBack {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 30px;
+	font-size: 14px;
+
+	&:hover {
+		font-weight: 500;
+	}
+
+	svg {
+		position: relative;
+		top: 1px;
+		width: 18px;
+		height: 18px;
+	}
+}
+
+.listingContainer {
+	margin: 25px auto 0;
+	border: 1px solid #eaecf0;
+	border-radius: 15px;
+}
+
+.listingHead,
+.listingContentRow {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 60px 80px;
+	gap: 10px;
+
+	span {
+		color: #1b2559;
+	}
+}
+
+.listingContentFirstRank,
+.listingContentMyRank,
+.assignedPlaces,
+.remainingPlaces,
+.listingContentRowAssignedPlaces,
+.listingContentRowRemainingPlaces {
+	display: none;
+}
+
+.listingHead {
+	span {
+		font-size: 12px;
+		font-weight: 500;
+	}
+}
+
+.listingContentRow {
+	transition: all 0.2s ease-in-out;
+	align-items: center;
+	border-top: 1px solid #eaecf0;
+
+	&:last-child {
+		border-radius: 0 0 15px 15px;
+	}
+
+	&[data-would-have-it="true"] {
+		background-color: #e6faf5;
+	}
+	&[data-would-have-it="false"] {
+		background-color: #fffae9;
+	}
+
+	.listingContentRowCity {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.listingContentRowPlaces,
+	.listingContentRowFirstRank,
+	.listingContentMyRank,
+	.listingContentRowLastRank {
+		padding-left: 10px;
+	}
+
+	a {
+		font-size: 12px;
+		text-align: center;
+
+		&:hover {
+			font-weight: 500;
+		}
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.remainingPlaces,
+	.listingContentRowRemainingPlaces {
+		display: block;
+	}
+
+	.listingHead,
+	.listingContentRow {
+		padding: 10px 20px;
+		gap: 20px;
+		grid-template-columns: 1fr 60px 120px 80px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.listingHead,
+	.listingContentRow {
+		grid-template-columns: 1fr 100px 120px 120px 100px 100px;
+	}
+
+	.listingHead {
+		span {
+			font-size: 14px;
+			font-weight: 500;
+		}
+	}
+
+	.listingContentFirstRank,
+	.listingContentMyRank {
+		display: block;
+	}
+
+	.listingContentRow {
+		padding-top: 14px;
+		padding-bottom: 14px;
+		transition: all 0.2s ease-in-out;
+		height: 70px;
+		align-items: center;
+		border-top: 1px solid #eaecf0;
+
+		&:hover {
+			transform: scale(1.01);
+			z-index: 2;
+		}
+
+		a {
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.assignedPlaces,
+	.listingContentRowAssignedPlaces {
+		display: block;
+	}
+
+	.listingHead,
+	.listingContentRow {
+		grid-template-columns: 1fr 100px 120px 120px 120px 100px 100px;
+	}
+
+	.listingContentRow {
+		.listingContentSpecialty {
+			.listingContentSpecialtyFullName {
+				display: block;
+			}
+		}
+	}
+}

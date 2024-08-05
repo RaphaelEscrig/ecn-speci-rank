@@ -3,6 +3,7 @@ import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
 	SpecialtyRanking,
+	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
 /** PORTS */
 import type { ISpecialtiesGateway } from "@/modules/specialties/core/domain/ports/specialties.port";
@@ -12,7 +13,16 @@ export class MockFailingSpecialtiesGateway implements ISpecialtiesGateway {
 		throw new Error("Error to fetch specialties");
 	}
 
-	findRanking(_: SpecialtyCode, __: number): Promise<SpecialtyRanking.Rank[]> {
+	public async findAllPerSimulation(
+		_: number
+	): Promise<SpecialtySimulation.PerSpecialty[]> {
+		throw new Error("Error to fetch simulation result");
+	}
+
+	public async findRanking(
+		_: SpecialtyCode,
+		__: number
+	): Promise<SpecialtyRanking.Rank[]> {
 		throw new Error("Error to fetch specialty ranking");
 	}
 }
