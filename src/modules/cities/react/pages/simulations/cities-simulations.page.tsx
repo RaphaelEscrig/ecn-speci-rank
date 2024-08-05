@@ -4,7 +4,7 @@ import Link from "next/link";
 /** APP */
 import app from "@/modules/app/main";
 /** COMPONENTS */
-import CitiesRankForm from "@/modules/cities/react/components/cities-rank-form/cities-rank-form.component";
+import CitiesSimulationForm from "@/modules/cities/react/components/cities-simulation-form/cities-simulation-form.component";
 import CitiesListingLoader from "@/modules/cities/react/components/cities-listing-loader/cities-listing-loader.component";
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
@@ -106,11 +106,11 @@ const CitiesSimulationsPage = ({ stage, rank, specialty }: Props) => {
 				<span>{t("CitiesRankListing.go-to-specialties-listing")}</span>
 			</Link>
 
-			{/* <CitiesSimulationsForm
+			<CitiesSimulationForm
 				rank={rank?.toString()}
 				specialty={specialty}
 				stage={stage?.toString()}
-			/> */}
+			/>
 
 			{stage && rank && specialty && (
 				<Suspense fallback={<CitiesListingLoader />}>

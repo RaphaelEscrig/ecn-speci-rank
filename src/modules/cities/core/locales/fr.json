@@ -5,7 +5,17 @@
 		"year-label": "Année des résultats",
 		"year-placeholder": "Sélectionnez une année",
 		"specialty-label": "Spécialité",
-		"specialty-placeholder": "Sélectionnez votre spécialité"
+		"specialty-placeholder": "Sélectionnez votre spécialité",
+		"submit": "Valider"
+	},
+	"CitiesSimulationForm": {
+		"rank-label": "Classement",
+		"rank-placeholder": "Entrez votre classement",
+		"stage-label": "Phase",
+		"stage-placeholder": "Sélectionnez une phase",
+		"specialty-label": "Spécialité",
+		"specialty-placeholder": "Sélectionnez votre spécialité",
+		"submit": "Valider"
 	},
 	"CitiesRankListing": {
 		"go-to-specialties-listing": "Retour aux spécialités",
