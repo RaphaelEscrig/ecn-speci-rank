@@ -16,8 +16,8 @@ export type PerSpecialty = {
 	readonly places: number;
 	readonly assignedPlaces: number;
 	readonly remainingPlaces: number;
-	readonly bestRank: number;
-	readonly worstRank: number;
+	readonly bestRank: number | null;
+	readonly worstRank: number | null;
 };
 
 export type PerSpecialtyWithResult = PerSpecialty & {

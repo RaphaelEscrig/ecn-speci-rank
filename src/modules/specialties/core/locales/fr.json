@@ -8,10 +8,27 @@
 		"listing-see-cities": "Voir les villes",
 		"listing-see-ranking": "Voir le classement"
 	},
+	"SpecialtiesSimulationsPage": {
+		"listing-loading": "Récupération des données en cours…",
+		"listing-head-specialty": "Spécialité",
+		"listing-head-assigned-places": "Places assignées",
+		"listing-head-remaining-places": "Places restantes",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-no-rank": "--",
+		"listing-see-cities": "Voir les villes"
+	},
 	"SpecialtiesListingFilters": {
 		"year-label": "Année",
 		"year-placeholder": "Sélectionnez l'année",
 		"rank-label": "Classement (optionnel)",
+		"rank-placeholder": "Entrez votre classement",
+		"submit": "Valider"
+	},
+	"SpecialtiesSimulationsFilters": {
+		"stage-label": "Phase",
+		"stage-placeholder": "Sélectionnez la phase",
+		"rank-label": "Classement",
 		"rank-placeholder": "Entrez votre classement",
 		"submit": "Valider"
 	},

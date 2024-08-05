@@ -14,7 +14,7 @@
 .listingContentRow {
 	padding: 0.625rem;
 	display: grid;
-	grid-template-columns: 60px 75px 1fr 1fr;
+	grid-template-columns: 60px 100px 75px 1fr;
 	gap: 5px;
 
 	span {
@@ -23,8 +23,8 @@
 }
 
 .listingContentFirstRank,
-.places,
-.listingContentRowPlaces {
+.assignedPlaces,
+.listingContentRowAssignedPlaces {
 	display: none;
 }
 
@@ -58,7 +58,8 @@
 		}
 	}
 
-	.listingContentRowPlaces,
+	.listingContentRowAssignedPlaces,
+	.listingContentRowRemainingPlaces,
 	.listingContentRowFirstRank,
 	.listingContentRowLastRank {
 		padding-left: 10px;
@@ -85,11 +86,11 @@
 @media screen and (min-width: 576px) {
 	.listingHead,
 	.listingContentRow {
-		grid-template-columns: 70px 80px 100px 1fr 1fr;
+		grid-template-columns: 70px 120px 120px 100px 1fr;
 	}
 
-	.places,
-	.listingContentRowPlaces {
+	.assignedPlaces,
+	.listingContentRowAssignedPlaces {
 		display: block;
 	}
 }
@@ -99,7 +100,7 @@
 	.listingContentRow {
 		padding: 0.625rem 1.25rem;
 		gap: 15px;
-		grid-template-columns: 1fr 50px 90px 90px 100px 130px;
+		grid-template-columns: 1fr 120px 120px 90px 90px 100px;
 	}
 
 	.listingHead {

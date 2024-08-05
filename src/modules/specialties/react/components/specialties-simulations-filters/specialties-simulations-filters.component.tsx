@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { Input } from "@/ui/Input/index.component";
 import { Button } from "@/ui/Button/index.component";
 /** FORMS */
-import { useSpecialtiesForm } from "@/modules/specialties/react/hooks/use-specialties-form.hook";
+import { useSpecialtiesSimulationsForm } from "@/modules/specialties/react/hooks/use-specialties-simulations-form.hook";
 /** REACT SELECT */
 import Select from "react-select";
 /** NEXT-INTL */
@@ -15,31 +15,31 @@ import { useTranslations } from "next-intl";
 /** UTILS */
 import { numberWithSpaces } from "@/modules/shared/utils/numbers.util";
 
-const SpecialtiesListingFilters = ({
-	year,
+const SpecialtiesSimulationsFilters = ({
+	stage,
 	rank,
 }: {
-	year: number;
+	stage: number;
 	rank?: number;
 }) => {
-	const { years, form, update, reset } = useSpecialtiesForm();
+	const { stages, form, update, reset } = useSpecialtiesSimulationsForm();
 	const pathname = usePathname();
 	const { replace } = useRouter();
 	const id = useId();
-	const t = useTranslations("SpecialtiesListingFilters");
+	const t = useTranslations("SpecialtiesSimulationsFilters");
 
 	useEffect(() => {
 		reset({
-			year: year.toString(),
+			stage: stage.toString(),
 			rank: rank ? rank.toString() : "",
 		});
-	}, [year, rank, reset]);
+	}, [stage, rank, reset]);
 
 	const handleSubmit = (event: FormEvent) => {
 		event.preventDefault();
 
 		const params = new URLSearchParams();
-		params.set("year", form.year);
+		params.set("stage", form.stage);
 
 		if (form.rank) {
 			params.set("rank", form.rank);
@@ -59,16 +59,16 @@ const SpecialtiesListingFilters = ({
 				onChange={(event) => update("rank", event.target.value)}
 			/>
 
-			<div className={styles.year}>
-				<span className={styles.label}>{t("year-label")}</span>
+			<div className={styles.stage}>
+				<span className={styles.label}>{t("stage-label")}</span>
 
 				<Select
 					classNamePrefix={"reactSelect"}
 					instanceId={id}
-					options={years}
-					placeholder={t("year-placeholder")}
-					value={years.find((option) => option.value === form.year) ?? null}
-					onChange={(newValue) => newValue && update("year", newValue.value)}
+					options={stages}
+					placeholder={t("stage-placeholder")}
+					value={stages.find((option) => option.value === form.stage) ?? null}
+					onChange={(newValue) => newValue && update("stage", newValue.value)}
 				/>
 			</div>
 
@@ -79,4 +79,4 @@ const SpecialtiesListingFilters = ({
 	);
 };
 
-export default SpecialtiesListingFilters;
+export default SpecialtiesSimulationsFilters;

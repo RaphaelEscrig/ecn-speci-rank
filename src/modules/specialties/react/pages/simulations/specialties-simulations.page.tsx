@@ -5,31 +5,33 @@ import Link from "next/link";
 import app from "@/modules/app/main";
 /** COMPONENTS */
 import SpecialtiesListingLoader from "../../components/specialties-listing-loader/specialties-listing-loader.component";
-import SpecialtiesListingFilters from "../../components/specialties-listing-filters/specialties-listing-filters.component";
+import SpecialtiesSimulationsFilters from "../../components/specialties-simulations-filters/specialties-simulations-filters.component";
 /** NEXT-INTL */
 import { getTranslations } from "next-intl/server";
 /** USE CASES */
-import { FindSpecialtiesPerYearUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-year.use-case";
+import { FindSpecialtiesPerSimulationUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-simulation.use-case";
 
-const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
-	const { specialties } = await new FindSpecialtiesPerYearUseCase(
+const Listing = async ({ rank, stage }: { rank?: number; stage: number }) => {
+	const { specialties } = await new FindSpecialtiesPerSimulationUseCase(
 		app.dependencies.specialtiesGateway
-	).execute({ year, rank });
+	).execute({ stage, rank });
 	const t = await getTranslations();
 
 	return (
 		<div className={styles.listingContainer}>
 			<div className={styles.listingHead}>
-				<span>{t("SpecialtiesListingPage.listing-head-specialty")}</span>
-				<span className={styles.places}>
-					{t("SpecialtiesListingPage.listing-head-places")}
+				<span>{t("SpecialtiesSimulationsPage.listing-head-specialty")}</span>
+				<span className={styles.assignedPlaces}>
+					{t("SpecialtiesSimulationsPage.listing-head-assigned-places")}
+				</span>
+				<span className={styles.remainingPlaces}>
+					{t("SpecialtiesSimulationsPage.listing-head-remaining-places")}
 				</span>
 				<span className={styles.listingContentFirstRank}>
-					{t("SpecialtiesListingPage.listing-head-best-rank")}
+					{t("SpecialtiesSimulationsPage.listing-head-best-rank")}
 				</span>
-				<span>{t("SpecialtiesListingPage.listing-head-worst-rank")}</span>
+				<span>{t("SpecialtiesSimulationsPage.listing-head-worst-rank")}</span>
 				<div />
-				<div className={styles.seeRanking} />
 			</div>
 
 			<div className={styles.listingContent}>
@@ -47,29 +49,30 @@ const Listing = async ({ rank, year }: { rank?: number; year: number }) => {
 								- {t(`shared.specialties.${specialty.specialty}`)}
 							</span>
 						</div>
-						<span className={styles.listingContentRowPlaces}>
-							{specialty.places}
+						<span className={styles.listingContentRowAssignedPlaces}>
+							{specialty.assignedPlaces}
+						</span>
+						<span className={styles.listingContentRowRemainingPlaces}>
+							{specialty.remainingPlaces}
 						</span>
 						<span className={styles.listingContentFirstRank}>
-							{specialty.bestRank}
+							{specialty.bestRank
+								? specialty.bestRank
+								: t("SpecialtiesSimulationsPage.listing-no-rank")}
 						</span>
 						<span className={styles.listingContentRowLastRank}>
-							{specialty.worstRank}
+							{specialty.worstRank
+								? specialty.worstRank
+								: t("SpecialtiesSimulationsPage.listing-no-rank")}
 						</span>
 						<Link
 							href={
 								rank
-									? `/cities?year=${year}&specialty=${specialty.specialty}&rank=${rank}`
-									: `/cities?year=${year}&specialty=${specialty.specialty}`
+									? `/cities/simulations?stage=${stage}&specialty=${specialty.specialty}&rank=${rank}`
+									: `/cities/simulations?stage=${stage}&specialty=${specialty.specialty}`
 							}
 						>
-							{t("SpecialtiesListingPage.listing-see-cities")}
-						</Link>
-						<Link
-							className={styles.seeRanking}
-							href={`/specialties/ranking?year=${year}&specialty=${specialty.specialty}`}
-						>
-							{t("SpecialtiesListingPage.listing-see-ranking")}
+							{t("SpecialtiesSimulationsPage.listing-see-cities")}
 						</Link>
 					</div>
 				))}
@@ -87,9 +90,9 @@ const SpecialtiesSimulationsPage = ({
 }) => {
 	return (
 		<main id={styles.page}>
-			{/* <SpecialtiesListingFilters rank={rank} stage={stage} /> */}
+			<SpecialtiesSimulationsFilters rank={rank} stage={stage} />
 			<Suspense fallback={<SpecialtiesListingLoader />}>
-				{/* <Listing rank={rank} stage={stage} /> */}
+				<Listing rank={rank} stage={stage} />
 			</Suspense>
 		</main>
 	);
