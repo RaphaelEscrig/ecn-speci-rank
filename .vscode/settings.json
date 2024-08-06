@@ -7,9 +7,14 @@
 		"psql",
 		"PSQL"
 	],
+	"i18n-ally.sourceLanguage": "fr",
+	"i18n-ally.displayLanguage": "fr",
+	"i18n-ally.keystyle": "nested",
 	"i18n-ally.localesPaths": [
 		"src/app/locales",
+		"src/modules/cities/core/locales",
 		"src/modules/shared/core/locales",
-		"src/modules/specialties/core/locales"
+		"src/modules/specialties/core/locales",
+		"src/modules/layout/core/locales"
 	]
 }
