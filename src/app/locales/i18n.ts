@@ -3,7 +3,7 @@ import { getRequestConfig } from "next-intl/server";
 
 export default getRequestConfig(async () => {
 	const locale = "fr";
-	const modules = ["cities", "specialties", "shared"];
+	const modules = ["cities", "specialties", "shared", "layout"];
 
 	const modulesMessages = await Promise.all(
 		modules.map(

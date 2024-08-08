@@ -6,6 +6,7 @@ import { CSPostHogProvider } from "@/modules/analytics/react/components/posthog-
 /** NEXT-INTL */
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import Layout from "@/modules/layout/react/components/layout/layout.component";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +29,7 @@ export default async function RootLayout({
 			<CSPostHogProvider>
 				<body className={inter.className}>
 					<NextIntlClientProvider messages={messages}>
-						{children}
+						<Layout>{children}</Layout>
 					</NextIntlClientProvider>
 				</body>
 			</CSPostHogProvider>

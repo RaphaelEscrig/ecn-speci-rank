@@ -1,0 +1,38 @@
+.header {
+	border-bottom: 1px solid #eaecf0;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 5px;
+
+		a {
+			font-size: 14px;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.header {
+		padding: 15px 20px;
+		flex-direction: row;
+
+		nav {
+			gap: 20px;
+
+			a {
+				font-size: 16px;
+			}
+		}
+	}
+}
