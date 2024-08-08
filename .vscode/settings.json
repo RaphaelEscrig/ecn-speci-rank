@@ -5,7 +5,8 @@
 		"posthog",
 		"POSTHOG",
 		"psql",
-		"PSQL"
+		"PSQL",
+		"svgr"
 	],
 	"i18n-ally.sourceLanguage": "fr",
 	"i18n-ally.displayLanguage": "fr",
