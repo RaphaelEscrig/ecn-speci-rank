@@ -117,6 +117,10 @@ const CitiesPage = ({ year, rank, specialty }: Props) => {
 					<Listing rank={rank} specialty={specialty} year={year} />
 				</Suspense>
 			)}
+
+			{!rank && <p>{t("CitiesRankListing.no-rank-specified")}</p>}
+			{!year && <p>{t("CitiesRankListing.no-year-selected")}</p>}
+			{!specialty && <p>{t("CitiesRankListing.no-specialty-selected")}</p>}
 		</main>
 	);
 };

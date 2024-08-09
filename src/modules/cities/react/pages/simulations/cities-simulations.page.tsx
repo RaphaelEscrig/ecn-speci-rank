@@ -133,6 +133,12 @@ const CitiesSimulationsPage = ({ stage, rank, specialty }: Props) => {
 					<Listing rank={rank} specialty={specialty} stage={stage} />
 				</Suspense>
 			)}
+
+			{!rank && <p>{t("CitiesSimulationListing.no-rank-specified")}</p>}
+			{!stage && <p>{t("CitiesSimulationListing.no-stage-selected")}</p>}
+			{!specialty && (
+				<p>{t("CitiesSimulationListing.no-specialty-selected")}</p>
+			)}
 		</main>
 	);
 };
