@@ -27,7 +27,11 @@
 		"listing-head-my-rank": "Mon rang",
 		"listing-head-worst-rank": "Dernier rang",
 		"listing-result-success": "Obtenu",
-		"listing-result-failed": "Refusé"
+		"listing-result-failed": "Refusé",
+
+		"no-rank-specified": "Veuillez entrer votre classement",
+		"no-year-selected": "Veuillez sélectionner une année",
+		"no-specialty-selected": "Veuillez sélectionner une spécialité"
 	},
 	"CitiesSimulationListing": {
 		"go-to-specialties-listing": "Retour aux spécialités",
@@ -41,6 +45,10 @@
 		"listing-head-worst-rank": "Dernier rang",
 		"listing-no-rank": "--",
 		"listing-result-success": "Obtenu",
-		"listing-result-failed": "Refusé"
+		"listing-result-failed": "Refusé",
+
+		"no-rank-specified": "Veuillez entrer votre classement",
+		"no-stage-selected": "Veuillez sélectionner une phase",
+		"no-specialty-selected": "Veuillez sélectionner une spécialité"
 	}
 }
