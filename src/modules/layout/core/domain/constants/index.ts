@@ -5,9 +5,36 @@ export const HEADER_NAVIGATION_LINKS: LayoutHeader.NavigationItem[] = [
 	{
 		href: "/specialties",
 		translation: "go-to-specialties",
+		category: "specialties",
 	},
 	{
 		href: "/specialties/simulations",
 		translation: "go-to-simulations",
+		category: "simulations",
+	},
+];
+
+export const HEADER_CATEGORIES = [
+	// SPECIALTIES
+	{
+		href: "/specialties",
+		category: "specialties",
+	},
+	{
+		href: "/specialties/ranking",
+		category: "specialties",
+	},
+	{
+		href: "/cities",
+		category: "specialties",
+	},
+	// SIMULATIONS
+	{
+		href: "/specialties/simulations",
+		category: "simulations",
+	},
+	{
+		href: "/cities/simulations",
+		category: "simulations",
 	},
 ];
