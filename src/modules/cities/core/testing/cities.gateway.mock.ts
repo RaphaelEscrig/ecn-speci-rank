@@ -27,4 +27,12 @@ export class MockCitiesGateway implements ICitiesGateway {
 	): Promise<CitySimulation.City[]> {
 		return await this.gateway.findPerSimulation(stage, specialty, rank);
 	}
+
+	public async findPerBlankRound(
+		round: number,
+		specialty: SpecialtyCode,
+		rank: number
+	): Promise<CitySimulation.City[]> {
+		return await this.gateway.findPerBlankRound(round, specialty, rank);
+	}
 }

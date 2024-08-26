@@ -1,41 +1,41 @@
 /** FORMS */
-import { CitiesSimulationForm } from "@/modules/cities/core/forms/cities-simulation.form";
+import { CitiesBlankRoundsForm } from "../cities-blank-rounds.form";
 /** MODELS */
-import type { CitySimulation } from "@/modules/cities/core/domain/models";
+import type { CityBlankRound } from "@/modules/cities/core/domain/models";
 
-const emptyInitialState: CitySimulation.Form = {
+const emptyInitialState: CityBlankRound.Form = {
 	rank: "",
-	stage: "",
+	round: "",
 	specialty: "",
 };
-const completedState: CitySimulation.Form = {
+const completedState: CityBlankRound.Form = {
 	rank: "1 289",
-	stage: "1",
+	round: "1",
 	specialty: "CMF",
 };
 
 describe("Cities rank form", () => {
-	const form = new CitiesSimulationForm();
+	const form = new CitiesBlankRoundsForm();
 
 	it.each([
 		{
-			key: "stage" as keyof CitySimulation.Form,
+			key: "round" as keyof CityBlankRound.Form,
 			value: "1",
 		},
 		{
-			key: "rank" as keyof CitySimulation.Form,
+			key: "rank" as keyof CityBlankRound.Form,
 			value: "1 289",
 		},
 		{
-			key: "rank" as keyof CitySimulation.Form,
+			key: "rank" as keyof CityBlankRound.Form,
 			value: "47",
 		},
 		{
-			key: "specialty" as keyof CitySimulation.Form,
+			key: "specialty" as keyof CityBlankRound.Form,
 			value: "CMF",
 		},
 		{
-			key: "specialty" as keyof CitySimulation.Form,
+			key: "specialty" as keyof CityBlankRound.Form,
 			value: "",
 		},
 	])("should change the form when $key is $value", ({ key, value }) => {
@@ -46,37 +46,37 @@ describe("Cities rank form", () => {
 
 	it.each([
 		{
-			key: "rank" as keyof CitySimulation.Form,
+			key: "rank" as keyof CityBlankRound.Form,
 			value: "",
 			context: "is empty",
 			expected: "INVALID_RANK",
 		},
 		{
-			key: "rank" as keyof CitySimulation.Form,
+			key: "rank" as keyof CityBlankRound.Form,
 			value: "not a number",
 			context: "is not a number",
 			expected: "INVALID_RANK",
 		},
 		{
-			key: "stage" as keyof CitySimulation.Form,
+			key: "round" as keyof CityBlankRound.Form,
 			value: "99",
 			context: "is not in the range",
-			expected: "INVALID_STAGE",
+			expected: "INVALID_ROUND",
 		},
 		{
-			key: "stage" as keyof CitySimulation.Form,
+			key: "round" as keyof CityBlankRound.Form,
 			value: "0",
 			context: "is not in the range",
-			expected: "INVALID_STAGE",
+			expected: "INVALID_ROUND",
 		},
 		{
-			key: "specialty" as keyof CitySimulation.Form,
+			key: "specialty" as keyof CityBlankRound.Form,
 			value: "",
 			context: "is empty",
 			expected: "INVALID_SPECIALTY",
 		},
 		{
-			key: "specialty" as keyof CitySimulation.Form,
+			key: "specialty" as keyof CityBlankRound.Form,
 			value: "CMFIJ",
 			context: "does not exist",
 			expected: "INVALID_SPECIALTY",
@@ -97,25 +97,25 @@ describe("Cities rank form", () => {
 	it.each([
 		{
 			rank: "100",
-			stage: "1",
+			round: "1",
 			specialty: "CMF",
 		},
 		{
 			rank: "8 384",
-			stage: "1",
+			round: "1",
 			specialty: "CMF",
 		},
-	])("should be valid", ({ rank, stage, specialty }) => {
+	])("should be valid", ({ rank, round, specialty }) => {
 		const [isValid, errors] = form.validate({
 			rank,
-			stage,
+			round,
 			specialty,
 		});
 
 		expect(isValid).toBeTruthy();
 		expect(errors).toEqual({
 			rank: null,
-			stage: null,
+			round: null,
 			specialty: null,
 		});
 	});

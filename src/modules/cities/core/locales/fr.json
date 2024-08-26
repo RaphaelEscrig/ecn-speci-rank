@@ -50,5 +50,34 @@
 		"no-rank-specified": "Veuillez entrer votre classement",
 		"no-stage-selected": "Veuillez sélectionner une phase",
 		"no-specialty-selected": "Veuillez sélectionner une spécialité"
+	},
+
+	"CitiesBlankRoundForm": {
+		"rank-label": "Classement",
+		"rank-placeholder": "Entrez votre classement",
+		"round-label": "Tour blanc",
+		"round-placeholder": "Sélectionnez un tour blanc",
+		"specialty-label": "Spécialité",
+		"specialty-placeholder": "Sélectionnez votre spécialité",
+		"submit": "Valider"
+	},
+
+	"CitiesBlankRoundsListing": {
+		"go-to-specialties-listing": "Retour aux spécialités",
+		"listing-loading": "Récupération des données en cours…",
+		"listing-head-city": "Ville",
+		"listing-head-result": "Résultat",
+		"listing-head-assigned-places": "Places assignées",
+		"listing-head-remaining-places": "Places restantes",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-my-rank": "Mon rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-no-rank": "--",
+		"listing-result-success": "Obtenu",
+		"listing-result-failed": "Refusé",
+
+		"no-rank-specified": "Veuillez entrer votre classement",
+		"no-round-selected": "Veuillez sélectionner une phase",
+		"no-specialty-selected": "Veuillez sélectionner une spécialité"
 	}
 }
