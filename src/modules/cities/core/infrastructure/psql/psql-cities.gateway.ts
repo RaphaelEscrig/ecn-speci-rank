@@ -1,6 +1,7 @@
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
+	CityBlankRound,
 	CityRank,
 	CitySimulation,
 } from "@/modules/cities/core/domain/models";
@@ -68,6 +69,41 @@ export class PSQLCitiesGateway implements ICitiesGateway {
         MAX(worst_rank) AS "worstRank"
       FROM simulations_posts
       WHERE specialty = ${specialty} AND stage = ${stage}
+      GROUP BY city;
+    `;
+
+		return result.map((item) => ({
+			...item,
+			places: parseInt(item.places),
+			remainingPlaces: parseInt(item.remainingPlaces),
+			assignedPlaces: parseInt(item.assignedPlaces),
+		}));
+	}
+
+	public async findPerBlankRound(
+		_: number,
+		specialty: SpecialtyCode,
+		round: number
+	): Promise<CityBlankRound.City[]> {
+		const result: Array<
+			Omit<
+				CitySimulation.City,
+				"assignedPlaces" | "remainingPlaces" | "places"
+			> & {
+				readonly places: string;
+				readonly remainingPlaces: string;
+				readonly assignedPlaces: string;
+			}
+		> = await this.psql`
+			SELECT 
+        city AS name,
+        SUM(places) AS places,
+        SUM(assigned_places) AS "assignedPlaces",
+				SUM(remaining_places) AS "remainingPlaces",
+        MIN(best_rank) AS "bestRank",
+        MAX(worst_rank) AS "worstRank"
+      FROM blank_rounds_posts
+      WHERE specialty = ${specialty} AND round = ${round}
       GROUP BY city;
     `;
 
