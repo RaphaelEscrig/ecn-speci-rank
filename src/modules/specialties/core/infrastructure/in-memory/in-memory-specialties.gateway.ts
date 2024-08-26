@@ -21,6 +21,12 @@ export class InMemorySpecialtiesGateway implements ISpecialtiesGateway {
 		return SpecialtyFactory.createSpecialtiesPerSimulation();
 	}
 
+	public async findAllPerBlankRound(
+		_: number
+	): Promise<SpecialtySimulation.PerSpecialty[]> {
+		return SpecialtyFactory.createSpecialtiesBlankRound();
+	}
+
 	public async findRanking(
 		specialty: SpecialtyCode,
 		year: number

@@ -1,156 +1,20 @@
-/** MODELS */
-import type { SpecialtyCode } from "@/modules/shared/domain/models";
-import type {
-	Specialty,
-	SpecialtyBlankRound,
-	SpecialtyRanking,
-	SpecialtySimulation,
-} from "@/modules/specialties/core/domain/models";
+/** ADAPTERS */
+import { MockSpecialtiesGateway } from "@/modules/specialties/core/testing/specialties.gateway.mock";
+import { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infrastructure/in-memory/in-memory-specialties.gateway";
+import { MockFailingSpecialtiesGateway } from "@/modules/specialties/core/testing/failing-specialties.gateway.mock";
+/** USE CASES */
+import { FindSpecialtiesPerBlankRoundUseCase } from "@/modules/specialties/core/use-cases/find-specialties-per-blank-round.use-case";
 
-export class SpecialtyFactory {
-	public static createSpecialtiesPerYear(): Specialty.PerYear[] {
-		return [
-			{
-				specialty: "CMF",
-				places: 21,
-				bestRank: 89,
-				worstRank: 1800,
-			},
-			{
-				specialty: "ACP",
-				places: 89,
-				bestRank: 789,
-				worstRank: 4689,
-			},
-			{
-				specialty: "RHU",
-				places: 33,
-				bestRank: 145,
-				worstRank: 3895,
-			},
-			{
-				specialty: "ATT",
-				places: 21,
-				bestRank: 89,
-				worstRank: 1800,
-			},
-			{
-				specialty: "COR",
-				places: 89,
-				bestRank: 789,
-				worstRank: 4689,
-			},
-			{
-				specialty: "URO",
-				places: 33,
-				bestRank: 145,
-				worstRank: 3895,
-			},
-			{
-				specialty: "PSY",
-				places: 128,
-				bestRank: 789,
-				worstRank: 7893,
-			},
-			{
-				specialty: "PED",
-				places: 89,
-				bestRank: 789,
-				worstRank: 4689,
-			},
-			{
-				specialty: "CTC",
-				places: 33,
-				bestRank: 145,
-				worstRank: 3895,
-			},
-			{
-				specialty: "NEU",
-				places: 21,
-				bestRank: 89,
-				worstRank: 1800,
-			},
-			{
-				specialty: "CVA",
-				places: 89,
-				bestRank: 789,
-				worstRank: 4689,
-			},
-			{
-				specialty: "MLE",
-				places: 33,
-				bestRank: 145,
-				worstRank: 3895,
-			},
-		];
-	}
+describe("Find specialties per blank round", () => {
+	it("Should find specialties without rank", async () => {
+		const gateway = new MockSpecialtiesGateway(
+			new InMemorySpecialtiesGateway()
+		);
+		const { specialties } = await new FindSpecialtiesPerBlankRoundUseCase(
+			gateway
+		).execute({ round: 1 });
 
-	public static createSpecialtyRankingPerYear(
-		specialty: SpecialtyCode = "CMF",
-		year = 2023
-	): SpecialtyRanking.Rank[] {
-		return [
-			{
-				specialty,
-				year,
-				rank: 1,
-				intern: "John Doe",
-				city: "Bordeaux",
-			},
-			{
-				specialty,
-				year,
-				rank: 2,
-				intern: "Jhin Dil",
-				city: "Strasbourg",
-			},
-			{
-				specialty,
-				year,
-				rank: 3,
-				intern: "Lula Yuj",
-				city: "Rennes",
-			},
-			{
-				specialty,
-				year,
-				rank: 4,
-				intern: "Mast Bard",
-				city: "Amiens",
-			},
-			{
-				specialty,
-				year,
-				rank: 5,
-				intern: "Roat Bzar",
-				city: "Montpellier",
-			},
-			{
-				specialty,
-				year,
-				rank: 6,
-				intern: "Basil Lud",
-				city: "Rennes",
-			},
-			{
-				specialty,
-				year,
-				rank: 7,
-				intern: "Rita Ota",
-				city: "Grenoble",
-			},
-			{
-				specialty,
-				year,
-				rank: 8,
-				intern: "Yan Jurd",
-				city: "Clermont-Ferrand",
-			},
-		];
-	}
-
-	public static createSpecialtiesPerSimulation(): SpecialtySimulation.PerSpecialty[] {
-		return [
+		expect(specialties).toEqual([
 			{
 				specialty: "CMF",
 				places: 1,
@@ -158,6 +22,7 @@ export class SpecialtyFactory {
 				worstRank: 89,
 				remainingPlaces: 0,
 				assignedPlaces: 1,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "ACP",
@@ -166,6 +31,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				remainingPlaces: 1,
 				assignedPlaces: 3,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "RHU",
@@ -174,6 +40,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				remainingPlaces: 33,
 				assignedPlaces: 0,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "ATT",
@@ -182,6 +49,7 @@ export class SpecialtyFactory {
 				worstRank: 1800,
 				remainingPlaces: 0,
 				assignedPlaces: 21,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "COR",
@@ -190,6 +58,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				remainingPlaces: 2,
 				assignedPlaces: 87,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "URO",
@@ -198,6 +67,7 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 20,
 				remainingPlaces: 13,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "PSY",
@@ -206,6 +76,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 0,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "PED",
@@ -214,6 +85,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				assignedPlaces: 89,
 				remainingPlaces: 0,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "CTC",
@@ -222,6 +94,7 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 33,
 				remainingPlaces: 0,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "NEU",
@@ -230,6 +103,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 21,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "CVA",
@@ -238,6 +112,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 89,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "MLE",
@@ -246,12 +121,21 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 15,
 				remainingPlaces: 18,
+				wouldHaveIt: false,
 			},
-		];
-	}
+		]);
+	});
 
-	public static createSpecialtiesBlankRound(): SpecialtyBlankRound.PerSpecialty[] {
-		return [
+	it("Should find specialties with rank", async () => {
+		const rank = 2000;
+		const gateway = new MockSpecialtiesGateway(
+			new InMemorySpecialtiesGateway()
+		);
+		const { specialties } = await new FindSpecialtiesPerBlankRoundUseCase(
+			gateway
+		).execute({ round: 1, rank });
+
+		expect(specialties).toEqual([
 			{
 				specialty: "CMF",
 				places: 1,
@@ -259,6 +143,7 @@ export class SpecialtyFactory {
 				worstRank: 89,
 				remainingPlaces: 0,
 				assignedPlaces: 1,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "ACP",
@@ -267,6 +152,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				remainingPlaces: 1,
 				assignedPlaces: 3,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "RHU",
@@ -275,6 +161,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				remainingPlaces: 33,
 				assignedPlaces: 0,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "ATT",
@@ -283,6 +170,7 @@ export class SpecialtyFactory {
 				worstRank: 1800,
 				remainingPlaces: 0,
 				assignedPlaces: 21,
+				wouldHaveIt: false,
 			},
 			{
 				specialty: "COR",
@@ -291,6 +179,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				remainingPlaces: 2,
 				assignedPlaces: 87,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "URO",
@@ -299,6 +188,7 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 20,
 				remainingPlaces: 13,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "PSY",
@@ -307,6 +197,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 0,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "PED",
@@ -315,6 +206,7 @@ export class SpecialtyFactory {
 				worstRank: 4689,
 				assignedPlaces: 89,
 				remainingPlaces: 0,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "CTC",
@@ -323,6 +215,7 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 33,
 				remainingPlaces: 0,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "NEU",
@@ -331,6 +224,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 21,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "CVA",
@@ -339,6 +233,7 @@ export class SpecialtyFactory {
 				worstRank: null,
 				assignedPlaces: 0,
 				remainingPlaces: 89,
+				wouldHaveIt: true,
 			},
 			{
 				specialty: "MLE",
@@ -347,7 +242,18 @@ export class SpecialtyFactory {
 				worstRank: 3895,
 				assignedPlaces: 15,
 				remainingPlaces: 18,
+				wouldHaveIt: true,
 			},
-		];
-	}
-}
+		]);
+	});
+
+	it("Should fail to find specialties", async () => {
+		const gateway = new MockFailingSpecialtiesGateway();
+
+		expect(async () => {
+			await new FindSpecialtiesPerBlankRoundUseCase(gateway).execute({
+				round: 2023,
+			});
+		}).rejects.toThrow(Error);
+	});
+});
