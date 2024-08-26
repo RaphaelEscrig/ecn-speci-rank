@@ -3,6 +3,7 @@ import { CityFactory } from "@/modules/cities/core/domain/factories/city.factory
 /** MODELS */
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
+	CityBlankRound,
 	CityRank,
 	CitySimulation,
 } from "@/modules/cities/core/domain/models";
@@ -24,5 +25,13 @@ export class InMemoryCitiesGateway implements ICitiesGateway {
 		___: number
 	): Promise<CitySimulation.City[]> {
 		return CityFactory.createCitiesSimulation();
+	}
+
+	public async findPerBlankRound(
+		_: number,
+		__: SpecialtyCode,
+		___: number
+	): Promise<CityBlankRound.City[]> {
+		return CityFactory.createCitiesBlankRounds();
 	}
 }

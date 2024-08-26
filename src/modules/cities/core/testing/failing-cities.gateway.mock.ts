@@ -1,5 +1,6 @@
 /** MODELS */
 import type {
+	CityBlankRound,
 	CityRank,
 	CitySimulation,
 } from "@/modules/cities/core/domain/models";
@@ -12,6 +13,10 @@ export class MockFailingSCitiesGateway implements ICitiesGateway {
 	}
 
 	public async findPerSimulation(_: number): Promise<CitySimulation.City[]> {
+		throw new Error("Error to find cities");
+	}
+
+	public async findPerBlankRound(_: number): Promise<CityBlankRound.City[]> {
 		throw new Error("Error to find cities");
 	}
 }
