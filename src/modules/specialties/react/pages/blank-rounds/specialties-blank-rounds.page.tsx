@@ -20,17 +20,17 @@ const Listing = async ({ rank, round }: { rank?: number; round: number }) => {
 	return (
 		<div className={styles.listingContainer}>
 			<div className={styles.listingHead}>
-				<span>{t("SpecialtiesSimulationsPage.listing-head-specialty")}</span>
+				<span>{t("SpecialtiesBlankRoundsPage.listing-head-specialty")}</span>
 				<span className={styles.assignedPlaces}>
-					{t("SpecialtiesSimulationsPage.listing-head-assigned-places")}
+					{t("SpecialtiesBlankRoundsPage.listing-head-assigned-places")}
 				</span>
 				<span className={styles.remainingPlaces}>
-					{t("SpecialtiesSimulationsPage.listing-head-remaining-places")}
+					{t("SpecialtiesBlankRoundsPage.listing-head-remaining-places")}
 				</span>
 				<span className={styles.listingContentFirstRank}>
-					{t("SpecialtiesSimulationsPage.listing-head-best-rank")}
+					{t("SpecialtiesBlankRoundsPage.listing-head-best-rank")}
 				</span>
-				<span>{t("SpecialtiesSimulationsPage.listing-head-worst-rank")}</span>
+				<span>{t("SpecialtiesBlankRoundsPage.listing-head-worst-rank")}</span>
 				<div />
 			</div>
 
@@ -58,12 +58,12 @@ const Listing = async ({ rank, round }: { rank?: number; round: number }) => {
 						<span className={styles.listingContentFirstRank}>
 							{specialty.bestRank
 								? specialty.bestRank
-								: t("SpecialtiesSimulationsPage.listing-no-rank")}
+								: t("SpecialtiesBlankRoundsPage.listing-no-rank")}
 						</span>
 						<span className={styles.listingContentRowLastRank}>
 							{specialty.worstRank
 								? specialty.worstRank
-								: t("SpecialtiesSimulationsPage.listing-no-rank")}
+								: t("SpecialtiesBlankRoundsPage.listing-no-rank")}
 						</span>
 						<Link
 							href={
@@ -72,7 +72,7 @@ const Listing = async ({ rank, round }: { rank?: number; round: number }) => {
 									: `/cities/blank-rounds?round=${round}&specialty=${specialty.specialty}`
 							}
 						>
-							{t("SpecialtiesSimulationsPage.listing-see-cities")}
+							{t("SpecialtiesBlankRoundsPage.listing-see-cities")}
 						</Link>
 					</div>
 				))}

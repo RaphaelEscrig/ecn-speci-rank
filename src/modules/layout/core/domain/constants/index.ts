@@ -46,4 +46,8 @@ export const HEADER_CATEGORIES = [
 		href: "/cities/simulations",
 		category: "simulations",
 	},
+	{
+		href: "/cities/blank-rounds",
+		category: "blankRounds",
+	},
 ];

@@ -48,7 +48,7 @@ export class EstimateCitiesBlankRoundsIWouldHaveUseCase {
 
 	public async execute({ round, rank, specialty }: Request): Promise<Response> {
 		const cities = await this.gateway
-			.findPerSimulation(rank, specialty, round)
+			.findPerBlankRound(rank, specialty, round)
 			.then((res) =>
 				res.sort((a, b) => (a.bestRank ?? 9999) - (b.bestRank ?? 9999))
 			);
