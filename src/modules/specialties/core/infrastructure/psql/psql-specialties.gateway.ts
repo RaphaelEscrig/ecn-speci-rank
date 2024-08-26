@@ -39,9 +39,16 @@ export class PSQLSpecialtiesGateway implements ISpecialtiesGateway {
 	}
 
 	public async findAllPerBlankRound(
-		stage: number
+		round: number
 	): Promise<SpecialtyBlankRound.PerSpecialty[]> {
-		return [];
+		const result: SpecialtySimulation.PerSpecialty[] = await this.psql`
+		SELECT specialty, SUM(places) AS places, SUM(assigned_places) AS "assignedPlaces", SUM(remaining_places) AS "remainingPlaces", MIN(best_rank) AS "bestRank", MAX(worst_rank) AS "worstRank"
+		FROM public.blank_rounds_posts
+		WHERE round = ${round}
+		GROUP BY specialty;
+	`;
+
+		return result;
 	}
 
 	public async findRanking(

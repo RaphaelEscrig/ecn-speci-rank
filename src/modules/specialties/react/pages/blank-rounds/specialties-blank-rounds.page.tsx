@@ -68,8 +68,8 @@ const Listing = async ({ rank, round }: { rank?: number; round: number }) => {
 						<Link
 							href={
 								rank
-									? `/cities/simulations?round=${round}&specialty=${specialty.specialty}&rank=${rank}`
-									: `/cities/simulations?round=${round}&specialty=${specialty.specialty}`
+									? `/cities/blank-rounds?round=${round}&specialty=${specialty.specialty}&rank=${rank}`
+									: `/cities/blank-rounds?round=${round}&specialty=${specialty.specialty}`
 							}
 						>
 							{t("SpecialtiesSimulationsPage.listing-see-cities")}
