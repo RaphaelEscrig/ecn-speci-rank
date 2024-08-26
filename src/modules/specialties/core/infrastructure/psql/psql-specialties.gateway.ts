@@ -2,6 +2,7 @@
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
+	SpecialtyBlankRound,
 	SpecialtyRanking,
 	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
@@ -35,6 +36,12 @@ export class PSQLSpecialtiesGateway implements ISpecialtiesGateway {
 			`;
 
 		return result;
+	}
+
+	public async findAllPerBlankRound(
+		stage: number
+	): Promise<SpecialtyBlankRound.PerSpecialty[]> {
+		return [];
 	}
 
 	public async findRanking(
