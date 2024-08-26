@@ -46,5 +46,22 @@
 		"specialty-label": "Spécialité",
 		"specialty-placeholder": "Sélectionnez une spécialité",
 		"submit": "Valider"
+	},
+	"SpecialtiesBlankRoundsFilters": {
+		"round-label": "Tour",
+		"round-placeholder": "Sélectionnez le tour",
+		"rank-label": "Classement",
+		"rank-placeholder": "Entrez votre classement",
+		"submit": "Valider"
+	},
+	"SpecialtiesBlankRoundsPage": {
+		"listing-loading": "Récupération des données en cours…",
+		"listing-head-specialty": "Spécialité",
+		"listing-head-assigned-places": "Places assignées",
+		"listing-head-remaining-places": "Places restantes",
+		"listing-head-best-rank": "Premier rang",
+		"listing-head-worst-rank": "Dernier rang",
+		"listing-no-rank": "--",
+		"listing-see-cities": "Voir les villes"
 	}
 }

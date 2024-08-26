@@ -4,6 +4,7 @@ import type { InMemorySpecialtiesGateway } from "@/modules/specialties/core/infr
 /** MODELS */
 import type {
 	Specialty,
+	SpecialtyBlankRound,
 	SpecialtyRanking,
 	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
@@ -21,6 +22,12 @@ export class MockSpecialtiesGateway implements ISpecialtiesGateway {
 		stage: number
 	): Promise<SpecialtySimulation.PerSpecialty[]> {
 		return await this.gateway.findAllPerSimulation(stage);
+	}
+
+	public async findAllPerBlankRound(
+		round: number
+	): Promise<SpecialtyBlankRound.PerSpecialty[]> {
+		return await this.gateway.findAllPerBlankRound(round);
 	}
 
 	public async findRanking(

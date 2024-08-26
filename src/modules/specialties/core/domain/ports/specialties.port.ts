@@ -2,6 +2,7 @@
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
+	SpecialtyBlankRound,
 	SpecialtyRanking,
 	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models/index";
@@ -12,6 +13,10 @@ export interface ISpecialtiesGateway {
 	findAllPerSimulation(
 		stage: number
 	): Promise<SpecialtySimulation.PerSpecialty[]>;
+
+	findAllPerBlankRound(
+		stage: number
+	): Promise<SpecialtyBlankRound.PerSpecialty[]>;
 
 	findRanking(
 		specialty: SpecialtyCode,

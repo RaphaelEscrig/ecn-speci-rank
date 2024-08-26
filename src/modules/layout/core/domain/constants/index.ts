@@ -12,6 +12,11 @@ export const HEADER_NAVIGATION_LINKS: LayoutHeader.NavigationItem[] = [
 		translation: "go-to-simulations",
 		category: "simulations",
 	},
+	{
+		href: "/specialties/blank-rounds",
+		translation: "go-to-blank-rounds",
+		category: "blankRounds",
+	},
 ];
 
 export const HEADER_CATEGORIES = [
@@ -25,6 +30,10 @@ export const HEADER_CATEGORIES = [
 		category: "specialties",
 	},
 	{
+		href: "/specialties/blank-rounds",
+		category: "blankRounds",
+	},
+	{
 		href: "/cities",
 		category: "specialties",
 	},
@@ -36,5 +45,9 @@ export const HEADER_CATEGORIES = [
 	{
 		href: "/cities/simulations",
 		category: "simulations",
+	},
+	{
+		href: "/cities/blank-rounds",
+		category: "blankRounds",
 	},
 ];

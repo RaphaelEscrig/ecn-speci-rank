@@ -1,6 +1,7 @@
 {
 	"Header": {
 		"go-to-specialties": "Classements internats",
-		"go-to-simulations": "Simulations appariements"
+		"go-to-simulations": "Simulations appariements",
+		"go-to-blank-rounds": "Tours blancs"
 	}
 }
