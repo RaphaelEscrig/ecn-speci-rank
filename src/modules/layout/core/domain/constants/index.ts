@@ -30,7 +30,7 @@ export const HEADER_CATEGORIES = [
 		category: "specialties",
 	},
 	{
-		href: "/specialties/blankRounds",
+		href: "/specialties/blank-rounds",
 		category: "blankRounds",
 	},
 	{

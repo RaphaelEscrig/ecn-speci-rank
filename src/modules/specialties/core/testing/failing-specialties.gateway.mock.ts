@@ -2,6 +2,7 @@
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
+	SpecialtyBlankRound,
 	SpecialtyRanking,
 	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
@@ -17,6 +18,12 @@ export class MockFailingSpecialtiesGateway implements ISpecialtiesGateway {
 		_: number
 	): Promise<SpecialtySimulation.PerSpecialty[]> {
 		throw new Error("Error to fetch simulation result");
+	}
+
+	public async findAllPerBlankRound(
+		_: number
+	): Promise<SpecialtyBlankRound.PerSpecialty[]> {
+		throw new Error("Error to fetch blank round result");
 	}
 
 	public async findRanking(

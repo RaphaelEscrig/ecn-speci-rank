@@ -2,6 +2,7 @@
 import type { SpecialtyCode } from "@/modules/shared/domain/models";
 import type {
 	Specialty,
+	SpecialtyBlankRound,
 	SpecialtyRanking,
 	SpecialtySimulation,
 } from "@/modules/specialties/core/domain/models";
@@ -33,6 +34,19 @@ export class PSQLSpecialtiesGateway implements ISpecialtiesGateway {
 				WHERE stage = ${stage}
 				GROUP BY specialty;
 			`;
+
+		return result;
+	}
+
+	public async findAllPerBlankRound(
+		round: number
+	): Promise<SpecialtyBlankRound.PerSpecialty[]> {
+		const result: SpecialtySimulation.PerSpecialty[] = await this.psql`
+		SELECT specialty, SUM(places) AS places, SUM(assigned_places) AS "assignedPlaces", SUM(remaining_places) AS "remainingPlaces", MIN(best_rank) AS "bestRank", MAX(worst_rank) AS "worstRank"
+		FROM public.blank_rounds_posts
+		WHERE round = ${round}
+		GROUP BY specialty;
+	`;
 
 		return result;
 	}
