@@ -20,6 +20,7 @@ export default async function NextSpecialtiesRankingPage({
 	const year = searchParams?.year
 		? parseInt(searchParams.year)
 		: SPECIALTIES_LISTING_MAX_YEAR;
+
 	const specialty =
 		searchParams?.specialty && isValidSpecialty(searchParams.specialty)
 			? (searchParams.specialty as SpecialtyCode)
