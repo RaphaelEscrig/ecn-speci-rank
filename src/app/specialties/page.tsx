@@ -1,4 +1,5 @@
 /** PAGES */
+import { SPECIALTIES_LISTING_MAX_YEAR } from "@/modules/specialties/core/domain/constants";
 import SpecialtiesListingPage from "@/modules/specialties/react/pages/listing/specialties-listing.page";
 
 type Props = {
@@ -9,7 +10,9 @@ type Props = {
 };
 
 export default async function NextSpecialtiesPage({ searchParams }: Props) {
-	const year = searchParams?.year ? parseInt(searchParams.year) : 2023;
+	const year = searchParams?.year
+		? parseInt(searchParams.year)
+		: SPECIALTIES_LISTING_MAX_YEAR;
 	const rank = searchParams?.rank ? parseInt(searchParams.rank) : undefined;
 
 	return <SpecialtiesListingPage rank={rank} year={year} />;
