@@ -19,10 +19,10 @@ export class App {
 
 	private setupDependencies(): Dependencies {
 		return {
-			specialtiesGateway: new PSQLSpecialtiesGateway(psql),
-			// process.env.NODE_ENV === "development"
-			// 	? new InMemorySpecialtiesGateway()
-			// 	: new PSQLSpecialtiesGateway(psql),
+			specialtiesGateway:
+				process.env.NODE_ENV === "development"
+					? new InMemorySpecialtiesGateway()
+					: new PSQLSpecialtiesGateway(psql),
 			citiesGateway:
 				process.env.NODE_ENV === "development"
 					? new InMemoryCitiesGateway()

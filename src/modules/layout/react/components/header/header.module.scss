@@ -5,6 +5,10 @@
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 10px;
+	position: sticky;
+	background-color: #f4f7fe;
+	top: 0;
+	z-index: 2;
 
 	nav {
 		display: flex;
